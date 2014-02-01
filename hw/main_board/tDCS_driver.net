@@ -1,0 +1,925 @@
+# EESchema Netlist Version 1.1 created  Tue 01 Oct 2013 06:29:56 PM PDT
+(
+ ( /52266484 $noname  C13 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /52266472 $noname  C14 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 ? )
+ )
+ ( /52266081 $noname  C9 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 N-000086 )
+ )
+ ( /5226607C $noname  C8 1uF {Lib=C}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /52266074 $noname  C7 0.1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /52265826 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 /MUXC0 )
+  (    2 /MUXC1 )
+  (    3 /MUXC2 )
+  (    4 /MUXC3 )
+  (    5 /MUXC4 )
+ )
+ ( /52265825 $noname  P2 CONN_5 {Lib=CONN_5}
+  (    1 /MUXD0 )
+  (    2 /MUXD1 )
+  (    3 /MUXD2 )
+  (    4 /MUXD3 )
+  (    5 /MUXD4 )
+ )
+ ( /52265824 $noname  P3 CONN_6 {Lib=CONN_6}
+  (    1 ? )
+  (    2 /MUXCOM2 )
+  (    3 /MUXCOM1 )
+  (    4 AGND )
+  (    5 /MUXCOM0 )
+  (    6 ? )
+ )
+ ( /522642EC $noname  P4 CONN_8 {Lib=CONN_8}
+  (    1 /MUXA0 )
+  (    2 /MUXA1 )
+  (    3 /MUXA2 )
+  (    4 /MUXA3 )
+  (    5 /MUXA4 )
+  (    6 /MUXA5 )
+  (    7 /MUXA6 )
+  (    8 /MUXA7 )
+ )
+ ( /522642E4 $noname  P5 CONN_8 {Lib=CONN_8}
+  (    1 /MUXB0 )
+  (    2 /MUXB1 )
+  (    3 /MUXB2 )
+  (    4 /MUXB3 )
+  (    5 /MUXB4 )
+  (    6 /MUXB5 )
+  (    7 /MUXB6 )
+  (    8 /MUXB7 )
+ )
+ ( /522640E9 $noname  C10 0.01uF {Lib=C}
+  (    1 N-000029 )
+  (    2 AVDD_3V3 )
+ )
+ ( /521CE925 $noname  C15 .1uF {Lib=C}
+  (    1 N-000027 )
+  (    2 AGND )
+ )
+ ( /521949C5 $noname  C18 1uF {Lib=C}
+  (    1 AVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /52194945 $noname  C16 0.1uF {Lib=C}
+  (    1 AVSS )
+  (    2 AGND )
+ )
+ ( /52194944 $noname  C17 1uF {Lib=C}
+  (    1 AVSS )
+  (    2 AGND )
+ )
+ ( /52194941 $noname  C23 0.1uF {Lib=C}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /52194940 $noname  C24 1uF {Lib=C}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /52181C6F $noname  U7 MAX338 {Lib=MAX338}
+  (    1 ? )
+  (    2 ? )
+  (    3 AVSS )
+  (    4 /MUXB1 )
+  (    5 /MUXB3 )
+  (    6 /MUXB5 )
+  (    7 /MUXB7 )
+  (    8 AGND )
+  (    9 /MUXA7 )
+  (   10 /MUXA5 )
+  (   11 /MUXA3 )
+  (   12 /MUXA1 )
+  (   13 AVDD )
+  (   14 AGND )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /52181BEB $noname  C2 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /52181BEA $noname  C1 0.1uF {Lib=C}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /52181BE7 $noname  C4 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /52181BE6 $noname  C3 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /52181BA6 $noname  U1 MAX338 {Lib=MAX338}
+  (    1 ? )
+  (    2 ? )
+  (    3 AVSS )
+  (    4 /MUXB0 )
+  (    5 /MUXB2 )
+  (    6 /MUXB4 )
+  (    7 /MUXB6 )
+  (    8 N-000084 )
+  (    9 /MUXA6 )
+  (   10 /MUXA4 )
+  (   11 /MUXA2 )
+  (   12 /MUXA0 )
+  (   13 AVDD )
+  (   14 AGND )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /5218195F $noname  C33 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5218195E $noname  C34 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5218195B $noname  C31 0.1uF {Lib=C}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /5218195A $noname  C32 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5218186A $noname  U5 MAX339 {Lib=MAX339}
+  (    1 ? )
+  (    2 ? )
+  (    3 AVSS )
+  (    4 N-000003 )
+  (    5 N-000004 )
+  (    6 N-000005 )
+  (    7 N-000005 )
+  (    8 N-000021 )
+  (   14 AVDD )
+  (   15 AGND )
+  (   16 ? )
+ )
+ ( /5217FDBE $noname  C27 0.1uF {Lib=C}
+  (    1 N-000010 )
+  (    2 AGND )
+ )
+ ( /5217FDA0 $noname  C28 0.1uF {Lib=C}
+  (    1 N-000006 )
+  (    2 AGND )
+ )
+ ( /5217FD1A $noname  U6 OP1177 {Lib=OP1177}
+  (    2 N-000020 )
+  (    3 N-000084 )
+  (    4 N-000010 )
+  (    6 N-000020 )
+  (    7 N-000006 )
+ )
+ ( /5217F631 $noname  RV1 1K {Lib=POT}
+  (    1 N-000085 )
+  (    2 N-000085 )
+  (    3 N-000019 )
+ )
+ ( /5217F546 $noname  U3 AD5292 {Lib=AD5292}
+  (    1 ? )
+  (    2 AVSS )
+  (    3 N-000022 )
+  (    4 N-000085 )
+  (    5 N-000085 )
+  (    6 AVDD )
+  (    7 N-000027 )
+  (    8 AVDD_3V3 )
+  (    9 AGND )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+ )
+ ( /5217EC47 $noname  U4 AD8221 {Lib=AD8221}
+  (    1 N-000069 )
+  (    2 N-000019 )
+  (    3 N-000022 )
+  (    4 N-000064 )
+  (    5 VSS )
+  (    6 N-000020 )
+  (    7 N-000021 )
+  (    8 VDD )
+ )
+ ( /5217BB66 $noname  C6 1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /5217BB65 $noname  C5 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217BAE8 $noname  C12 1uF {Lib=C}
+  (    1 ? )
+  (    2 AVDD_3V3 )
+ )
+ ( /5217BAE7 $noname  C11 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 ? )
+ )
+ ( /5217BA3A $noname  C26 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217BA39 $noname  C25 0.1uF {Lib=C}
+  (    1 AVDD )
+  (    2 AGND )
+ )
+ ( /5217B9A9 $noname  C30 1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217B9A8 $noname  C29 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217B935 $noname  C20 1uF {Lib=C}
+  (    1 VDD )
+  (    2 AGND )
+ )
+ ( /5217B934 $noname  C19 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217B8D0 $noname  C22 0.1uF {Lib=C}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /5217B8CA $noname  C21 1uF {Lib=C}
+  (    1 VSS )
+  (    2 AGND )
+ )
+ ( /52155AC9 $noname  X1 CRYSTAL6-10pf {Lib=CRYSTAL}
+  (    1 N-000067 )
+  (    2 N-000050 )
+ )
+ ( /52155504 $noname  RV4 1K {Lib=POT}
+  (    1 N-000046 )
+  (    2 N-000046 )
+  (    3 ? )
+ )
+ ( /521554FC $noname  RV3 2k {Lib=POT}
+  (    1 N-000045 )
+  (    2 N-000045 )
+  (    3 ? )
+ )
+ ( /521554DE $noname  RV2 20K {Lib=POT}
+  (    1 N-000044 )
+  (    2 N-000044 )
+  (    3 N-000084 )
+ )
+ ( /5215547F $noname  R5 390K {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000044 )
+ )
+ ( /5215547A $noname  R4 39K {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000045 )
+ )
+ ( /52155472 $noname  R3 7K5 {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000046 )
+ )
+ ( /52153DEF $noname  R2 20 {Lib=R}
+  (    1 ? )
+  (    2 AGND )
+ )
+ ( /52153DDE $noname  R1 20 {Lib=R}
+  (    1 AGND )
+  (    2 N-000069 )
+ )
+ ( /52153D59 $noname  U2 SI5351A {Lib=SI5351A}
+  (    1 DVDD_3V3 )
+  (    2 N-000067 )
+  (    3 N-000050 )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 DVDD_3V3 )
+  (    9 ? )
+  (   10 N-000072 )
+  (    ~ AGND )
+ )
+ ( /521530C8 $noname  DDS1 AD9838 {Lib=AD9838}
+  (    1 AVDD_3V3 )
+  (    2 DVDD_3V3 )
+  (    3 N-000086 )
+  (    4 AGND )
+  (    5 N-000072 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 AGND )
+  (   16 N-000064 )
+  (   17 N-000069 )
+  (   18 ? )
+  (   19 ? )
+  (   20 N-000029 )
+ )
+ ( /5217B634/5245D942 $noname  U16 MAX3002 {Lib=MAX3002}
+  (    1 ? )
+  (    2 DVDD_3V3 )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 AGND )
+  (   12 /MUXD0 )
+  (   13 /MUXD1 )
+  (   14 /MUXD2 )
+  (   15 /MUXD3 )
+  (   16 /MUXD4 )
+  (   17 ? )
+  (   18 ? )
+  (   19 DVDD_2V5 )
+  (   20 ? )
+ )
+ ( /5217B634/5245D940 $noname  C66 0.1uF {Lib=C}
+  (    1 DVDD_2V5 )
+  (    2 AGND )
+ )
+ ( /5217B634/5245D93F $noname  C64 1uF {Lib=C}
+  (    1 DVDD_2V5 )
+  (    2 AGND )
+ )
+ ( /5217B634/5245D93E $noname  C70 0.1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /5217B634/5245D93D $noname  C68 1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /5217B634/523C1EBB $noname  C67 1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /5217B634/523C1EBA $noname  C69 0.1uF {Lib=C}
+  (    1 DVDD_3V3 )
+  (    2 AGND )
+ )
+ ( /5217B634/523C1EB9 $noname  C63 1uF {Lib=C}
+  (    1 DVDD_2V5 )
+  (    2 AGND )
+ )
+ ( /5217B634/523C1EB8 $noname  C65 0.1uF {Lib=C}
+  (    1 DVDD_2V5 )
+  (    2 AGND )
+ )
+ ( /5217B634/523C1EB6 $noname  U15 MAX3002 {Lib=MAX3002}
+  (    1 ? )
+  (    2 DVDD_3V3 )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /MUXCOM0 )
+  (   13 /MUXCOM1 )
+  (   14 /MUXCOM2 )
+  (   15 /MUXC4 )
+  (   16 /MUXC3 )
+  (   17 /MUXC2 )
+  (   18 /MUXC1 )
+  (   19 DVDD_2V5 )
+  (   20 /MUXC0 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C70
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 3 "" ""
+ U5 4
+ R5 1
+Net 4 "" ""
+ R4 1
+ U5 5
+Net 5 "" ""
+ U5 6
+ U5 7
+ R3 1
+Net 6 "" ""
+ U6 7
+ C28 1
+Net 7 "AVSS" "AVSS"
+ U5 3
+ C16 1
+ C17 1
+ U7 3
+ U1 3
+ U3 2
+Net 10 "" ""
+ C27 1
+ U6 4
+Net 19 "" ""
+ RV1 3
+ U4 2
+Net 20 "" ""
+ U6 2
+ U4 6
+ U6 6
+Net 21 "" ""
+ U5 8
+ U4 7
+Net 22 "" ""
+ U4 3
+ U3 3
+Net 24 "/MUXB1" "MUXB1"
+ U7 4
+ P5 2
+Net 25 "/MUXB5" "MUXB5"
+ P5 6
+ U7 6
+Net 26 "/MUXB7" "MUXB7"
+ U7 7
+ P5 8
+Net 27 "" ""
+ C15 1
+ U3 7
+Net 28 "/MUXB3" "MUXB3"
+ U7 5
+ P5 4
+Net 29 "" ""
+ DDS1 20
+ C10 1
+Net 30 "/MUXA1" "MUXA1"
+ P4 2
+ U7 12
+Net 31 "/MUXB2" "MUXB2"
+ P5 3
+ U1 5
+Net 36 "/MUXB0" "MUXB0"
+ P5 1
+ U1 4
+Net 37 "/MUXB4" "MUXB4"
+ U1 6
+ P5 5
+Net 38 "/MUXB6" "MUXB6"
+ U1 7
+ P5 7
+Net 44 "" ""
+ RV2 1
+ R5 2
+ RV2 2
+Net 45 "" ""
+ RV3 2
+ RV3 1
+ R4 2
+Net 46 "" ""
+ RV4 2
+ RV4 1
+ R3 2
+Net 50 "" ""
+ X1 2
+ U2 3
+Net 53 "VDD" "VDD"
+ U4 8
+ C20 1
+Net 54 "VSS" "VSS"
+ C21 1
+ U4 5
+Net 64 "" ""
+ DDS1 16
+ U4 4
+Net 67 "" ""
+ X1 1
+ U2 2
+Net 69 "" ""
+ DDS1 17
+ U4 1
+ R1 2
+Net 72 "" ""
+ U2 10
+ DDS1 5
+Net 81 "AGND" "AGND"
+ C63 2
+ C69 2
+ C65 2
+ U16 11
+ C67 2
+ C14 1
+ C13 2
+ P3 4
+ C68 2
+ C70 2
+ C66 2
+ C64 2
+ C7 2
+ C30 2
+ C17 2
+ C22 2
+ R1 1
+ R2 2
+ U3 9
+ C32 2
+ C31 2
+ C34 2
+ C33 2
+ C18 2
+ C2 2
+ C6 2
+ C5 2
+ C1 2
+ U1 14
+ C16 2
+ C15 2
+ U7 8
+ C24 2
+ C11 1
+ C26 2
+ C23 2
+ C21 2
+ C25 2
+ DDS1 15
+ DDS1 4
+ U5 15
+ C19 2
+ C20 2
+ C29 2
+ U2 ~
+ C4 2
+ C28 2
+ C3 2
+ C27 2
+ U7 14
+Net 82 "AVDD_3V3" "AVDD_3V3"
+ DDS1 1
+ U3 8
+ C18 1
+ C10 2
+ C12 2
+Net 83 "AVDD" "AVDD"
+ C23 1
+ C1 1
+ U5 14
+ U7 13
+ C24 1
+ C25 1
+ U1 13
+ U3 6
+ C31 1
+Net 84 "" ""
+ RV2 3
+ U1 8
+ U6 3
+Net 85 "" ""
+ U3 5
+ U3 4
+ RV1 2
+ RV1 1
+Net 86 "" ""
+ C9 2
+ DDS1 3
+Net 87 "DVDD_3V3" "DVDD_3V3"
+ C70 1
+ U15 2
+ C69 1
+ C67 1
+ C68 1
+ C6 1
+ U2 7
+ U2 1
+ DDS1 2
+ U16 2
+ C7 1
+Net 89 "/MUXC1" "MUXC1"
+ U15 18
+ P1 2
+Net 90 "/MUXC2" "MUXC2"
+ P1 3
+ U15 17
+Net 91 "/MUXC0" "MUXC0"
+ U15 20
+ P1 1
+Net 92 "/MUXCOM2" "MUXCOM2"
+ P3 2
+ U15 14
+Net 93 "/MUXCOM0" "MUXCOM0"
+ U15 12
+ P3 5
+Net 94 "/MUXA0" "MUXA0"
+ P4 1
+ U1 12
+Net 95 "/MUXA2" "MUXA2"
+ P4 3
+ U1 11
+Net 96 "/MUXA3" "MUXA3"
+ P4 4
+ U7 11
+Net 97 "/MUXA4" "MUXA4"
+ P4 5
+ U1 10
+Net 98 "/MUXA5" "MUXA5"
+ U7 10
+ P4 6
+Net 99 "/MUXA6" "MUXA6"
+ P4 7
+ U1 9
+Net 100 "/MUXA7" "MUXA7"
+ U7 9
+ P4 8
+Net 107 "DVDD_2V5" "DVDD_2V5"
+ C66 1
+ C63 1
+ C65 1
+ C64 1
+ U16 19
+ U15 19
+Net 130 "/MUXD3" "MUXD3"
+ P2 4
+ U16 15
+Net 131 "/MUXD4" "MUXD4"
+ U16 16
+ P2 5
+Net 132 "/MUXCOM1" "MUXCOM1"
+ P3 3
+ U15 13
+Net 133 "/MUXD2" "MUXD2"
+ U16 14
+ P2 3
+Net 147 "/MUXC3" "MUXC3"
+ U15 16
+ P1 4
+Net 148 "/MUXC4" "MUXC4"
+ P1 5
+ U15 15
+Net 149 "/MUXD0" "MUXD0"
+ P2 1
+ U16 12
+Net 150 "/MUXD1" "MUXD1"
+ P2 2
+ U16 13
+}
+#End

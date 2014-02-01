@@ -1,0 +1,674 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ddslib
+LIBS:demuxcomplib
+LIBS:noname-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "5 oct 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6900 5400 2    60   ~ 0
+UCOUT39
+Text Label 6900 5300 2    60   ~ 0
+UCOUT38
+Text Label 6900 5200 2    60   ~ 0
+UCOUT37
+Text Label 6900 5100 2    60   ~ 0
+UCOUT36
+Text Label 6900 5000 2    60   ~ 0
+UCOUT35
+Text Label 7650 5400 2    60   ~ 0
+GAIN_BUS4
+Text Label 7650 5300 2    60   ~ 0
+GAIN_BUS3
+Text Label 7650 5200 2    60   ~ 0
+GAIN_BUS2
+Text Label 7650 5100 2    60   ~ 0
+GAIN_BUS1
+Text Label 7650 5000 2    60   ~ 0
+GAIN_BUS0
+Text Label 8600 5550 2    60   ~ 0
+GAIN_BUS[0...4]
+Text Label 8600 4800 2    60   ~ 0
+RANGE_MUX[0...2]
+Wire Wire Line
+	7650 5400 6900 5400
+Wire Wire Line
+	7650 5300 6900 5300
+Wire Wire Line
+	7650 5200 6900 5200
+Wire Wire Line
+	7650 5100 6900 5100
+Wire Wire Line
+	7650 5000 6900 5000
+Wire Wire Line
+	7650 4400 6900 4400
+Wire Wire Line
+	7650 4300 6900 4300
+Wire Wire Line
+	7650 4200 6900 4200
+Wire Wire Line
+	7650 3850 6900 3850
+Wire Wire Line
+	7650 3750 6900 3750
+Wire Wire Line
+	7650 3650 6900 3650
+Wire Wire Line
+	7650 3550 6900 3550
+Wire Wire Line
+	7650 3450 6900 3450
+Wire Wire Line
+	7650 3350 6900 3350
+Wire Wire Line
+	7650 3250 6900 3250
+Wire Wire Line
+	3200 6050 3700 6050
+Wire Bus Line
+	3100 6050 3100 6300
+Wire Bus Line
+	3100 6300 2300 6300
+Wire Wire Line
+	3200 5450 3700 5450
+Wire Wire Line
+	3200 5250 3700 5250
+Wire Bus Line
+	3100 5250 3100 5550
+Wire Bus Line
+	3100 5550 2300 5550
+Wire Bus Line
+	2600 3400 2600 2700
+Wire Bus Line
+	2600 2700 2200 2700
+Connection ~ 3750 1000
+Wire Wire Line
+	3750 1000 3750 1050
+Connection ~ 4050 4200
+Wire Wire Line
+	4500 4200 3750 4200
+Wire Wire Line
+	3300 4300 3300 4100
+Wire Wire Line
+	3950 4600 3950 4650
+Connection ~ 3750 4600
+Connection ~ 3150 4600
+Connection ~ 3300 4200
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 3000 4650
+Wire Wire Line
+	3300 4200 2900 4200
+Connection ~ 3150 4200
+Wire Wire Line
+	2900 4600 3150 4600
+Wire Wire Line
+	4050 4600 3750 4600
+Connection ~ 3950 4600
+Wire Wire Line
+	3750 4200 3750 4100
+Wire Bus Line
+	2100 1050 2600 1050
+Wire Bus Line
+	2600 1050 2600 1650
+Connection ~ 3900 600 
+Wire Wire Line
+	4000 600  3700 600 
+Wire Wire Line
+	2850 600  3100 600 
+Connection ~ 3100 1000
+Wire Wire Line
+	2950 600  2950 550 
+Connection ~ 2950 600 
+Connection ~ 3250 1000
+Connection ~ 3100 600 
+Connection ~ 3700 600 
+Wire Wire Line
+	3900 600  3900 550 
+Wire Wire Line
+	3700 1000 4450 1000
+Connection ~ 4000 1000
+Wire Bus Line
+	2250 2500 2600 2500
+Wire Bus Line
+	2600 2500 2600 1950
+Wire Wire Line
+	2850 1000 3300 1000
+Wire Wire Line
+	3300 1000 3300 1050
+Wire Wire Line
+	3250 1000 3250 900 
+Wire Bus Line
+	2300 5950 3100 5950
+Wire Wire Line
+	3200 5150 3700 5150
+Wire Wire Line
+	3200 5350 3700 5350
+Wire Wire Line
+	3200 5750 3700 5750
+Wire Wire Line
+	3200 5550 3700 5550
+Wire Bus Line
+	3100 5950 3100 5650
+Wire Wire Line
+	3200 5650 3700 5650
+Wire Wire Line
+	3200 5850 3700 5850
+Wire Wire Line
+	3200 5950 3700 5950
+Wire Bus Line
+	8650 4150 7750 4150
+Wire Bus Line
+	7750 4150 7750 3350
+Wire Bus Line
+	8650 4800 7750 4800
+Wire Bus Line
+	7750 4800 7750 4300
+Wire Bus Line
+	8700 5550 7750 5550
+Wire Bus Line
+	7750 5550 7750 5100
+Entry Wire Line
+	7650 5400 7750 5500
+Entry Wire Line
+	7650 5300 7750 5400
+Entry Wire Line
+	7650 5200 7750 5300
+Entry Wire Line
+	7650 5100 7750 5200
+Entry Wire Line
+	7650 5000 7750 5100
+Text Label 7650 4400 2    60   ~ 0
+RANGE_MUX2
+Text Label 7650 4300 2    60   ~ 0
+RANGE_MUX1
+Text Label 7650 4200 2    60   ~ 0
+RANGE_MUX0
+Text Label 6900 4400 2    60   ~ 0
+UCOUT34
+Text Label 6900 4300 2    60   ~ 0
+UCOUT33
+Text Label 6900 4200 2    60   ~ 0
+UCOUT32
+Entry Wire Line
+	7650 4400 7750 4500
+Entry Wire Line
+	7650 4300 7750 4400
+Entry Wire Line
+	7650 4200 7750 4300
+Text Label 6900 3850 2    60   ~ 0
+UCOUT31
+Text Label 6900 3750 2    60   ~ 0
+UCOUT30
+Text Label 6900 3650 2    60   ~ 0
+UCOUT29
+Text Label 6900 3550 2    60   ~ 0
+UCOUT28
+Text Label 6900 3450 2    60   ~ 0
+UCOUT27
+Text Label 6900 3350 2    60   ~ 0
+UCOUT26
+Text Label 6900 3250 2    60   ~ 0
+UCOUT25
+Text Label 7650 3850 2    60   ~ 0
+DDS_BUS6
+Text Label 7650 3750 2    60   ~ 0
+DDS_BUS5
+Text Label 7650 3650 2    60   ~ 0
+DDS_BUS4
+Text Label 7650 3550 2    60   ~ 0
+DDS_BUS3
+Text Label 7650 3450 2    60   ~ 0
+DDS_BUS2
+Text Label 7650 3350 2    60   ~ 0
+DDS_BUS1
+Text Label 7650 3250 2    60   ~ 0
+DDS_BUS0
+Text Label 7950 4150 0    60   ~ 0
+DDS_BUS[0...6]
+Entry Wire Line
+	7650 3850 7750 3950
+Entry Wire Line
+	7650 3750 7750 3850
+Entry Wire Line
+	7650 3650 7750 3750
+Entry Wire Line
+	7650 3550 7750 3650
+Entry Wire Line
+	7650 3450 7750 3550
+Entry Wire Line
+	7650 3350 7750 3450
+Entry Wire Line
+	7650 3250 7750 3350
+Text Label 2350 6300 0    60   ~ 0
+CLOCK_TWI[0...1]
+Text Label 2350 5950 0    60   ~ 0
+OUT_MUX[0...3]
+Text Label 3700 6050 0    60   ~ 0
+UCOUT24
+Text Label 3700 5950 0    60   ~ 0
+UCOUT23
+Text Label 3200 6050 0    60   ~ 0
+CLOCK_TWI1
+Text Label 3200 5950 0    60   ~ 0
+CLOCK_TWI0
+Entry Wire Line
+	3100 6150 3200 6050
+Entry Wire Line
+	3100 6050 3200 5950
+Text Label 3700 5850 0    60   ~ 0
+UCOUT22
+Text Label 3700 5750 0    60   ~ 0
+UCOUT21
+Text Label 3700 5650 0    60   ~ 0
+UCOUT20
+Text Label 3700 5550 0    60   ~ 0
+UCOUT19
+Entry Wire Line
+	3100 5950 3200 5850
+Text Label 3200 5850 0    60   ~ 0
+OUT_MUX3
+Text Label 3200 5750 0    60   ~ 0
+OUT_MUX2
+Text Label 3200 5650 0    60   ~ 0
+OUT_MUX1
+Text Label 3200 5550 0    60   ~ 0
+OUT_MUX0
+Text Label 3700 5450 0    60   ~ 0
+UCOUT18
+Text Label 3200 5450 0    60   ~ 0
+IN_MUX3
+Entry Wire Line
+	3100 5550 3200 5450
+Entry Wire Line
+	3100 5650 3200 5550
+Entry Wire Line
+	3100 5750 3200 5650
+Entry Wire Line
+	3100 5850 3200 5750
+Text Label 3700 5350 0    60   ~ 0
+UCOUT17
+Text Label 3700 5250 0    60   ~ 0
+UCOUT16
+Text Label 3700 5150 0    60   ~ 0
+UCOUT15
+Text Label 3200 5350 0    60   ~ 0
+IN_MUX2
+Text Label 3200 5250 0    60   ~ 0
+IN_MUX1
+Text Label 3200 5150 0    60   ~ 0
+IN_MUX0
+Text Label 2350 5550 0    60   ~ 0
+IN_MUX[0...3]
+Entry Wire Line
+	3100 5450 3200 5350
+Entry Wire Line
+	3100 5350 3200 5250
+Entry Wire Line
+	3100 5250 3200 5150
+Text Label 4300 3550 0    60   ~ 0
+UCOUT14
+Text Label 4300 3450 0    60   ~ 0
+UCOUT13
+Text Label 4300 3350 0    60   ~ 0
+UCOUT12
+Text Label 4300 3250 0    60   ~ 0
+UCOUT11
+Text Label 4300 3150 0    60   ~ 0
+UCOUT10
+Text Label 4300 3050 0    60   ~ 0
+UCOUT9
+Text Label 4300 2100 0    60   ~ 0
+UCOUT8
+Text Label 4300 2000 0    60   ~ 0
+UCOUT7
+Text Label 4300 1900 0    60   ~ 0
+UCOUT6
+Text Label 4300 1800 0    60   ~ 0
+UCOUT5
+Text Label 4300 1700 0    60   ~ 0
+UCOUT4
+Text Label 4300 1600 0    60   ~ 0
+UCOUT3
+Text Label 4300 1500 0    60   ~ 0
+UCOUT2
+Text Label 4300 1400 0    60   ~ 0
+UCOUT1
+Text Label 4300 1300 0    60   ~ 0
+UCOUT0
+Text Label 2300 2700 0    60   ~ 0
+MUXD[0...4]
+Entry Wire Line
+	2600 3400 2700 3500
+Entry Wire Line
+	2600 3300 2700 3400
+Entry Wire Line
+	2600 3200 2700 3300
+Entry Wire Line
+	2600 3100 2700 3200
+Entry Wire Line
+	2600 3000 2700 3100
+Text Label 2700 3500 2    60   ~ 0
+MUXD4
+Text Label 2700 3400 2    60   ~ 0
+MUXD3
+Text Label 2700 3300 2    60   ~ 0
+MUXD2
+Text Label 2700 3200 2    60   ~ 0
+MUXD1
+Text Label 2700 3100 2    60   ~ 0
+MUXD0
+$Comp
+L MAX3002 U9
+U 1 1 5245D942
+P 3500 3450
+F 0 "U9" H 3500 3550 60  0000 C CNN
+F 1 "MAX3002" H 3500 3400 60  0000 C CNN
+F 2 "" H 3500 3450 60  0001 C CNN
+F 3 "" H 3500 3450 60  0001 C CNN
+	1    3500 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L DVDD_2V5 #PWR040
+U 1 1 5245D941
+P 3300 4300
+F 0 "#PWR040" H 3300 4400 30  0001 C CNN
+F 1 "DVDD_2V5" H 3300 4410 30  0000 C CNN
+F 2 "" H 3300 4300 60  0001 C CNN
+F 3 "" H 3300 4300 60  0001 C CNN
+	1    3300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C38
+U 1 1 5245D940
+P 3150 4400
+F 0 "C38" H 3200 4500 50  0000 L CNN
+F 1 "0.1uF" H 3200 4300 50  0000 L CNN
+F 2 "" H 3150 4400 60  0001 C CNN
+F 3 "" H 3150 4400 60  0001 C CNN
+	1    3150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C36
+U 1 1 5245D93F
+P 2900 4400
+F 0 "C36" H 2950 4500 50  0000 L CNN
+F 1 "1uF" H 2950 4300 50  0000 L CNN
+F 2 "" H 2900 4400 60  0001 C CNN
+F 3 "" H 2900 4400 60  0001 C CNN
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C42
+U 1 1 5245D93E
+P 4050 4400
+F 0 "C42" H 4100 4500 50  0000 L CNN
+F 1 "0.1uF" H 4100 4300 50  0000 L CNN
+F 2 "" H 4050 4400 60  0001 C CNN
+F 3 "" H 4050 4400 60  0001 C CNN
+	1    4050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C40
+U 1 1 5245D93D
+P 3750 4400
+F 0 "C40" H 3800 4500 50  0000 L CNN
+F 1 "1uF" H 3800 4300 50  0000 L CNN
+F 2 "" H 3750 4400 60  0001 C CNN
+F 3 "" H 3750 4400 60  0001 C CNN
+	1    3750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR041
+U 1 1 5245D93C
+P 3000 4650
+F 0 "#PWR041" H 3000 4650 40  0001 C CNN
+F 1 "AGND" H 3000 4580 50  0000 C CNN
+F 2 "" H 3000 4650 60  0001 C CNN
+F 3 "" H 3000 4650 60  0001 C CNN
+	1    3000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR49
+U 1 1 5245D93B
+P 3950 4650
+F 0 "#PWR49" H 3950 4650 40  0001 C CNN
+F 1 "DGND" H 3950 4580 40  0000 C CNN
+F 2 "" H 3950 4650 60  0001 C CNN
+F 3 "" H 3950 4650 60  0001 C CNN
+	1    3950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR042
+U 1 1 5245D93A
+P 3500 2800
+F 0 "#PWR042" H 3500 2800 40  0001 C CNN
+F 1 "AGND" H 3500 2730 50  0000 C CNN
+F 2 "" H 3500 2800 60  0001 C CNN
+F 3 "" H 3500 2800 60  0001 C CNN
+	1    3500 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L DVDD_3V3 #PWR043
+U 1 1 5245D939
+P 4500 4200
+F 0 "#PWR043" H 4500 4300 30  0001 C CNN
+F 1 "DVDD_3V3" H 4500 4310 30  0000 C CNN
+F 2 "" H 4500 4200 60  0001 C CNN
+F 3 "" H 4500 4200 60  0001 C CNN
+	1    4500 4200
+	0    1    -1   0   
+$EndComp
+Text Label 2300 2500 0    60   ~ 0
+MUXCOM[0...2]
+Text Label 2200 1050 1    60   ~ 0
+MUXC[0...4]
+$Comp
+L DVDD_3V3 #PWR044
+U 1 1 523C1EE9
+P 4450 1000
+F 0 "#PWR044" H 4450 1100 30  0001 C CNN
+F 1 "DVDD_3V3" H 4450 1110 30  0000 C CNN
+F 2 "" H 4450 1000 60  0001 C CNN
+F 3 "" H 4450 1000 60  0001 C CNN
+	1    4450 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L AGND #PWR045
+U 1 1 523C1EBE
+P 3500 2400
+F 0 "#PWR045" H 3500 2400 40  0001 C CNN
+F 1 "AGND" H 3500 2330 50  0000 C CNN
+F 2 "" H 3500 2400 60  0001 C CNN
+F 3 "" H 3500 2400 60  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR48
+U 1 1 523C1EBD
+P 3900 550
+F 0 "#PWR48" H 3900 550 40  0001 C CNN
+F 1 "DGND" H 3900 480 40  0000 C CNN
+F 2 "" H 3900 550 60  0001 C CNN
+F 3 "" H 3900 550 60  0001 C CNN
+	1    3900 550 
+	1    0    0    1   
+$EndComp
+$Comp
+L AGND #PWR046
+U 1 1 523C1EBC
+P 2950 550
+F 0 "#PWR046" H 2950 550 40  0001 C CNN
+F 1 "AGND" H 2950 480 50  0000 C CNN
+F 2 "" H 2950 550 60  0001 C CNN
+F 3 "" H 2950 550 60  0001 C CNN
+	1    2950 550 
+	1    0    0    1   
+$EndComp
+$Comp
+L C C39
+U 1 1 523C1EBB
+P 3700 800
+F 0 "C39" H 3750 900 50  0000 L CNN
+F 1 "1uF" H 3750 700 50  0000 L CNN
+F 2 "" H 3700 800 60  0001 C CNN
+F 3 "" H 3700 800 60  0001 C CNN
+	1    3700 800 
+	1    0    0    1   
+$EndComp
+$Comp
+L C C41
+U 1 1 523C1EBA
+P 4000 800
+F 0 "C41" H 4050 900 50  0000 L CNN
+F 1 "0.1uF" H 4050 700 50  0000 L CNN
+F 2 "" H 4000 800 60  0001 C CNN
+F 3 "" H 4000 800 60  0001 C CNN
+	1    4000 800 
+	1    0    0    1   
+$EndComp
+$Comp
+L C C35
+U 1 1 523C1EB9
+P 2850 800
+F 0 "C35" H 2900 900 50  0000 L CNN
+F 1 "1uF" H 2900 700 50  0000 L CNN
+F 2 "" H 2850 800 60  0001 C CNN
+F 3 "" H 2850 800 60  0001 C CNN
+	1    2850 800 
+	1    0    0    1   
+$EndComp
+$Comp
+L C C37
+U 1 1 523C1EB8
+P 3100 800
+F 0 "C37" H 3150 900 50  0000 L CNN
+F 1 "0.1uF" H 3150 700 50  0000 L CNN
+F 2 "" H 3100 800 60  0001 C CNN
+F 3 "" H 3100 800 60  0001 C CNN
+	1    3100 800 
+	1    0    0    1   
+$EndComp
+$Comp
+L DVDD_2V5 #PWR047
+U 1 1 523C1EB7
+P 3250 900
+F 0 "#PWR047" H 3250 1000 30  0001 C CNN
+F 1 "DVDD_2V5" H 3250 1010 30  0000 C CNN
+F 2 "" H 3250 900 60  0001 C CNN
+F 3 "" H 3250 900 60  0001 C CNN
+	1    3250 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MAX3002 U8
+U 1 1 523C1EB6
+P 3500 1700
+F 0 "U8" H 3500 1800 60  0000 C CNN
+F 1 "MAX3002" H 3500 1650 60  0000 C CNN
+F 2 "" H 3500 1700 60  0001 C CNN
+F 3 "" H 3500 1700 60  0001 C CNN
+	1    3500 1700
+	-1   0    0    -1  
+$EndComp
+Text Label 2700 1350 2    60   ~ 0
+MUXC0
+Text Label 2700 1450 2    60   ~ 0
+MUXC1
+Text Label 2700 1550 2    60   ~ 0
+MUXC2
+Text Label 2700 1650 2    60   ~ 0
+MUXC3
+Text Label 2700 1750 2    60   ~ 0
+MUXC4
+Entry Wire Line
+	2600 1250 2700 1350
+Entry Wire Line
+	2600 1350 2700 1450
+Entry Wire Line
+	2600 1450 2700 1550
+Entry Wire Line
+	2600 1550 2700 1650
+Entry Wire Line
+	2600 1650 2700 1750
+Text Label 2700 2050 2    60   ~ 0
+MUXCOM0
+Text Label 2700 1950 2    60   ~ 0
+MUXCOM1
+Text Label 2700 1850 2    60   ~ 0
+MUXCOM2
+Entry Wire Line
+	2600 1950 2700 1850
+Entry Wire Line
+	2600 2050 2700 1950
+Entry Wire Line
+	2600 2150 2700 2050
+Text Notes 9550 3900 2    60   ~ 0
+Does not need 2wire pullups, \npulldowns needed for default\n on sleep/pselect/fselect (bit 6,7,9)
+Text HLabel 8650 4800 2    60   Input ~ 0
+RANGE_MUX[0...2]
+Text HLabel 8700 5550 2    60   Input ~ 0
+GAIN_BUS[0...4]
+Text HLabel 8650 4150 2    60   Input ~ 0
+DDS_BUS[0...6]
+Text HLabel 2300 5550 0    60   Input ~ 0
+IN_MUX[0...3]
+Text HLabel 2300 5950 0    60   Input ~ 0
+OUT_MUX[0...3]
+Text HLabel 2300 6300 0    60   Input ~ 0
+CLOCK_TWI[0...1]
+Text HLabel 2100 1050 0    60   Input ~ 0
+MUXC[0...4]
+Text HLabel 2250 2500 0    60   Input ~ 0
+MUXCOM[0...2]
+Text HLabel 2200 2700 0    60   Input ~ 0
+MUXD[0...4]
+$EndSCHEMATC

@@ -1,0 +1,778 @@
+# EESchema Netlist Version 1.1 created  Sun 16 Jun 2013 03:46:57 AM PDT
+(
+ ( /51BD80F1 $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /51BD80AF $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 /CS )
+  (    2 /WR )
+  (    3 GND )
+  (    4 /EN )
+ )
+ ( /51BD4EC4 $noname  C8 CP2 {Lib=CP1}
+  (    1 GND )
+  (    2 VSS )
+ )
+ ( /51BD4EB8 $noname  C7 CP2 {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /51BD4E0A $noname  P2 CONN_5 {Lib=CONN_5}
+  (    1 /B0 )
+  (    2 /B1 )
+  (    3 /B2 )
+  (    4 /B3 )
+  (    5 /B4 )
+ )
+ ( /51BD4E06 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 /A0 )
+  (    2 /A1 )
+  (    3 /A2 )
+  (    4 /A3 )
+  (    5 /A4 )
+ )
+ ( /51BD4D9D $noname  SCREW4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /51BD4D99 $noname  SCREW3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /51BD4D95 $noname  SCREW2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /51BD4D75 $noname  SCREW1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /51BD4BBE $noname  J2 DB37 {Lib=DB37}
+  (    1 /OUTB1 )
+  (    2 /OUTB3 )
+  (    3 /OUTB5 )
+  (    4 /OUTB7 )
+  (    5 /OUTB9 )
+  (    6 /OUTB11 )
+  (    7 /OUTB13 )
+  (    8 /OUTB15 )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /OUTB31 )
+  (   13 /OUTB29 )
+  (   14 /OUTB27 )
+  (   15 /OUTB25 )
+  (   16 /OUTB23 )
+  (   17 /OUTB21 )
+  (   18 /OUTB19 )
+  (   19 /OUTB17 )
+  (   20 /OUTB2 )
+  (   21 /OUTB4 )
+  (   22 /OUTB6 )
+  (   23 /OUTB8 )
+  (   24 /OUTB10 )
+  (   25 /OUTB12 )
+  (   26 /OUTB14 )
+  (   27 /OUTB16 )
+  (   28 /IN2' )
+  (   29 /IN2 )
+  (   30 /OUTB32 )
+  (   31 /OUTB30 )
+  (   32 /OUTB28 )
+  (   33 /OUTB26 )
+  (   34 /OUTB24 )
+  (   35 /OUTB22 )
+  (   36 /OUTB20 )
+  (   37 /OUTB18 )
+ )
+ ( /51BD4A4A $noname  J1 DB37 {Lib=DB37}
+  (    1 /OUTA17 )
+  (    2 /OUTA19 )
+  (    3 /OUTA21 )
+  (    4 /OUTA23 )
+  (    5 /OUTA25 )
+  (    6 /OUTA27 )
+  (    7 /OUTA29 )
+  (    8 /OUTA31 )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /OUTA15 )
+  (   13 /OUTA13 )
+  (   14 /OUTA11 )
+  (   15 /OUTA9 )
+  (   16 /OUTA7 )
+  (   17 /OUTA5 )
+  (   18 /OUTA3 )
+  (   19 /OUTA1 )
+  (   20 /OUTA18 )
+  (   21 /OUTA20 )
+  (   22 /OUTA22 )
+  (   23 /OUTA24 )
+  (   24 /OUTA26 )
+  (   25 /OUTA28 )
+  (   26 /OUTA30 )
+  (   27 /OUTA32 )
+  (   28 /IN1 )
+  (   29 /IN1' )
+  (   30 /OUTA16 )
+  (   31 /OUTA14 )
+  (   32 /OUTA12 )
+  (   33 /OUTA10 )
+  (   34 /OUTA8 )
+  (   35 /OUTA6 )
+  (   36 /OUTA4 )
+  (   37 /OUTA2 )
+ )
+ ( /51BD48FE $noname  C3 CP1 {Lib=CP1}
+  (    1 GND )
+  (    2 VSS )
+ )
+ ( /51BD48ED $noname  C4 CP1 {Lib=CP1}
+  (    1 GND )
+  (    2 VSS )
+ )
+ ( /51BD48D4 $noname  C5 CP1 {Lib=CP1}
+  (    1 GND )
+  (    2 VSS )
+ )
+ ( /51BD489B $noname  C6 CP1 {Lib=CP1}
+  (    1 GND )
+  (    2 VSS )
+ )
+ ( /51BD47C2 $noname  C1 CP1 {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /51BD47A8 $noname  C2 CP1 {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /51BD4793 $noname  C10 CP1 {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /51BD4738 $noname  C9 CP1 {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /51BD4630 $noname  MUX3 ADG732 {Lib=ADG732}
+  (    1 /OUTB28 )
+  (    2 /OUTB27 )
+  (    3 /OUTB26 )
+  (    4 /OUTB25 )
+  (    5 /OUTB24 )
+  (    6 /OUTB23 )
+  (    7 /OUTB22 )
+  (    8 /OUTB21 )
+  (    9 /OUTB20 )
+  (   10 /OUTB19 )
+  (   11 /OUTB18 )
+  (   12 /OUTB17 )
+  (   13 VDD )
+  (   14 VDD )
+  (   15 /B0 )
+  (   16 /B1 )
+  (   17 /B2 )
+  (   18 /B3 )
+  (   19 /B4 )
+  (   20 /CS )
+  (   21 /WR )
+  (   22 /EN )
+  (   23 GND )
+  (   24 VSS )
+  (   25 /OUTB1 )
+  (   26 /OUTB2 )
+  (   27 /OUTB3 )
+  (   28 /OUTB4 )
+  (   29 /OUTB5 )
+  (   30 /OUTB6 )
+  (   31 /OUTB7 )
+  (   32 /OUTB8 )
+  (   33 /OUTB9 )
+  (   34 /OUTB10 )
+  (   35 /OUTB11 )
+  (   36 /OUTB12 )
+  (   37 /OUTB13 )
+  (   38 /OUTB14 )
+  (   39 /OUTB15 )
+  (   40 /OUTB16 )
+  (   41 ? )
+  (   42 ? )
+  (   43 /IN2' )
+  (   44 ? )
+  (   45 /OUTB32 )
+  (   46 /OUTB31 )
+  (   47 /OUTB30 )
+  (   48 /OUTB29 )
+ )
+ ( /51BD462F $noname  MUX1 ADG732 {Lib=ADG732}
+  (    1 /OUTB12 )
+  (    2 /OUTB11 )
+  (    3 /OUTB10 )
+  (    4 /OUTB9 )
+  (    5 /OUTB8 )
+  (    6 /OUTB7 )
+  (    7 /OUTB6 )
+  (    8 /OUTB5 )
+  (    9 /OUTB4 )
+  (   10 /OUTB3 )
+  (   11 /OUTB2 )
+  (   12 /OUTB1 )
+  (   13 VDD )
+  (   14 VDD )
+  (   15 /A0 )
+  (   16 /A1 )
+  (   17 /A2 )
+  (   18 /A3 )
+  (   19 /A4 )
+  (   20 /CS )
+  (   21 /WR )
+  (   22 /EN )
+  (   23 GND )
+  (   24 VSS )
+  (   25 /OUTB17 )
+  (   26 /OUTB18 )
+  (   27 /OUTB19 )
+  (   28 /OUTB20 )
+  (   29 /OUTB21 )
+  (   30 /OUTB22 )
+  (   31 /OUTB23 )
+  (   32 /OUTB24 )
+  (   33 /OUTB25 )
+  (   34 /OUTB26 )
+  (   35 /OUTB27 )
+  (   36 /OUTB28 )
+  (   37 /OUTB29 )
+  (   38 /OUTB30 )
+  (   39 /OUTB31 )
+  (   40 /OUTB32 )
+  (   41 ? )
+  (   42 ? )
+  (   43 /IN2 )
+  (   44 ? )
+  (   45 /OUTB16 )
+  (   46 /OUTB15 )
+  (   47 /OUTB14 )
+  (   48 /OUTB13 )
+ )
+ ( /51BD4612 $noname  MUX2 ADG732 {Lib=ADG732}
+  (    1 /OUTA12 )
+  (    2 /OUTA11 )
+  (    3 /OUTA10 )
+  (    4 /OUTA9 )
+  (    5 /OUTA8 )
+  (    6 /OUTA7 )
+  (    7 /OUTA6 )
+  (    8 /OUTA5 )
+  (    9 /OUTA4 )
+  (   10 /OUTA3 )
+  (   11 /OUTA2 )
+  (   12 /OUTA1 )
+  (   13 VDD )
+  (   14 VDD )
+  (   15 /A0 )
+  (   16 /A1 )
+  (   17 /A2 )
+  (   18 /A3 )
+  (   19 /A4 )
+  (   20 /CS )
+  (   21 /WR )
+  (   22 /EN )
+  (   23 GND )
+  (   24 VSS )
+  (   25 /OUTA17 )
+  (   26 /OUTA18 )
+  (   27 /OUTA19 )
+  (   28 /OUTA20 )
+  (   29 /OUTA21 )
+  (   30 /OUTA22 )
+  (   31 /OUTA23 )
+  (   32 /OUTA24 )
+  (   33 /OUTA25 )
+  (   34 /OUTA26 )
+  (   35 /OUTA27 )
+  (   36 /OUTA28 )
+  (   37 /OUTA29 )
+  (   38 /OUTA30 )
+  (   39 /OUTA31 )
+  (   40 /OUTA32 )
+  (   41 ? )
+  (   42 ? )
+  (   43 /IN1 )
+  (   44 ? )
+  (   45 /OUTA16 )
+  (   46 /OUTA15 )
+  (   47 /OUTA14 )
+  (   48 /OUTA13 )
+ )
+ ( /51BD458B $noname  MUX4 ADG732 {Lib=ADG732}
+  (    1 /OUTA28 )
+  (    2 /OUTA27 )
+  (    3 /OUTA26 )
+  (    4 /OUTA25 )
+  (    5 /OUTA24 )
+  (    6 /OUTA23 )
+  (    7 /OUTA22 )
+  (    8 /OUTA21 )
+  (    9 /OUTA20 )
+  (   10 /OUTA19 )
+  (   11 /OUTA18 )
+  (   12 /OUTA17 )
+  (   13 VDD )
+  (   14 VDD )
+  (   15 /B0 )
+  (   16 /B1 )
+  (   17 /B2 )
+  (   18 /B3 )
+  (   19 /B4 )
+  (   20 /CS )
+  (   21 /WR )
+  (   22 /EN )
+  (   23 GND )
+  (   24 VSS )
+  (   25 /OUTA1 )
+  (   26 /OUTA2 )
+  (   27 /OUTA3 )
+  (   28 /OUTA4 )
+  (   29 /OUTA5 )
+  (   30 /OUTA6 )
+  (   31 /OUTA7 )
+  (   32 /OUTA8 )
+  (   33 /OUTA9 )
+  (   34 /OUTA10 )
+  (   35 /OUTA11 )
+  (   36 /OUTA12 )
+  (   37 /OUTA13 )
+  (   38 /OUTA14 )
+  (   39 /OUTA15 )
+  (   40 /OUTA16 )
+  (   41 ? )
+  (   42 ? )
+  (   43 /IN1' )
+  (   44 ? )
+  (   45 /OUTA32 )
+  (   46 /OUTA31 )
+  (   47 /OUTA30 )
+  (   48 /OUTA29 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C8
+ CP*
+ SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component J2
+ DB37*
+$endlist
+$component J1
+ DB37*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/IN2'" "IN2'"
+ J2 28
+ MUX3 43
+Net 3 "/B0" "B0"
+ MUX3 15
+ MUX4 15
+ P2 1
+Net 5 "/B1" "B1"
+ MUX4 16
+ MUX3 16
+ P2 2
+Net 6 "/B2" "B2"
+ MUX3 17
+ P2 3
+ MUX4 17
+Net 8 "GND" "GND"
+ MUX3 23
+ MUX2 23
+ MUX4 23
+ C7 2
+ C2 2
+ C3 1
+ C1 2
+ MUX1 23
+ P3 3
+ C10 2
+ C8 1
+ C4 1
+ C6 1
+ C5 1
+ C9 2
+Net 9 "VDD" "VDD"
+ MUX2 13
+ C1 1
+ C2 1
+ MUX2 14
+ C9 1
+ C10 1
+ MUX4 13
+ MUX3 13
+ MUX3 14
+ C7 1
+ P4 1
+ MUX4 14
+ MUX1 13
+ MUX1 14
+Net 10 "/OUTA29" "OUTA29"
+ MUX4 48
+ MUX2 37
+ J1 7
+Net 11 "/OUTA14" "OUTA14"
+ MUX2 47
+ MUX4 38
+ J1 31
+Net 12 "/A3" "A3"
+ P1 4
+ MUX1 18
+ MUX2 18
+Net 13 "/OUTA20" "OUTA20"
+ MUX2 28
+ MUX4 9
+ J1 21
+Net 14 "/OUTA30" "OUTA30"
+ MUX2 38
+ MUX4 47
+ J1 26
+Net 15 "/OUTA13" "OUTA13"
+ MUX2 48
+ J1 13
+ MUX4 37
+Net 16 "/OUTA21" "OUTA21"
+ J1 3
+ MUX2 29
+ MUX4 8
+Net 17 "/OUTA31" "OUTA31"
+ MUX4 46
+ J1 8
+ MUX2 39
+Net 18 "/OUTA19" "OUTA19"
+ MUX4 10
+ MUX2 27
+ J1 2
+Net 19 "/A0" "A0"
+ MUX1 15
+ P1 1
+ MUX2 15
+Net 21 "/OUTA25" "OUTA25"
+ MUX4 4
+ MUX2 33
+ J1 5
+Net 22 "/IN1" "IN1"
+ J1 28
+ MUX2 43
+Net 23 "/OUTA26" "OUTA26"
+ MUX4 3
+ J1 24
+ MUX2 34
+Net 25 "/OUTA17" "OUTA17"
+ MUX2 25
+ J1 1
+ MUX4 12
+Net 26 "/OUTA27" "OUTA27"
+ MUX2 35
+ J1 6
+ MUX4 2
+Net 27 "/OUTA16" "OUTA16"
+ J1 30
+ MUX4 40
+ MUX2 45
+Net 28 "/A1" "A1"
+ MUX2 16
+ MUX1 16
+ P1 2
+Net 29 "/OUTA18" "OUTA18"
+ MUX4 11
+ J1 20
+ MUX2 26
+Net 30 "/OUTA28" "OUTA28"
+ J1 25
+ MUX4 1
+ MUX2 36
+Net 31 "/OUTA15" "OUTA15"
+ MUX4 39
+ MUX2 46
+ J1 12
+Net 32 "/A2" "A2"
+ P1 3
+ MUX1 17
+ MUX2 17
+Net 35 "/OUTA24" "OUTA24"
+ MUX2 32
+ J1 23
+ MUX4 5
+Net 36 "/IN1'" "IN1'"
+ J1 29
+ MUX4 43
+Net 39 "/OUTB22" "OUTB22"
+ MUX3 7
+ J2 35
+ MUX1 30
+Net 40 "/OUTB32" "OUTB32"
+ MUX3 45
+ MUX1 40
+ J2 30
+Net 41 "/OUTB2" "OUTB2"
+ MUX3 26
+ MUX1 11
+ J2 20
+Net 42 "/OUTB23" "OUTB23"
+ J2 16
+ MUX3 6
+ MUX1 31
+Net 44 "/OUTB1" "OUTB1"
+ MUX3 25
+ J2 1
+ MUX1 12
+Net 45 "/OUTB24" "OUTB24"
+ J2 34
+ MUX3 5
+ MUX1 32
+Net 46 "/OUTB25" "OUTB25"
+ MUX1 33
+ MUX3 4
+ J2 15
+Net 47 "/IN2" "IN2"
+ MUX1 43
+ J2 29
+Net 48 "/OUTB26" "OUTB26"
+ J2 33
+ MUX1 34
+ MUX3 3
+Net 50 "/OUTB11" "OUTB11"
+ MUX3 35
+ J2 6
+ MUX1 2
+Net 51 "/B3" "B3"
+ MUX3 18
+ P2 4
+ MUX4 18
+Net 52 "/B4" "B4"
+ MUX3 19
+ MUX4 19
+ P2 5
+Net 53 "/OUTB12" "OUTB12"
+ MUX1 1
+ MUX3 36
+ J2 25
+Net 54 "/OUTB10" "OUTB10"
+ J2 24
+ MUX3 34
+ MUX1 3
+Net 55 "/OUTB9" "OUTB9"
+ MUX3 33
+ J2 5
+ MUX1 4
+Net 56 "/OUTB8" "OUTB8"
+ MUX3 32
+ J2 23
+ MUX1 5
+Net 57 "/OUTB7" "OUTB7"
+ MUX3 31
+ MUX1 6
+ J2 4
+Net 58 "/OUTB6" "OUTB6"
+ J2 22
+ MUX1 7
+ MUX3 30
+Net 59 "/OUTB5" "OUTB5"
+ MUX3 29
+ MUX1 8
+ J2 3
+Net 60 "/OUTB4" "OUTB4"
+ MUX3 28
+ MUX1 9
+ J2 21
+Net 61 "/OUTB3" "OUTB3"
+ J2 2
+ MUX3 27
+ MUX1 10
+Net 62 "/CS" "CS"
+ MUX1 20
+ MUX3 20
+ MUX4 20
+ P3 1
+ MUX2 20
+Net 63 "/OUTA11" "OUTA11"
+ MUX4 35
+ J1 14
+ MUX2 2
+Net 64 "/OUTA10" "OUTA10"
+ MUX4 34
+ MUX2 3
+ J1 33
+Net 65 "/OUTA9" "OUTA9"
+ J1 15
+ MUX2 4
+ MUX4 33
+Net 66 "/OUTA8" "OUTA8"
+ J1 34
+ MUX2 5
+ MUX4 32
+Net 67 "/OUTA7" "OUTA7"
+ MUX2 6
+ MUX4 31
+ J1 16
+Net 68 "/OUTA6" "OUTA6"
+ MUX4 30
+ MUX2 7
+ J1 35
+Net 69 "/OUTA5" "OUTA5"
+ MUX2 8
+ MUX4 29
+ J1 17
+Net 70 "/OUTA4" "OUTA4"
+ J1 36
+ MUX4 28
+ MUX2 9
+Net 71 "/OUTA3" "OUTA3"
+ J1 18
+ MUX2 10
+ MUX4 27
+Net 72 "/OUTA12" "OUTA12"
+ MUX4 36
+ J1 32
+ MUX2 1
+Net 73 "/OUTA22" "OUTA22"
+ J1 22
+ MUX2 30
+ MUX4 7
+Net 74 "/OUTA32" "OUTA32"
+ MUX2 40
+ MUX4 45
+ J1 27
+Net 75 "/OUTA2" "OUTA2"
+ MUX2 11
+ MUX4 26
+ J1 37
+Net 76 "/WR" "WR"
+ MUX1 21
+ P3 2
+ MUX3 21
+ MUX2 21
+ MUX4 21
+Net 77 "/OUTA23" "OUTA23"
+ MUX4 6
+ MUX2 31
+ J1 4
+Net 79 "/OUTA1" "OUTA1"
+ MUX4 25
+ MUX2 12
+ J1 19
+Net 80 "/OUTB29" "OUTB29"
+ MUX3 48
+ MUX1 37
+ J2 13
+Net 81 "/OUTB17" "OUTB17"
+ MUX3 12
+ MUX1 25
+ J2 19
+Net 82 "/OUTB27" "OUTB27"
+ MUX3 2
+ MUX1 35
+ J2 14
+Net 83 "/OUTB16" "OUTB16"
+ J2 27
+ MUX1 45
+ MUX3 40
+Net 84 "/OUTB18" "OUTB18"
+ J2 37
+ MUX1 26
+ MUX3 11
+Net 85 "/OUTB28" "OUTB28"
+ MUX1 36
+ J2 32
+ MUX3 1
+Net 86 "/OUTB15" "OUTB15"
+ MUX3 39
+ J2 8
+ MUX1 46
+Net 87 "/OUTB19" "OUTB19"
+ MUX3 10
+ MUX1 27
+ J2 18
+Net 88 "/OUTB14" "OUTB14"
+ MUX1 47
+ MUX3 38
+ J2 26
+Net 89 "/OUTB20" "OUTB20"
+ MUX3 9
+ J2 36
+ MUX1 28
+Net 90 "/OUTB30" "OUTB30"
+ MUX3 47
+ J2 31
+ MUX1 38
+Net 91 "/OUTB13" "OUTB13"
+ J2 7
+ MUX3 37
+ MUX1 48
+Net 92 "/A4" "A4"
+ MUX1 19
+ MUX2 19
+ P1 5
+Net 93 "/OUTB21" "OUTB21"
+ J2 17
+ MUX3 8
+ MUX1 29
+Net 94 "/OUTB31" "OUTB31"
+ MUX3 46
+ MUX1 39
+ J2 12
+Net 95 "VSS" "VSS"
+ MUX3 24
+ MUX4 24
+ C3 2
+ P4 2
+ C8 2
+ MUX1 24
+ C4 2
+ C5 2
+ C6 2
+ MUX2 24
+Net 102 "/EN" "EN"
+ MUX2 22
+ MUX4 22
+ MUX3 22
+ MUX1 22
+ P3 4
+}
+#End
