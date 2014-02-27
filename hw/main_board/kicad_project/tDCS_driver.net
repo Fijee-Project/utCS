@@ -1,925 +1,1093 @@
-# EESchema Netlist Version 1.1 created  Tue 01 Oct 2013 06:29:56 PM PDT
-(
- ( /52266484 $noname  C13 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /52266472 $noname  C14 0.1uF {Lib=C}
-  (    1 AGND )
-  (    2 ? )
- )
- ( /52266081 $noname  C9 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 N-000086 )
- )
- ( /5226607C $noname  C8 1uF {Lib=C}
-  (    1 ? )
-  (    2 ? )
- )
- ( /52266074 $noname  C7 0.1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /52265826 $noname  P1 CONN_5 {Lib=CONN_5}
-  (    1 /MUXC0 )
-  (    2 /MUXC1 )
-  (    3 /MUXC2 )
-  (    4 /MUXC3 )
-  (    5 /MUXC4 )
- )
- ( /52265825 $noname  P2 CONN_5 {Lib=CONN_5}
-  (    1 /MUXD0 )
-  (    2 /MUXD1 )
-  (    3 /MUXD2 )
-  (    4 /MUXD3 )
-  (    5 /MUXD4 )
- )
- ( /52265824 $noname  P3 CONN_6 {Lib=CONN_6}
-  (    1 ? )
-  (    2 /MUXCOM2 )
-  (    3 /MUXCOM1 )
-  (    4 AGND )
-  (    5 /MUXCOM0 )
-  (    6 ? )
- )
- ( /522642EC $noname  P4 CONN_8 {Lib=CONN_8}
-  (    1 /MUXA0 )
-  (    2 /MUXA1 )
-  (    3 /MUXA2 )
-  (    4 /MUXA3 )
-  (    5 /MUXA4 )
-  (    6 /MUXA5 )
-  (    7 /MUXA6 )
-  (    8 /MUXA7 )
- )
- ( /522642E4 $noname  P5 CONN_8 {Lib=CONN_8}
-  (    1 /MUXB0 )
-  (    2 /MUXB1 )
-  (    3 /MUXB2 )
-  (    4 /MUXB3 )
-  (    5 /MUXB4 )
-  (    6 /MUXB5 )
-  (    7 /MUXB6 )
-  (    8 /MUXB7 )
- )
- ( /522640E9 $noname  C10 0.01uF {Lib=C}
-  (    1 N-000029 )
-  (    2 AVDD_3V3 )
- )
- ( /521CE925 $noname  C15 .1uF {Lib=C}
-  (    1 N-000027 )
-  (    2 AGND )
- )
- ( /521949C5 $noname  C18 1uF {Lib=C}
-  (    1 AVDD_3V3 )
-  (    2 AGND )
- )
- ( /52194945 $noname  C16 0.1uF {Lib=C}
-  (    1 AVSS )
-  (    2 AGND )
- )
- ( /52194944 $noname  C17 1uF {Lib=C}
-  (    1 AVSS )
-  (    2 AGND )
- )
- ( /52194941 $noname  C23 0.1uF {Lib=C}
-  (    1 AVDD )
-  (    2 AGND )
- )
- ( /52194940 $noname  C24 1uF {Lib=C}
-  (    1 AVDD )
-  (    2 AGND )
- )
- ( /52181C6F $noname  U7 MAX338 {Lib=MAX338}
-  (    1 ? )
-  (    2 ? )
-  (    3 AVSS )
-  (    4 /MUXB1 )
-  (    5 /MUXB3 )
-  (    6 /MUXB5 )
-  (    7 /MUXB7 )
-  (    8 AGND )
-  (    9 /MUXA7 )
-  (   10 /MUXA5 )
-  (   11 /MUXA3 )
-  (   12 /MUXA1 )
-  (   13 AVDD )
-  (   14 AGND )
-  (   15 ? )
-  (   16 ? )
- )
- ( /52181BEB $noname  C2 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /52181BEA $noname  C1 0.1uF {Lib=C}
-  (    1 AVDD )
-  (    2 AGND )
- )
- ( /52181BE7 $noname  C4 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /52181BE6 $noname  C3 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /52181BA6 $noname  U1 MAX338 {Lib=MAX338}
-  (    1 ? )
-  (    2 ? )
-  (    3 AVSS )
-  (    4 /MUXB0 )
-  (    5 /MUXB2 )
-  (    6 /MUXB4 )
-  (    7 /MUXB6 )
-  (    8 N-000084 )
-  (    9 /MUXA6 )
-  (   10 /MUXA4 )
-  (   11 /MUXA2 )
-  (   12 /MUXA0 )
-  (   13 AVDD )
-  (   14 AGND )
-  (   15 ? )
-  (   16 ? )
- )
- ( /5218195F $noname  C33 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5218195E $noname  C34 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5218195B $noname  C31 0.1uF {Lib=C}
-  (    1 AVDD )
-  (    2 AGND )
- )
- ( /5218195A $noname  C32 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5218186A $noname  U5 MAX339 {Lib=MAX339}
-  (    1 ? )
-  (    2 ? )
-  (    3 AVSS )
-  (    4 N-000003 )
-  (    5 N-000004 )
-  (    6 N-000005 )
-  (    7 N-000005 )
-  (    8 N-000021 )
-  (   14 AVDD )
-  (   15 AGND )
-  (   16 ? )
- )
- ( /5217FDBE $noname  C27 0.1uF {Lib=C}
-  (    1 N-000010 )
-  (    2 AGND )
- )
- ( /5217FDA0 $noname  C28 0.1uF {Lib=C}
-  (    1 N-000006 )
-  (    2 AGND )
- )
- ( /5217FD1A $noname  U6 OP1177 {Lib=OP1177}
-  (    2 N-000020 )
-  (    3 N-000084 )
-  (    4 N-000010 )
-  (    6 N-000020 )
-  (    7 N-000006 )
- )
- ( /5217F631 $noname  RV1 1K {Lib=POT}
-  (    1 N-000085 )
-  (    2 N-000085 )
-  (    3 N-000019 )
- )
- ( /5217F546 $noname  U3 AD5292 {Lib=AD5292}
-  (    1 ? )
-  (    2 AVSS )
-  (    3 N-000022 )
-  (    4 N-000085 )
-  (    5 N-000085 )
-  (    6 AVDD )
-  (    7 N-000027 )
-  (    8 AVDD_3V3 )
-  (    9 AGND )
-  (   10 ? )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
- )
- ( /5217EC47 $noname  U4 AD8221 {Lib=AD8221}
-  (    1 N-000069 )
-  (    2 N-000019 )
-  (    3 N-000022 )
-  (    4 N-000064 )
-  (    5 VSS )
-  (    6 N-000020 )
-  (    7 N-000021 )
-  (    8 VDD )
- )
- ( /5217BB66 $noname  C6 1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /5217BB65 $noname  C5 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217BAE8 $noname  C12 1uF {Lib=C}
-  (    1 ? )
-  (    2 AVDD_3V3 )
- )
- ( /5217BAE7 $noname  C11 0.1uF {Lib=C}
-  (    1 AGND )
-  (    2 ? )
- )
- ( /5217BA3A $noname  C26 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217BA39 $noname  C25 0.1uF {Lib=C}
-  (    1 AVDD )
-  (    2 AGND )
- )
- ( /5217B9A9 $noname  C30 1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217B9A8 $noname  C29 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217B935 $noname  C20 1uF {Lib=C}
-  (    1 VDD )
-  (    2 AGND )
- )
- ( /5217B934 $noname  C19 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217B8D0 $noname  C22 0.1uF {Lib=C}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /5217B8CA $noname  C21 1uF {Lib=C}
-  (    1 VSS )
-  (    2 AGND )
- )
- ( /52155AC9 $noname  X1 CRYSTAL6-10pf {Lib=CRYSTAL}
-  (    1 N-000067 )
-  (    2 N-000050 )
- )
- ( /52155504 $noname  RV4 1K {Lib=POT}
-  (    1 N-000046 )
-  (    2 N-000046 )
-  (    3 ? )
- )
- ( /521554FC $noname  RV3 2k {Lib=POT}
-  (    1 N-000045 )
-  (    2 N-000045 )
-  (    3 ? )
- )
- ( /521554DE $noname  RV2 20K {Lib=POT}
-  (    1 N-000044 )
-  (    2 N-000044 )
-  (    3 N-000084 )
- )
- ( /5215547F $noname  R5 390K {Lib=R}
-  (    1 N-000003 )
-  (    2 N-000044 )
- )
- ( /5215547A $noname  R4 39K {Lib=R}
-  (    1 N-000004 )
-  (    2 N-000045 )
- )
- ( /52155472 $noname  R3 7K5 {Lib=R}
-  (    1 N-000005 )
-  (    2 N-000046 )
- )
- ( /52153DEF $noname  R2 20 {Lib=R}
-  (    1 ? )
-  (    2 AGND )
- )
- ( /52153DDE $noname  R1 20 {Lib=R}
-  (    1 AGND )
-  (    2 N-000069 )
- )
- ( /52153D59 $noname  U2 SI5351A {Lib=SI5351A}
-  (    1 DVDD_3V3 )
-  (    2 N-000067 )
-  (    3 N-000050 )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 DVDD_3V3 )
-  (    9 ? )
-  (   10 N-000072 )
-  (    ~ AGND )
- )
- ( /521530C8 $noname  DDS1 AD9838 {Lib=AD9838}
-  (    1 AVDD_3V3 )
-  (    2 DVDD_3V3 )
-  (    3 N-000086 )
-  (    4 AGND )
-  (    5 N-000072 )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 AGND )
-  (   16 N-000064 )
-  (   17 N-000069 )
-  (   18 ? )
-  (   19 ? )
-  (   20 N-000029 )
- )
- ( /5217B634/5245D942 $noname  U16 MAX3002 {Lib=MAX3002}
-  (    1 ? )
-  (    2 DVDD_3V3 )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 AGND )
-  (   12 /MUXD0 )
-  (   13 /MUXD1 )
-  (   14 /MUXD2 )
-  (   15 /MUXD3 )
-  (   16 /MUXD4 )
-  (   17 ? )
-  (   18 ? )
-  (   19 DVDD_2V5 )
-  (   20 ? )
- )
- ( /5217B634/5245D940 $noname  C66 0.1uF {Lib=C}
-  (    1 DVDD_2V5 )
-  (    2 AGND )
- )
- ( /5217B634/5245D93F $noname  C64 1uF {Lib=C}
-  (    1 DVDD_2V5 )
-  (    2 AGND )
- )
- ( /5217B634/5245D93E $noname  C70 0.1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /5217B634/5245D93D $noname  C68 1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /5217B634/523C1EBB $noname  C67 1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /5217B634/523C1EBA $noname  C69 0.1uF {Lib=C}
-  (    1 DVDD_3V3 )
-  (    2 AGND )
- )
- ( /5217B634/523C1EB9 $noname  C63 1uF {Lib=C}
-  (    1 DVDD_2V5 )
-  (    2 AGND )
- )
- ( /5217B634/523C1EB8 $noname  C65 0.1uF {Lib=C}
-  (    1 DVDD_2V5 )
-  (    2 AGND )
- )
- ( /5217B634/523C1EB6 $noname  U15 MAX3002 {Lib=MAX3002}
-  (    1 ? )
-  (    2 DVDD_3V3 )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 /MUXCOM0 )
-  (   13 /MUXCOM1 )
-  (   14 /MUXCOM2 )
-  (   15 /MUXC4 )
-  (   16 /MUXC3 )
-  (   17 /MUXC2 )
-  (   18 /MUXC1 )
-  (   19 DVDD_2V5 )
-  (   20 /MUXC0 )
- )
-)
-*
-{ Allowed footprints by component:
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C18
- SM*
- C?
- C1-1
-$endlist
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C17
- SM*
- C?
- C1-1
-$endlist
-$component C23
- SM*
- C?
- C1-1
-$endlist
-$component C24
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C33
- SM*
- C?
- C1-1
-$endlist
-$component C34
- SM*
- C?
- C1-1
-$endlist
-$component C31
- SM*
- C?
- C1-1
-$endlist
-$component C32
- SM*
- C?
- C1-1
-$endlist
-$component C27
- SM*
- C?
- C1-1
-$endlist
-$component C28
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C26
- SM*
- C?
- C1-1
-$endlist
-$component C25
- SM*
- C?
- C1-1
-$endlist
-$component C30
- SM*
- C?
- C1-1
-$endlist
-$component C29
- SM*
- C?
- C1-1
-$endlist
-$component C20
- SM*
- C?
- C1-1
-$endlist
-$component C19
- SM*
- C?
- C1-1
-$endlist
-$component C22
- SM*
- C?
- C1-1
-$endlist
-$component C21
- SM*
- C?
- C1-1
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component C66
- SM*
- C?
- C1-1
-$endlist
-$component C64
- SM*
- C?
- C1-1
-$endlist
-$component C70
- SM*
- C?
- C1-1
-$endlist
-$component C68
- SM*
- C?
- C1-1
-$endlist
-$component C67
- SM*
- C?
- C1-1
-$endlist
-$component C69
- SM*
- C?
- C1-1
-$endlist
-$component C63
- SM*
- C?
- C1-1
-$endlist
-$component C65
- SM*
- C?
- C1-1
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 3 "" ""
- U5 4
- R5 1
-Net 4 "" ""
- R4 1
- U5 5
-Net 5 "" ""
- U5 6
- U5 7
- R3 1
-Net 6 "" ""
- U6 7
- C28 1
-Net 7 "AVSS" "AVSS"
- U5 3
- C16 1
- C17 1
- U7 3
- U1 3
- U3 2
-Net 10 "" ""
- C27 1
- U6 4
-Net 19 "" ""
- RV1 3
- U4 2
-Net 20 "" ""
- U6 2
- U4 6
- U6 6
-Net 21 "" ""
- U5 8
- U4 7
-Net 22 "" ""
- U4 3
- U3 3
-Net 24 "/MUXB1" "MUXB1"
- U7 4
- P5 2
-Net 25 "/MUXB5" "MUXB5"
- P5 6
- U7 6
-Net 26 "/MUXB7" "MUXB7"
- U7 7
- P5 8
-Net 27 "" ""
- C15 1
- U3 7
-Net 28 "/MUXB3" "MUXB3"
- U7 5
- P5 4
-Net 29 "" ""
- DDS1 20
- C10 1
-Net 30 "/MUXA1" "MUXA1"
- P4 2
- U7 12
-Net 31 "/MUXB2" "MUXB2"
- P5 3
- U1 5
-Net 36 "/MUXB0" "MUXB0"
- P5 1
- U1 4
-Net 37 "/MUXB4" "MUXB4"
- U1 6
- P5 5
-Net 38 "/MUXB6" "MUXB6"
- U1 7
- P5 7
-Net 44 "" ""
- RV2 1
- R5 2
- RV2 2
-Net 45 "" ""
- RV3 2
- RV3 1
- R4 2
-Net 46 "" ""
- RV4 2
- RV4 1
- R3 2
-Net 50 "" ""
- X1 2
- U2 3
-Net 53 "VDD" "VDD"
- U4 8
- C20 1
-Net 54 "VSS" "VSS"
- C21 1
- U4 5
-Net 64 "" ""
- DDS1 16
- U4 4
-Net 67 "" ""
- X1 1
- U2 2
-Net 69 "" ""
- DDS1 17
- U4 1
- R1 2
-Net 72 "" ""
- U2 10
- DDS1 5
-Net 81 "AGND" "AGND"
- C63 2
- C69 2
- C65 2
- U16 11
- C67 2
- C14 1
- C13 2
- P3 4
- C68 2
- C70 2
- C66 2
- C64 2
- C7 2
- C30 2
- C17 2
- C22 2
- R1 1
- R2 2
- U3 9
- C32 2
- C31 2
- C34 2
- C33 2
- C18 2
- C2 2
- C6 2
- C5 2
- C1 2
- U1 14
- C16 2
- C15 2
- U7 8
- C24 2
- C11 1
- C26 2
- C23 2
- C21 2
- C25 2
- DDS1 15
- DDS1 4
- U5 15
- C19 2
- C20 2
- C29 2
- U2 ~
- C4 2
- C28 2
- C3 2
- C27 2
- U7 14
-Net 82 "AVDD_3V3" "AVDD_3V3"
- DDS1 1
- U3 8
- C18 1
- C10 2
- C12 2
-Net 83 "AVDD" "AVDD"
- C23 1
- C1 1
- U5 14
- U7 13
- C24 1
- C25 1
- U1 13
- U3 6
- C31 1
-Net 84 "" ""
- RV2 3
- U1 8
- U6 3
-Net 85 "" ""
- U3 5
- U3 4
- RV1 2
- RV1 1
-Net 86 "" ""
- C9 2
- DDS1 3
-Net 87 "DVDD_3V3" "DVDD_3V3"
- C70 1
- U15 2
- C69 1
- C67 1
- C68 1
- C6 1
- U2 7
- U2 1
- DDS1 2
- U16 2
- C7 1
-Net 89 "/MUXC1" "MUXC1"
- U15 18
- P1 2
-Net 90 "/MUXC2" "MUXC2"
- P1 3
- U15 17
-Net 91 "/MUXC0" "MUXC0"
- U15 20
- P1 1
-Net 92 "/MUXCOM2" "MUXCOM2"
- P3 2
- U15 14
-Net 93 "/MUXCOM0" "MUXCOM0"
- U15 12
- P3 5
-Net 94 "/MUXA0" "MUXA0"
- P4 1
- U1 12
-Net 95 "/MUXA2" "MUXA2"
- P4 3
- U1 11
-Net 96 "/MUXA3" "MUXA3"
- P4 4
- U7 11
-Net 97 "/MUXA4" "MUXA4"
- P4 5
- U1 10
-Net 98 "/MUXA5" "MUXA5"
- U7 10
- P4 6
-Net 99 "/MUXA6" "MUXA6"
- P4 7
- U1 9
-Net 100 "/MUXA7" "MUXA7"
- U7 9
- P4 8
-Net 107 "DVDD_2V5" "DVDD_2V5"
- C66 1
- C63 1
- C65 1
- C64 1
- U16 19
- U15 19
-Net 130 "/MUXD3" "MUXD3"
- P2 4
- U16 15
-Net 131 "/MUXD4" "MUXD4"
- U16 16
- P2 5
-Net 132 "/MUXCOM1" "MUXCOM1"
- P3 3
- U15 13
-Net 133 "/MUXD2" "MUXD2"
- U16 14
- P2 3
-Net 147 "/MUXC3" "MUXC3"
- U15 16
- P1 4
-Net 148 "/MUXC4" "MUXC4"
- P1 5
- U15 15
-Net 149 "/MUXD0" "MUXD0"
- P2 1
- U16 12
-Net 150 "/MUXD1" "MUXD1"
- P2 2
- U16 13
-}
-#End
+(export (version D)
+  (design
+    (source /Users/ashmakov/GIT/tDCS/hw/main_board/kicad_project/tDCS_driver.sch)
+    (date "Tuesday, February 25, 2014 07:24:47 PM")
+    (tool "eeschema (2014-02-17 BZR 4702)-product"))
+  (components
+    (comp (ref C13)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52266484))
+    (comp (ref C14)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52266472))
+    (comp (ref C9)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52266081))
+    (comp (ref C8)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5226607C))
+    (comp (ref C7)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52266074))
+    (comp (ref P1)
+      (value CONN_5)
+      (libsource (lib conn) (part CONN_5))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52265826))
+    (comp (ref P2)
+      (value CONN_5)
+      (libsource (lib conn) (part CONN_5))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52265825))
+    (comp (ref P3)
+      (value CONN_6)
+      (libsource (lib conn) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52265824))
+    (comp (ref P4)
+      (value CONN_8)
+      (libsource (lib conn) (part CONN_8))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 522642EC))
+    (comp (ref P5)
+      (value CONN_8)
+      (libsource (lib conn) (part CONN_8))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 522642E4))
+    (comp (ref C10)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 522640E9))
+    (comp (ref C15)
+      (value .1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521CE925))
+    (comp (ref C18)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521949C5))
+    (comp (ref C16)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52194945))
+    (comp (ref C17)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52194944))
+    (comp (ref C23)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52194941))
+    (comp (ref C24)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52194940))
+    (comp (ref U7)
+      (value MAX338)
+      (libsource (lib ddslib) (part MAX338))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181C6F))
+    (comp (ref C2)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181BEB))
+    (comp (ref C1)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181BEA))
+    (comp (ref C4)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181BE7))
+    (comp (ref C3)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181BE6))
+    (comp (ref U1)
+      (value MAX338)
+      (libsource (lib ddslib) (part MAX338))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52181BA6))
+    (comp (ref C33)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5218195F))
+    (comp (ref C34)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5218195E))
+    (comp (ref C31)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5218195B))
+    (comp (ref C32)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5218195A))
+    (comp (ref U5)
+      (value MAX339)
+      (libsource (lib ddslib) (part MAX339))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5218186A))
+    (comp (ref C27)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217FDBE))
+    (comp (ref C28)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217FDA0))
+    (comp (ref U6)
+      (value OP1177)
+      (libsource (lib ddslib) (part OP1177))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217FD1A))
+    (comp (ref RV1)
+      (value 1K)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217F631))
+    (comp (ref U3)
+      (value AD5292)
+      (libsource (lib ddslib) (part AD5292))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217F546))
+    (comp (ref U4)
+      (value AD8221)
+      (libsource (lib ddslib) (part AD8221))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217EC47))
+    (comp (ref C6)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BB66))
+    (comp (ref C5)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BB65))
+    (comp (ref C12)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BAE8))
+    (comp (ref C11)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BAE7))
+    (comp (ref C26)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BA3A))
+    (comp (ref C25)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217BA39))
+    (comp (ref C30)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B9A9))
+    (comp (ref C29)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B9A8))
+    (comp (ref C20)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B935))
+    (comp (ref C19)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B934))
+    (comp (ref C22)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B8D0))
+    (comp (ref C21)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5217B8CA))
+    (comp (ref X1)
+      (value CRYSTAL6-10pf)
+      (libsource (lib device) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52155AC9))
+    (comp (ref RV4)
+      (value 1K)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52155504))
+    (comp (ref RV3)
+      (value 2k)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521554FC))
+    (comp (ref RV2)
+      (value 20K)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521554DE))
+    (comp (ref R5)
+      (value 390K)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5215547F))
+    (comp (ref R4)
+      (value 39K)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5215547A))
+    (comp (ref R3)
+      (value 7K5)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52155472))
+    (comp (ref R2)
+      (value 20)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52153DEF))
+    (comp (ref R1)
+      (value 20)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52153DDE))
+    (comp (ref U2)
+      (value SI5351A)
+      (libsource (lib ddslib) (part SI5351A))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52153D59))
+    (comp (ref DDS1)
+      (value AD9838)
+      (libsource (lib ddslib) (part AD9838))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 521530C8))
+    (comp (ref U9)
+      (value MAX3002)
+      (libsource (lib ddslib) (part MAX3002))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 5245D942))
+    (comp (ref C38)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 5245D940))
+    (comp (ref C36)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 5245D93F))
+    (comp (ref C42)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 5245D93E))
+    (comp (ref C40)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 5245D93D))
+    (comp (ref C39)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 523C1EBB))
+    (comp (ref C41)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 523C1EBA))
+    (comp (ref C35)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 523C1EB9))
+    (comp (ref C37)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 523C1EB8))
+    (comp (ref U8)
+      (value MAX3002)
+      (libsource (lib ddslib) (part MAX3002))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 523C1EB6))
+    (comp (ref P6)
+      (value CONN_20X2)
+      (libsource (lib conn) (part CONN_20X2))
+      (sheetpath (names /LogicTranslators/) (tstamps /5217B634/))
+      (tstamp 530D6B88)))
+  (libparts
+    (libpart (lib conn) (part CONN_20X2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_20X2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))
+        (pin (num 13) (name P13) (type passive))
+        (pin (num 14) (name P14) (type passive))
+        (pin (num 15) (name P15) (type passive))
+        (pin (num 16) (name P16) (type passive))
+        (pin (num 17) (name P17) (type passive))
+        (pin (num 18) (name P18) (type passive))
+        (pin (num 19) (name P19) (type passive))
+        (pin (num 20) (name P20) (type passive))
+        (pin (num 21) (name P21) (type passive))
+        (pin (num 22) (name P22) (type passive))
+        (pin (num 23) (name P23) (type passive))
+        (pin (num 24) (name P24) (type passive))
+        (pin (num 25) (name ~) (type passive))
+        (pin (num 26) (name P26) (type passive))
+        (pin (num 27) (name P27) (type passive))
+        (pin (num 28) (name P28) (type passive))
+        (pin (num 29) (name P29) (type passive))
+        (pin (num 30) (name P30) (type passive))
+        (pin (num 31) (name P31) (type passive))
+        (pin (num 32) (name P32) (type passive))
+        (pin (num 33) (name P33) (type passive))
+        (pin (num 34) (name P34) (type passive))
+        (pin (num 35) (name P35) (type passive))
+        (pin (num 36) (name P36) (type passive))
+        (pin (num 37) (name P37) (type passive))
+        (pin (num 38) (name P38) (type passive))
+        (pin (num 39) (name P39) (type passive))
+        (pin (num 40) (name P40) (type passive))))
+    (libpart (lib conn) (part CONN_5)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_5))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib conn) (part CONN_8)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_8))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))))
+    (libpart (lib device) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part POT)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib ddslib) (part AD5292)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AD5292))
+      (pins
+        (pin (num 1) (name RESET) (type input))
+        (pin (num 2) (name VSS) (type input))
+        (pin (num 3) (name A) (type input))
+        (pin (num 4) (name W) (type input))
+        (pin (num 5) (name B) (type input))
+        (pin (num 6) (name VDD) (type input))
+        (pin (num 7) (name EXT_CAP) (type input))
+        (pin (num 8) (name Vlogic) (type input))
+        (pin (num 9) (name GND) (type input))
+        (pin (num 10) (name DIN) (type input))
+        (pin (num 11) (name SCLK) (type input))
+        (pin (num 12) (name SYNC) (type input))
+        (pin (num 13) (name SDO) (type input))
+        (pin (num 14) (name RDY) (type input))))
+    (libpart (lib ddslib) (part AD8221)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AD8221))
+      (pins
+        (pin (num 1) (name -) (type input))
+        (pin (num 2) (name Rg) (type input))
+        (pin (num 3) (name Rg) (type input))
+        (pin (num 4) (name +) (type input))
+        (pin (num 5) (name V-) (type input))
+        (pin (num 6) (name REF) (type input))
+        (pin (num 7) (name OUT) (type input))
+        (pin (num 8) (name V+) (type input))))
+    (libpart (lib ddslib) (part AD9838)
+      (fields
+        (field (name Reference) DDS)
+        (field (name Value) AD9838))
+      (pins
+        (pin (num 1) (name AVDD) (type input))
+        (pin (num 2) (name DVDD) (type input))
+        (pin (num 3) (name DCAP/2.5V) (type input))
+        (pin (num 4) (name DGND) (type input))
+        (pin (num 5) (name MCLK) (type input))
+        (pin (num 6) (name FSELECT) (type input))
+        (pin (num 7) (name PSELECT) (type input))
+        (pin (num 8) (name RESET) (type input))
+        (pin (num 9) (name SLEEP) (type input))
+        (pin (num 10) (name SDATA) (type input))
+        (pin (num 11) (name SCLK) (type input))
+        (pin (num 12) (name FSYNC) (type input))
+        (pin (num 13) (name SIGN_BIT_OUT) (type input))
+        (pin (num 14) (name "VIN(Comparator)") (type input))
+        (pin (num 15) (name AGND) (type input))
+        (pin (num 16) (name IOUT) (type input))
+        (pin (num 17) (name IOUTB) (type input))
+        (pin (num 18) (name FSADJUST) (type input))
+        (pin (num 19) (name REFOUT) (type input))
+        (pin (num 20) (name COMP) (type input))))
+    (libpart (lib ddslib) (part MAX3002)
+      (description "MAX3000/3001/3002 Level translator, TSSOP package")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX3002))
+      (pins
+        (pin (num 1) (name io-Vl1) (type input))
+        (pin (num 2) (name Vl) (type input))
+        (pin (num 3) (name io-Vl2) (type input))
+        (pin (num 4) (name io-Vl3) (type input))
+        (pin (num 5) (name io-Vl4) (type input))
+        (pin (num 6) (name io-Vl5) (type input))
+        (pin (num 7) (name io-Vl6) (type input))
+        (pin (num 8) (name io-Vl7) (type input))
+        (pin (num 9) (name io-Vl8) (type input))
+        (pin (num 10) (name en) (type input))
+        (pin (num 11) (name GND) (type input))
+        (pin (num 12) (name io-Vcc8) (type input))
+        (pin (num 13) (name io-Vcc7) (type input))
+        (pin (num 14) (name io-Vcc6) (type input))
+        (pin (num 15) (name io-Vcc5) (type input))
+        (pin (num 16) (name io-Vcc4) (type input))
+        (pin (num 17) (name io-Vcc3) (type input))
+        (pin (num 18) (name io-Vcc2) (type input))
+        (pin (num 19) (name Vcc) (type input))
+        (pin (num 20) (name io-Vcc1) (type input))))
+    (libpart (lib ddslib) (part MAX338)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX338))
+      (pins
+        (pin (num 1) (name A0) (type input))
+        (pin (num 2) (name EN) (type input))
+        (pin (num 3) (name V-) (type input))
+        (pin (num 4) (name OUT1) (type input))
+        (pin (num 5) (name OUT2) (type input))
+        (pin (num 6) (name OUT3) (type input))
+        (pin (num 7) (name OUT4) (type input))
+        (pin (num 8) (name COM) (type input))
+        (pin (num 9) (name OUT8) (type input))
+        (pin (num 10) (name OUT7) (type input))
+        (pin (num 11) (name OUT6) (type input))
+        (pin (num 12) (name OUT5) (type input))
+        (pin (num 13) (name V+) (type input))
+        (pin (num 14) (name GND) (type input))
+        (pin (num 15) (name A2) (type input))
+        (pin (num 16) (name A1) (type input))))
+    (libpart (lib ddslib) (part MAX339)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX339))
+      (pins
+        (pin (num 1) (name A0) (type input))
+        (pin (num 2) (name EN) (type input))
+        (pin (num 3) (name V-) (type input))
+        (pin (num 4) (name OUTA1) (type input))
+        (pin (num 5) (name OUTA2) (type input))
+        (pin (num 6) (name OUTA3) (type input))
+        (pin (num 7) (name OUTA4) (type input))
+        (pin (num 8) (name INA) (type input))
+        (pin (num 9) (name INB) (type input))
+        (pin (num 10) (name OUTB4) (type input))
+        (pin (num 11) (name OUTB3) (type input))
+        (pin (num 12) (name OUTB2) (type input))
+        (pin (num 13) (name OUTB1) (type input))
+        (pin (num 14) (name V+) (type input))
+        (pin (num 15) (name GND) (type input))
+        (pin (num 16) (name A1) (type input))))
+    (libpart (lib ddslib) (part OP1177)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) OP1177))
+      (pins
+        (pin (num 2) (name -) (type input))
+        (pin (num 3) (name +) (type input))
+        (pin (num 4) (name V-) (type input))
+        (pin (num 6) (name OUT) (type input))
+        (pin (num 7) (name V+) (type input))))
+    (libpart (lib ddslib) (part SI5351A)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) SI5351A))
+      (pins
+        (pin (num 1) (name VDD) (type power_in))
+        (pin (num 2) (name XA) (type input))
+        (pin (num 3) (name XB) (type input))
+        (pin (num 4) (name SCL) (type input))
+        (pin (num 5) (name SDA) (type input))
+        (pin (num 6) (name CLK2) (type output))
+        (pin (num 7) (name VDDO) (type power_in))
+        (pin (num 9) (name CLK1) (type output))
+        (pin (num 10) (name CLK0) (type output))
+        (pin (num ~) (name GND) (type power_in)))))
+  (libraries
+    (library (logical conn)
+      (uri /usr/local/Cellar/kicad/HEAD/share/kicad/libraries/conn.lib))
+    (library (logical device)
+      (uri /usr/local/Cellar/kicad/HEAD/share/kicad/libraries/device.lib))
+    (library (logical ddslib)
+      (uri ddslib.lib)))
+  (nets
+    (net (code 1) (name "Net-(U3-Pad3)")
+      (node (ref U4) (pin 3))
+      (node (ref U3) (pin 3)))
+    (net (code 2) (name /GAIN_BUS0)
+      (node (ref U3) (pin 1)))
+    (net (code 3) (name /OUT_MUX1)
+      (node (ref U7) (pin 1)))
+    (net (code 4) (name /OUT_MUX0)
+      (node (ref U7) (pin 2)))
+    (net (code 5) (name /OUT_MUX3)
+      (node (ref U7) (pin 15)))
+    (net (code 6) (name /OUT_MUX2)
+      (node (ref U7) (pin 16)))
+    (net (code 7) (name "Net-(R5-Pad1)")
+      (node (ref U5) (pin 4))
+      (node (ref R5) (pin 1)))
+    (net (code 8) (name "Net-(R4-Pad1)")
+      (node (ref U5) (pin 5))
+      (node (ref R4) (pin 1)))
+    (net (code 9) (name "Net-(R3-Pad1)")
+      (node (ref R3) (pin 1))
+      (node (ref U5) (pin 6))
+      (node (ref U5) (pin 7)))
+    (net (code 10) (name "Net-(C27-Pad1)")
+      (node (ref U6) (pin 4))
+      (node (ref C27) (pin 1)))
+    (net (code 11) (name "Net-(C28-Pad1)")
+      (node (ref C28) (pin 1))
+      (node (ref U6) (pin 7)))
+    (net (code 12) (name AVSS)
+      (node (ref U3) (pin 2))
+      (node (ref U7) (pin 3))
+      (node (ref C17) (pin 1))
+      (node (ref C16) (pin 1))
+      (node (ref C33) (pin 1))
+      (node (ref C34) (pin 1))
+      (node (ref U1) (pin 3))
+      (node (ref U5) (pin 3))
+      (node (ref C29) (pin 1))
+      (node (ref C30) (pin 1)))
+    (net (code 13) (name "Net-(C5-Pad1)")
+      (node (ref C5) (pin 1)))
+    (net (code 14) (name AVDD)
+      (node (ref U1) (pin 13))
+      (node (ref U7) (pin 13))
+      (node (ref C26) (pin 1))
+      (node (ref U5) (pin 14))
+      (node (ref C32) (pin 1))
+      (node (ref C25) (pin 1))
+      (node (ref U3) (pin 6))
+      (node (ref C24) (pin 1))
+      (node (ref C23) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref C31) (pin 1)))
+    (net (code 15) (name /GAIN_BUS1)
+      (node (ref U3) (pin 10)))
+    (net (code 16) (name /GAIN_BUS2)
+      (node (ref U3) (pin 11)))
+    (net (code 17) (name /GAIN_BUS3)
+      (node (ref U3) (pin 12)))
+    (net (code 18) (name "Net-(U3-Pad13)")
+      (node (ref U3) (pin 13)))
+    (net (code 19) (name /GAIN_BUS4)
+      (node (ref U3) (pin 14)))
+    (net (code 20) (name "Net-(RV1-Pad3)")
+      (node (ref U4) (pin 2))
+      (node (ref RV1) (pin 3)))
+    (net (code 21) (name "Net-(U4-Pad6)")
+      (node (ref U4) (pin 6))
+      (node (ref U6) (pin 6))
+      (node (ref U6) (pin 2)))
+    (net (code 22) (name /MUXB5)
+      (node (ref U7) (pin 6))
+      (node (ref P5) (pin 6)))
+    (net (code 23) (name /MUXB7)
+      (node (ref P5) (pin 8))
+      (node (ref U7) (pin 7)))
+    (net (code 24) (name /MUXA7)
+      (node (ref P4) (pin 8))
+      (node (ref U7) (pin 9)))
+    (net (code 25) (name /MUXA5)
+      (node (ref P4) (pin 6))
+      (node (ref U7) (pin 10)))
+    (net (code 26) (name /MUXA3)
+      (node (ref U7) (pin 11))
+      (node (ref P4) (pin 4)))
+    (net (code 27) (name /MUXA1)
+      (node (ref P4) (pin 2))
+      (node (ref U7) (pin 12)))
+    (net (code 28) (name "Net-(C2-Pad1)")
+      (node (ref C2) (pin 1)))
+    (net (code 29) (name /MUXB1)
+      (node (ref U7) (pin 4))
+      (node (ref P5) (pin 2)))
+    (net (code 30) (name /MUXB3)
+      (node (ref U7) (pin 5))
+      (node (ref P5) (pin 4)))
+    (net (code 31) (name /MUXA2)
+      (node (ref P4) (pin 3))
+      (node (ref U1) (pin 11)))
+    (net (code 32) (name /MUXA0)
+      (node (ref U1) (pin 12))
+      (node (ref P4) (pin 1)))
+    (net (code 33) (name "Net-(C4-Pad1)")
+      (node (ref C4) (pin 1)))
+    (net (code 34) (name "Net-(C3-Pad1)")
+      (node (ref C3) (pin 1)))
+    (net (code 35) (name /IN_MUX1)
+      (node (ref U1) (pin 1)))
+    (net (code 36) (name /IN_MUX0)
+      (node (ref U1) (pin 2)))
+    (net (code 37) (name /IN_MUX3)
+      (node (ref U1) (pin 15)))
+    (net (code 38) (name /IN_MUX2)
+      (node (ref U1) (pin 16)))
+    (net (code 39) (name /MUXB0)
+      (node (ref U1) (pin 4))
+      (node (ref P5) (pin 1)))
+    (net (code 40) (name /MUXB2)
+      (node (ref P5) (pin 3))
+      (node (ref U1) (pin 5)))
+    (net (code 41) (name /MUXB4)
+      (node (ref U1) (pin 6))
+      (node (ref P5) (pin 5)))
+    (net (code 42) (name /MUXB6)
+      (node (ref P5) (pin 7))
+      (node (ref U1) (pin 7)))
+    (net (code 43) (name /MUXA6)
+      (node (ref U1) (pin 9))
+      (node (ref P4) (pin 7)))
+    (net (code 44) (name /MUXA4)
+      (node (ref P4) (pin 5))
+      (node (ref U1) (pin 10)))
+    (net (code 45) (name "Net-(R2-Pad1)")
+      (node (ref R2) (pin 1)))
+    (net (code 46) (name "Net-(DDS1-Pad17)")
+      (node (ref R1) (pin 2))
+      (node (ref U4) (pin 1))
+      (node (ref DDS1) (pin 17)))
+    (net (code 47) (name "Net-(U2-Pad2)")
+      (node (ref X1) (pin 1))
+      (node (ref U2) (pin 2)))
+    (net (code 48) (name /CLK_TWI0)
+      (node (ref U2) (pin 4)))
+    (net (code 49) (name /CLK_TWI1)
+      (node (ref U2) (pin 5)))
+    (net (code 50) (name "Net-(U2-Pad6)")
+      (node (ref U2) (pin 6)))
+    (net (code 51) (name DVDD_3V3)
+      (node (ref C8) (pin 2))
+      (node (ref C7) (pin 1))
+      (node (ref U8) (pin 2))
+      (node (ref C42) (pin 1))
+      (node (ref U9) (pin 2))
+      (node (ref C40) (pin 1))
+      (node (ref DDS1) (pin 2))
+      (node (ref C41) (pin 1))
+      (node (ref C39) (pin 1))
+      (node (ref U2) (pin 1))
+      (node (ref U2) (pin 7))
+      (node (ref C6) (pin 1)))
+    (net (code 52) (name "Net-(U2-Pad9)")
+      (node (ref U2) (pin 9)))
+    (net (code 53) (name "Net-(DDS1-Pad5)")
+      (node (ref DDS1) (pin 5))
+      (node (ref U2) (pin 10)))
+    (net (code 54) (name "Net-(RV4-Pad3)")
+      (node (ref RV4) (pin 3)))
+    (net (code 55) (name "Net-(RV3-Pad3)")
+      (node (ref RV3) (pin 3)))
+    (net (code 56) (name "Net-(R5-Pad2)")
+      (node (ref R5) (pin 2))
+      (node (ref RV2) (pin 2))
+      (node (ref RV2) (pin 1)))
+    (net (code 57) (name "Net-(R4-Pad2)")
+      (node (ref R4) (pin 2))
+      (node (ref RV3) (pin 1))
+      (node (ref RV3) (pin 2)))
+    (net (code 58) (name "Net-(R3-Pad2)")
+      (node (ref RV4) (pin 2))
+      (node (ref RV4) (pin 1))
+      (node (ref R3) (pin 2)))
+    (net (code 59) (name /RANGE_MUX1)
+      (node (ref U5) (pin 1)))
+    (net (code 60) (name /RANGE_MUX0)
+      (node (ref U5) (pin 2)))
+    (net (code 61) (name /RANGE_MUX2)
+      (node (ref U5) (pin 16)))
+    (net (code 68) (name /DDS_BUS3)
+      (node (ref DDS1) (pin 6)))
+    (net (code 69) (name /DDS_BUS4)
+      (node (ref DDS1) (pin 7)))
+    (net (code 70) (name /DDS_BUS5)
+      (node (ref DDS1) (pin 8)))
+    (net (code 71) (name /DDS_BUS6)
+      (node (ref DDS1) (pin 9)))
+    (net (code 72) (name /DDS_BUS0)
+      (node (ref DDS1) (pin 10)))
+    (net (code 73) (name "Net-(C10-Pad1)")
+      (node (ref DDS1) (pin 20))
+      (node (ref C10) (pin 1)))
+    (net (code 74) (name /DDS_BUS1)
+      (node (ref DDS1) (pin 11)))
+    (net (code 75) (name /DDS_BUS2)
+      (node (ref DDS1) (pin 12)))
+    (net (code 76) (name "Net-(DDS1-Pad13)")
+      (node (ref DDS1) (pin 13)))
+    (net (code 77) (name "Net-(DDS1-Pad14)")
+      (node (ref DDS1) (pin 14)))
+    (net (code 78) (name "Net-(DDS1-Pad16)")
+      (node (ref U4) (pin 4))
+      (node (ref DDS1) (pin 16)))
+    (net (code 79) (name "Net-(DDS1-Pad18)")
+      (node (ref DDS1) (pin 18)))
+    (net (code 80) (name "Net-(DDS1-Pad19)")
+      (node (ref DDS1) (pin 19)))
+    (net (code 81) (name "Net-(C19-Pad1)")
+      (node (ref C19) (pin 1)))
+    (net (code 82) (name "Net-(C22-Pad1)")
+      (node (ref C22) (pin 1)))
+    (net (code 83) (name "Net-(U2-Pad3)")
+      (node (ref X1) (pin 2))
+      (node (ref U2) (pin 3)))
+    (net (code 84) (name VDD)
+      (node (ref C20) (pin 1))
+      (node (ref U4) (pin 8)))
+    (net (code 85) (name VSS)
+      (node (ref C21) (pin 1))
+      (node (ref U4) (pin 5)))
+    (net (code 86) (name "Net-(RV1-Pad1)")
+      (node (ref RV1) (pin 1))
+      (node (ref RV1) (pin 2))
+      (node (ref U3) (pin 4))
+      (node (ref U3) (pin 5)))
+    (net (code 87) (name "Net-(RV2-Pad3)")
+      (node (ref U1) (pin 8))
+      (node (ref RV2) (pin 3))
+      (node (ref U6) (pin 3)))
+    (net (code 88) (name "Net-(U4-Pad7)")
+      (node (ref U4) (pin 7))
+      (node (ref U5) (pin 8)))
+    (net (code 89) (name AGND)
+      (node (ref U9) (pin 11))
+      (node (ref C9) (pin 1))
+      (node (ref C14) (pin 1))
+      (node (ref C13) (pin 2))
+      (node (ref C15) (pin 2))
+      (node (ref C39) (pin 2))
+      (node (ref C41) (pin 2))
+      (node (ref C35) (pin 2))
+      (node (ref C37) (pin 2))
+      (node (ref C38) (pin 2))
+      (node (ref C36) (pin 2))
+      (node (ref C42) (pin 2))
+      (node (ref C40) (pin 2))
+      (node (ref C7) (pin 2))
+      (node (ref C8) (pin 1))
+      (node (ref C34) (pin 2))
+      (node (ref C33) (pin 2))
+      (node (ref C24) (pin 2))
+      (node (ref C23) (pin 2))
+      (node (ref C17) (pin 2))
+      (node (ref C16) (pin 2))
+      (node (ref C18) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref C22) (pin 2))
+      (node (ref C19) (pin 2))
+      (node (ref C20) (pin 2))
+      (node (ref C29) (pin 2))
+      (node (ref C30) (pin 2))
+      (node (ref DDS1) (pin 15))
+      (node (ref C21) (pin 2))
+      (node (ref U5) (pin 15))
+      (node (ref DDS1) (pin 4))
+      (node (ref U2) (pin ~))
+      (node (ref R1) (pin 1))
+      (node (ref R2) (pin 2))
+      (node (ref U1) (pin 14))
+      (node (ref C3) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref C31) (pin 2))
+      (node (ref U3) (pin 9))
+      (node (ref C25) (pin 2))
+      (node (ref C26) (pin 2))
+      (node (ref C11) (pin 1))
+      (node (ref C12) (pin 1))
+      (node (ref C5) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref C28) (pin 2))
+      (node (ref C27) (pin 2))
+      (node (ref U7) (pin 14))
+      (node (ref C32) (pin 2))
+      (node (ref P3) (pin 4))
+      (node (ref U7) (pin 8))
+      (node (ref C2) (pin 2)))
+    (net (code 90) (name "Net-(C9-Pad2)")
+      (node (ref DDS1) (pin 3))
+      (node (ref C9) (pin 2)))
+    (net (code 91) (name /powergen/MUXVSS)
+      (node (ref P3) (pin 6)))
+    (net (code 92) (name /MUXCOM2)
+      (node (ref U8) (pin 14))
+      (node (ref P3) (pin 2)))
+    (net (code 93) (name /MUXCOM0)
+      (node (ref U8) (pin 12))
+      (node (ref P3) (pin 5)))
+    (net (code 94) (name /MUXD0)
+      (node (ref P2) (pin 1))
+      (node (ref U9) (pin 12)))
+    (net (code 95) (name /MUXD1)
+      (node (ref P2) (pin 2))
+      (node (ref U9) (pin 13)))
+    (net (code 96) (name /MUXD2)
+      (node (ref U9) (pin 14))
+      (node (ref P2) (pin 3)))
+    (net (code 97) (name /MUXD3)
+      (node (ref U9) (pin 15))
+      (node (ref P2) (pin 4)))
+    (net (code 98) (name /MUXD4)
+      (node (ref P2) (pin 5))
+      (node (ref U9) (pin 16)))
+    (net (code 99) (name "Net-(C15-Pad1)")
+      (node (ref C15) (pin 1))
+      (node (ref U3) (pin 7)))
+    (net (code 100) (name AVDD_3V3)
+      (node (ref U3) (pin 8))
+      (node (ref DDS1) (pin 1))
+      (node (ref C11) (pin 2))
+      (node (ref C12) (pin 2))
+      (node (ref C18) (pin 1))
+      (node (ref C10) (pin 2)))
+    (net (code 101) (name "Net-(C13-Pad1)")
+      (node (ref C13) (pin 1)))
+    (net (code 102) (name "Net-(C14-Pad2)")
+      (node (ref C14) (pin 2)))
+    (net (code 103) (name /powergen/MUXVDD)
+      (node (ref P3) (pin 1)))
+    (net (code 104) (name "Net-(U8-Pad11)")
+      (node (ref U8) (pin 11)))
+    (net (code 105) (name DVDD_2V5)
+      (node (ref C37) (pin 1))
+      (node (ref C35) (pin 1))
+      (node (ref U8) (pin 19))
+      (node (ref U9) (pin 19))
+      (node (ref C38) (pin 1))
+      (node (ref C36) (pin 1)))
+    (net (code 106) (name "Net-(U9-Pad18)")
+      (node (ref U9) (pin 18)))
+    (net (code 107) (name "Net-(U9-Pad17)")
+      (node (ref U9) (pin 17)))
+    (net (code 108) (name /LogicTranslators/UCOUT14)
+      (node (ref P6) (pin 29))
+      (node (ref U9) (pin 5)))
+    (net (code 109) (name /LogicTranslators/UCOUT9)
+      (node (ref U9) (pin 10))
+      (node (ref P6) (pin 19)))
+    (net (code 110) (name /LogicTranslators/UCOUT13)
+      (node (ref U9) (pin 6))
+      (node (ref P6) (pin 27)))
+    (net (code 111) (name /LogicTranslators/UCOUT8)
+      (node (ref U8) (pin 10))
+      (node (ref P6) (pin 17)))
+    (net (code 112) (name /LogicTranslators/UCOUT2)
+      (node (ref U8) (pin 4))
+      (node (ref P6) (pin 5)))
+    (net (code 113) (name /LogicTranslators/UCOUT1)
+      (node (ref U8) (pin 3))
+      (node (ref P6) (pin 3)))
+    (net (code 114) (name /LogicTranslators/UCOUT0)
+      (node (ref U8) (pin 1))
+      (node (ref P6) (pin 1)))
+    (net (code 115) (name /LogicTranslators/UCOUT12)
+      (node (ref P6) (pin 25))
+      (node (ref U9) (pin 7)))
+    (net (code 116) (name /LogicTranslators/UCOUT7)
+      (node (ref P6) (pin 15))
+      (node (ref U8) (pin 9)))
+    (net (code 117) (name /LogicTranslators/UCOUT11)
+      (node (ref P6) (pin 23))
+      (node (ref U9) (pin 8)))
+    (net (code 118) (name /LogicTranslators/UCOUT6)
+      (node (ref P6) (pin 13))
+      (node (ref U8) (pin 8)))
+    (net (code 119) (name /LogicTranslators/UCOUT10)
+      (node (ref U9) (pin 9))
+      (node (ref P6) (pin 21)))
+    (net (code 120) (name /LogicTranslators/UCOUT5)
+      (node (ref U8) (pin 7))
+      (node (ref P6) (pin 11)))
+    (net (code 121) (name /LogicTranslators/UCOUT4)
+      (node (ref U8) (pin 6))
+      (node (ref P6) (pin 9)))
+    (net (code 122) (name /LogicTranslators/UCOUT3)
+      (node (ref U8) (pin 5))
+      (node (ref P6) (pin 7)))
+    (net (code 123) (name "Net-(U9-Pad20)")
+      (node (ref U9) (pin 20)))
+    (net (code 124) (name "Net-(U9-Pad4)")
+      (node (ref U9) (pin 4)))
+    (net (code 125) (name "Net-(U9-Pad3)")
+      (node (ref U9) (pin 3)))
+    (net (code 126) (name "Net-(U9-Pad1)")
+      (node (ref U9) (pin 1)))
+    (net (code 127) (name /LogicTranslators/DDS_BUS0)
+      (node (ref P6) (pin 12)))
+    (net (code 128) (name /LogicTranslators/DDS_BUS1)
+      (node (ref P6) (pin 14)))
+    (net (code 129) (name /LogicTranslators/DDS_BUS2)
+      (node (ref P6) (pin 16)))
+    (net (code 130) (name /LogicTranslators/DDS_BUS3)
+      (node (ref P6) (pin 18)))
+    (net (code 131) (name /LogicTranslators/DDS_BUS4)
+      (node (ref P6) (pin 20)))
+    (net (code 132) (name /LogicTranslators/DDS_BUS5)
+      (node (ref P6) (pin 22)))
+    (net (code 133) (name /LogicTranslators/DDS_BUS6)
+      (node (ref P6) (pin 24)))
+    (net (code 134) (name /LogicTranslators/CLOCK_TWI0)
+      (node (ref P6) (pin 8)))
+    (net (code 135) (name /LogicTranslators/CLOCK_TWI1)
+      (node (ref P6) (pin 10)))
+    (net (code 136) (name /LogicTranslators/RANGE_MUX0)
+      (node (ref P6) (pin 26)))
+    (net (code 137) (name /LogicTranslators/RANGE_MUX1)
+      (node (ref P6) (pin 28)))
+    (net (code 138) (name /LogicTranslators/RANGE_MUX2)
+      (node (ref P6) (pin 30)))
+    (net (code 139) (name /LogicTranslators/GAIN_BUS0)
+      (node (ref P6) (pin 32)))
+    (net (code 140) (name /MUXCOM1)
+      (node (ref U8) (pin 13))
+      (node (ref P3) (pin 3)))
+    (net (code 141) (name /LogicTranslators/GAIN_BUS1)
+      (node (ref P6) (pin 34)))
+    (net (code 142) (name /LogicTranslators/GAIN_BUS2)
+      (node (ref P6) (pin 36)))
+    (net (code 143) (name /LogicTranslators/GAIN_BUS3)
+      (node (ref P6) (pin 38)))
+    (net (code 144) (name /LogicTranslators/GAIN_BUS4)
+      (node (ref P6) (pin 40)))
+    (net (code 145) (name /LogicTranslators/OUT_MUX0)
+      (node (ref P6) (pin 39)))
+    (net (code 146) (name /LogicTranslators/OUT_MUX1)
+      (node (ref P6) (pin 2)))
+    (net (code 147) (name /LogicTranslators/OUT_MUX2)
+      (node (ref P6) (pin 4)))
+    (net (code 148) (name /LogicTranslators/OUT_MUX3)
+      (node (ref P6) (pin 6)))
+    (net (code 149) (name /LogicTranslators/IN_MUX0)
+      (node (ref P6) (pin 31)))
+    (net (code 150) (name /LogicTranslators/IN_MUX1)
+      (node (ref P6) (pin 33)))
+    (net (code 151) (name /LogicTranslators/IN_MUX2)
+      (node (ref P6) (pin 35)))
+    (net (code 152) (name /LogicTranslators/IN_MUX3)
+      (node (ref P6) (pin 37)))
+    (net (code 153) (name /MUXC0)
+      (node (ref P1) (pin 1))
+      (node (ref U8) (pin 20)))
+    (net (code 154) (name /MUXC1)
+      (node (ref U8) (pin 18))
+      (node (ref P1) (pin 2)))
+    (net (code 155) (name /MUXC2)
+      (node (ref P1) (pin 3))
+      (node (ref U8) (pin 17)))
+    (net (code 156) (name /MUXC3)
+      (node (ref U8) (pin 16))
+      (node (ref P1) (pin 4)))
+    (net (code 157) (name /MUXC4)
+      (node (ref U8) (pin 15))
+      (node (ref P1) (pin 5)))))

@@ -31,14 +31,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:ddslib
 LIBS:demuxcomplib
-LIBS:noname-cache
-EELAYER 27 0
+LIBS:tDCS_driver-cache
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "noname.sch"
-Date "25 jan 2014"
+Date "26 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1778,7 +1778,7 @@ OUT_MUX[0…3]
 Text Label 1100 1650 2    60   ~ 0
 IN_MUX
 Text Label 3250 1100 0    60   ~ 0
-RANGE_MUX
+RANGE_MUX[0..2]
 Text Label 3250 1200 0    60   ~ 0
 GAIN_BUS
 Text Label 3250 1300 0    60   ~ 0

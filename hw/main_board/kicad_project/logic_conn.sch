@@ -31,14 +31,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:ddslib
 LIBS:demuxcomplib
-LIBS:noname-cache
-EELAYER 27 0
+LIBS:tDCS_driver-cache
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "5 oct 2013"
+Date "26 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -671,4 +671,95 @@ Text HLabel 2250 2500 0    60   Input ~ 0
 MUXCOM[0...2]
 Text HLabel 2200 2700 0    60   Input ~ 0
 MUXD[0...4]
+$Comp
+L CONN_20X2 P6
+U 1 1 530D6B88
+P 9050 1550
+F 0 "P6" H 9050 2600 60  0000 C CNN
+F 1 "CONN_20X2" V 9050 1550 50  0000 C CNN
+F 2 "" H 9050 1550 60  0000 C CNN
+F 3 "" H 9050 1550 60  0000 C CNN
+	1    9050 1550
+	1    0    0    -1  
+$EndComp
+Text Label 8650 600  2    60   ~ 0
+UCOUT0
+Text Label 8650 700  2    60   ~ 0
+UCOUT1
+Text Label 8650 800  2    60   ~ 0
+UCOUT2
+Text Label 8650 900  2    60   ~ 0
+UCOUT3
+Text Label 8650 1000 2    60   ~ 0
+UCOUT4
+Text Label 8650 1100 2    60   ~ 0
+UCOUT5
+Text Label 8650 1200 2    60   ~ 0
+UCOUT6
+Text Label 8650 1300 2    60   ~ 0
+UCOUT7
+Text Label 8650 1400 2    60   ~ 0
+UCOUT8
+Text Label 8650 1500 2    60   ~ 0
+UCOUT9
+Text Label 8650 1600 2    60   ~ 0
+UCOUT10
+Text Label 8650 1700 2    60   ~ 0
+UCOUT11
+Text Label 8650 1800 2    60   ~ 0
+UCOUT12
+Text Label 8650 1900 2    60   ~ 0
+UCOUT13
+Text Label 8650 2000 2    60   ~ 0
+UCOUT14
+Text Label 8650 2100 2    60   ~ 0
+UCOUT15
+Text Label 8650 2200 2    60   ~ 0
+UCOUT16
+Text Label 8650 2300 2    60   ~ 0
+UCOUT17
+Text Label 8650 2400 2    60   ~ 0
+UCOUT18
+Text Label 8650 2500 2    60   ~ 0
+UCOUT19
+Text Label 9450 600  0    60   ~ 0
+UCOUT20
+Text Label 9450 700  0    60   ~ 0
+UCOUT21
+Text Label 9450 800  0    60   ~ 0
+UCOUT22
+Text Label 9450 900  0    60   ~ 0
+UCOUT23
+Text Label 9450 1000 0    60   ~ 0
+UCOUT24
+Text Label 9450 1100 0    60   ~ 0
+UCOUT25
+Text Label 9450 1200 0    60   ~ 0
+UCOUT26
+Text Label 9450 1300 0    60   ~ 0
+UCOUT27
+Text Label 9450 1400 0    60   ~ 0
+UCOUT28
+Text Label 9450 1500 0    60   ~ 0
+UCOUT29
+Text Label 9450 1600 0    60   ~ 0
+UCOUT30
+Text Label 9450 1700 0    60   ~ 0
+UCOUT31
+Text Label 9450 1800 0    60   ~ 0
+UCOUT32
+Text Label 9450 1900 0    60   ~ 0
+UCOUT33
+Text Label 9450 2000 0    60   ~ 0
+UCOUT34
+Text Label 9450 2100 0    60   ~ 0
+UCOUT35
+Text Label 9450 2200 0    60   ~ 0
+UCOUT36
+Text Label 9450 2300 0    60   ~ 0
+UCOUT37
+Text Label 9450 2400 0    60   ~ 0
+UCOUT38
+Text Label 9450 2500 0    60   ~ 0
+UCOUT39
 $EndSCHEMATC

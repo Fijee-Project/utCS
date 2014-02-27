@@ -1,8 +1,10 @@
-update=Friday, January 31, 2014 05:30:23 PM
-last_client=kicad
+update=Tuesday, February 25, 2014 08:05:03 PM
+last_client=cvpcb
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=/usr/local/Cellar/kicad/HEAD/share/kicad/libraries;/usr/local/Cellar/kicad/HEAD/share/kicad/modules;../../conductance
+LibDir=/usr/local/Cellar/kicad/HEAD/share/kicad/libraries;/usr/local/Cellar/kicad/HEAD/share/kicad/modules;/Users/ashmakov/Library/Application Support/kicad/library;/Users/ashmakov/Library/Application Support/kicad/modules
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -41,5 +43,27 @@ LibName29=contrib
 LibName30=valves
 LibName31=ddslib
 LibName32=demuxcomplib
-[general]
+[pcbnew]
 version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.400000000000
+PadSizeV=1.400000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.500000000000
+ModuleTextSizeH=1.500000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.200000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net

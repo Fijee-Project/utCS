@@ -1,0 +1,15 @@
+######################################################
+##  Design Notes for TDCS power supply driver
+##  File: design_notes/power_budget
+##  Author: Andrey Shmakov
+##  Copyright/Licensing: 
+##  Revision: 1 (2/2014)
+######################################################
+ 
+
+
+This is a low power application, power budget is high estimates
+
+Motherboard IC's 
+
+AD9838, DDS, +3.3V rail 
