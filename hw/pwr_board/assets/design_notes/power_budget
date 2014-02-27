@@ -10,6 +10,76 @@
 
 This is a low power application, power budget is high estimates
 
-Motherboard IC's 
 
-AD9838, DDS, +3.3V rail 
+1. Itemized power budget
+
+---Motherboard IC's ---
+
+AD9838 (DDS):
++3.3V rail: 6mA
+
+AD5292 (Gain select digital pot):
+No current through resistor part 
+
++3.3V rail: 10mA
++15V rail: <1mA
+-15V rail: <1mA
+
+
+MAX338 (In/out de/mux):
+Values are for 2 ic's
+
++15V rail: <10mA
+-15V rail: <10mA
+
+Max339 (current range de/mux):
+
++15V rail: < 10mA
+-15V rail: < 10mA
+
+AD8221 (instrumentation amp: Current Driver):
+
++15V rail: <10mA
+-15V rail: < 10mA
+
+Si5351A (clock generator):
+
+3.3V rail: <10mA
+
+OP1177 (feeedback opamp):
+
++15V rail: <1mA
+-15V rail: <1mA
+
+Max3002 (logic translator):
+2x
+
+3.3V rail: <1ma per line, total <10mA
+2.5V raiil: 
+
+--daughterboard IC's --
+Values are per daughterboard, 256 probe system uses 4 daughter boards
+
+ADG732: 
+
++2.5V (A): 100uA
+-2.5V (A): 100uA
+
+
+
+2. PSU design max goals
+
+Rails: +3.3V, +-2.5V, +-15V
+
++3.3V (primary logic driver): 250mA
++15V (Hi analog rail): 50mA
+-15V (Lo analog rail): 50mA
++2.5V (Hi mux rail): 50mA
+-2.5V (Lo mux rail): 50mA
+
+
+3. PSU general layout
+
+Dual Rail, 
+
+Master(switching)PSU 
