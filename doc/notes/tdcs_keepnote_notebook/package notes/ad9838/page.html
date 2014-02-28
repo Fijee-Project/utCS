@@ -3,12 +3,56 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>AD9838</title>
-</head><body><a href="nbk:///1ce3ff26-2185-449c-8b74-9d217f9793fa">datasheet</a>&nbsp;and <a href="nbk:///fc8909ba-dcac-4ee4-b6ee-7dc06689c02c">AN-772 </a>design note are the primary soruces of information<br/>
+</head><body><a href="nbk:///1ce3ff26-2185-449c-8b74-9d217f9793fa">datasheet</a>&nbsp;and <a href="nbk:///fc8909ba-dcac-4ee4-b6ee-7dc06689c02c">AN-772 </a>design note are the primary soruces of information, uses LFCSP-20<br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <img src="screenshot from 2014-02-27 160221.png" /><br/>
+<br/>
+<img src="screenshot from 2014-02-27 161731.png" /><br/>
+<br/>
+<br/>
+ZDmax = Dmin + 2J_t + T_t = 3.9 + 2*0.1 + .31 = 4.4mm<br/>
+<br/>
+ZDmax is the max landing pattern dimension ZD = ZE for this package<br/>
+<br/>
+Dmin is the package minimum width Dmin = 3.9mm<br/>
+<br/>
+J_t is &nbsp;the minimum dimension of the toe fillet for a succesful solder joint J_t &gt; 0.1mm<br/>
+<br/>
+T_t is the tolerance of the toe fillet tollerance, which is the sum of the tollerances for the placement, board, and component. Tt ~ .31mm<br/>
+<br/>
+<br/>
+<br/>
+GDmin &gt;= ADMax + 2*C_LL = 2.25mm + 0.15mm = 2.4mm<br/>
+<br/>
+GDmin is the minimum distance between the inside edges of opposite traces<br/>
+<br/>
+C_LL is the corner clearance, set to 0.1 mm<br/>
+<br/>
+ADMax is the max width across a side of pads, = Lead_pitch * (# of leads -1) +pad width = 0.5mm (4) + .25 = 2.25mm<br/>
+<br/>
+<br/>
+<br/>
+Y = (ZDmax - GDmin)/2 = 1mm<br/>
+<br/>
+Y is length of pad<br/>
+<br/>
+<br/>
+D2 = GD_min - 2CPL = 2.4mm - 2*.25mm = 1.9mm<br/>
+<br/>
+D2 is the inner thermal padle dimension, Cpl is the clearance bretween the inner edge of the pad and the exposed pad, set at .25mm<br/>
+<br/>
+<br/>
+<br/>
+Final Pad design<br/>
+<br/>
+<img src="screenshot from 2014-02-27 181038.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>

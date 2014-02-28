@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>MAX338-MAX339.pdf</string>
+  <key>nodeid</key><string>3f87456b-c246-432e-ae72-b7fbb85d4a27</string>
+  <key>modified_time</key><integer>1393556911</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>max338-max339.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1393556911</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>3</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

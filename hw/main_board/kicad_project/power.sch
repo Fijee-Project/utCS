@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:ddslib
 LIBS:demuxcomplib
+LIBS:tdsc-kicad-convert
 LIBS:tDCS_driver-cache
 EELAYER 24 0
 EELAYER END
