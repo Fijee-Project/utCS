@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  Fri 28 Feb 2014 06:26:11 PM PST
+PCBNEW-LibModule-V1  Fri 28 Feb 2014 07:54:44 PM PST
 # encoding utf-8
 Units mm
 $INDEX
+0603
 3224X
 ECX_53B
 LFCSP20_WQ
@@ -12,13 +13,41 @@ QSOP_16
 SOIC_N-8
 TQFN-EP_16_5x5mm
 TSSOP_14
+TSSOP_20
 $EndINDEX
+$MODULE 0603
+Po 0 0 0 15 53114A8A 00000000 ~~
+Li 0603
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 4.4 -1.9 1.5 1.5 0 0.15 N V 21 N "0603"
+T1 4.8 2.1 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -0.5 0.8 0.5 0.8 0.15 21
+DS -0.5 -0.8 0.5 -0.8 0.15 21
+$PAD
+Sh "1" R 1.1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.85 0
+$EndPAD
+$PAD
+Sh "2" R 1.1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.85 0
+$EndPAD
+$EndMODULE 0603
 $MODULE 3224X
 Po 0 0 0 15 53113E81 00000000 ~~
 Li 3224X
 Sc 0
 AR 
 Op 0 0 0
+At SMD
 T0 5.6 -4.6 1.5 1.5 0 0.15 N V 21 N "3224X"
 T1 5.6 4.5 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS 1.9 1.5 1.9 2.6 0.15 21
@@ -56,6 +85,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 8.1 -3.8 1.5 1.5 0 0.15 N V 21 N "ECX_53B"
 T1 6.9 3.8 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS -3.1 0.2 -2.6 0.2 0.15 21
@@ -99,6 +129,7 @@ Li LFCSP20_WQ
 Sc 0
 AR 
 Op 0 0 0
+At SMD
 T0 0.8 -3.5 1.5 1.5 0 0.15 N V 21 N "LFCSP20_WQ"
 T1 -0.1 4.2 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS -2.1 -2.1 -2.4 -2.4 0.15 21
@@ -286,6 +317,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 6.7 -3.7 1.5 1.5 1800 0.15 N V 21 N "MSOP-10"
 T1 4.9 3.8 1.5 1.5 1800 0.15 N V 21 N "VAL**"
 DS 1.6 1.4 1.6 1.6 0.15 21
@@ -373,6 +405,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 6.8 -3.4 1.5 1.5 0 0.15 N V 21 N "MSOP_8"
 T1 5.9 3.5 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS 1.7 1.7 -1.7 1.7 0.15 21
@@ -445,6 +478,7 @@ Li N-SO-16
 Sc 0
 AR 
 Op 0 0 0
+At SMD
 T0 7.7 -7.6 1.5 1.5 1800 0.15 N V 21 N "N-SO-16"
 T1 5.6 7.9 1.5 1.5 1800 0.15 N V 21 N "VAL**"
 DS 2 5.1 -2 5.1 0.15 21
@@ -569,6 +603,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 9 -4.9 1.5 1.5 0 0.15 N V 21 N "QSOP_16"
 T1 7.4 4.5 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS 2.2 2.6 -2.2 2.6 0.15 21
@@ -692,6 +727,7 @@ Li SOIC_N-8
 Sc 0
 AR 
 Op 0 0 0
+At SMD
 T0 9.5 -4.7 1.5 1.5 0 0.15 N V 21 N "SOIC_N-8"
 T1 7.5 4.6 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS 2 2.7 -2 2.7 0.15 21
@@ -761,6 +797,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 7.6 -3.9 1.5 1.5 0 0.15 N V 21 N "TQFN_16"
 T1 6.3 4.1 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS -2.6 -2.6 -3 -3 0.15 21
@@ -892,6 +929,7 @@ Sc 0
 AR 
 Op 0 0 0
 .LocalClearance 0.1
+At SMD
 T0 8.6 -2.4 1.5 1.5 0 0.15 N V 21 N "TSSOP_14"
 T1 6.7 3 1.5 1.5 0 0.15 N V 21 N "VAL**"
 DS 2.4 -2.3 2.8 -2.3 0.15 21
@@ -1000,4 +1038,157 @@ Ne 0 ""
 Po 0 -3.5
 $EndPAD
 $EndMODULE TSSOP_14
+$MODULE TSSOP_20
+Po 0 0 0 15 5311517F 00000000 ~~
+Li TSSOP_20
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.1
+At SMD
+T0 7.6 -6 1.5 1.5 0 0.15 N V 21 N "TSSOP_20"
+T1 5.5 6.1 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS 2.3 3.4 -2.3 3.4 0.15 21
+DS 2.3 -3.4 -3.4 -3.4 0.15 21
+$PAD
+Sh "5" R 1 0.35 0 0 0
+Dr 0 0.5 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.5 -0.325
+$EndPAD
+$PAD
+Sh "4" R 1 0.35 0 0 0
+Dr 0 0.5 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.5 -0.975
+$EndPAD
+$PAD
+Sh "3" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -1.625
+$EndPAD
+$PAD
+Sh "2" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -2.275
+$EndPAD
+$PAD
+Sh "1" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -2.925
+$EndPAD
+$PAD
+Sh "6" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 0.325
+$EndPAD
+$PAD
+Sh "7" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 0.975
+$EndPAD
+$PAD
+Sh "8" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 1.625
+$EndPAD
+$PAD
+Sh "9" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 2.275
+$EndPAD
+$PAD
+Sh "10" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 2.925
+$EndPAD
+$PAD
+Sh "11" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 2.925
+$EndPAD
+$PAD
+Sh "12" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 2.275
+$EndPAD
+$PAD
+Sh "13" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 1.625
+$EndPAD
+$PAD
+Sh "14" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0.975
+$EndPAD
+$PAD
+Sh "15" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0.325
+$EndPAD
+$PAD
+Sh "16" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -0.325
+$EndPAD
+$PAD
+Sh "17" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -0.975
+$EndPAD
+$PAD
+Sh "18" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -1.625
+$EndPAD
+$PAD
+Sh "19" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -2.275
+$EndPAD
+$PAD
+Sh "20" R 1 0.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -2.925
+$EndPAD
+$EndMODULE TSSOP_20
 $EndLIBRARY
