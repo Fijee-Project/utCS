@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>tssop-20-maxim.PDF</string>
+  <key>nodeid</key><string>5e939e58-e55e-4faa-958d-6acdd1f1db9e</string>
+  <key>modified_time</key><integer>1393642513</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>tssop-20-maxim.PDF</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1393642513</integer>
+  <key>order</key><integer>15</integer>
+</dict>
+</node>
