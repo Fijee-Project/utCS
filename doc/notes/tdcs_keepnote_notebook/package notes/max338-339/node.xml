@@ -4,12 +4,12 @@
 <dict>
   <key>title</key><string>MAX338/339</string>
   <key>nodeid</key><string>b4b344bb-e180-477d-8583-0cb14d61ab81</string>
-  <key>modified_time</key><integer>1393559683</integer>
+  <key>modified_time</key><integer>1393633134</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1393557038</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>0</integer>
+  <key>order</key><integer>4</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>

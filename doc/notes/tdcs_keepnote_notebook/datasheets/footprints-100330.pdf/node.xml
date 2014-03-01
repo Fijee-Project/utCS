@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Footprints-100330.pdf</string>
+  <key>nodeid</key><string>74b2da13-bc54-4fd9-b7f1-dce4b5f61d05</string>
+  <key>modified_time</key><integer>1393634203</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>footprints-100330.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1393634203</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>8</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
