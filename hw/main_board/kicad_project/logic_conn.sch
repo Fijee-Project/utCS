@@ -37,7 +37,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 7
 Title ""
 Date "26 feb 2014"
 Rev ""
@@ -48,15 +48,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 6900 5400 2    60   ~ 0
-UCOUT39
+UCOUT40
 Text Label 6900 5300 2    60   ~ 0
-UCOUT38
+UCOUT39
 Text Label 6900 5200 2    60   ~ 0
-UCOUT37
+UCOUT38
 Text Label 6900 5100 2    60   ~ 0
-UCOUT36
+UCOUT37
 Text Label 6900 5000 2    60   ~ 0
-UCOUT35
+UCOUT36
 Text Label 7650 5400 2    60   ~ 0
 GAIN_BUS4
 Text Label 7650 5300 2    60   ~ 0
@@ -68,9 +68,9 @@ GAIN_BUS1
 Text Label 7650 5000 2    60   ~ 0
 GAIN_BUS0
 Text Label 8600 5550 2    60   ~ 0
-GAIN_BUS[0...4]
+GAIN_BUS[0..4]
 Text Label 8600 4800 2    60   ~ 0
-RANGE_MUX[0...2]
+RANGE_MUX[0..3]
 Wire Wire Line
 	7650 5400 6900 5400
 Wire Wire Line
@@ -263,7 +263,7 @@ DDS_BUS1
 Text Label 7650 3250 2    60   ~ 0
 DDS_BUS0
 Text Label 7950 4150 0    60   ~ 0
-DDS_BUS[0...6]
+DDS_BUS[0..6]
 Entry Wire Line
 	7650 3850 7750 3950
 Entry Wire Line
@@ -279,9 +279,9 @@ Entry Wire Line
 Entry Wire Line
 	7650 3250 7750 3350
 Text Label 2350 6300 0    60   ~ 0
-CLOCK_TWI[0...1]
+CLOCK_TWI[0..1]
 Text Label 2350 5950 0    60   ~ 0
-OUT_MUX[0...3]
+OUT_MUX[0..3]
 Text Label 3700 6050 0    60   ~ 0
 UCOUT24
 Text Label 3700 5950 0    60   ~ 0
@@ -337,7 +337,7 @@ IN_MUX1
 Text Label 3200 5150 0    60   ~ 0
 IN_MUX0
 Text Label 2350 5550 0    60   ~ 0
-IN_MUX[0...3]
+IN_MUX[0..3]
 Entry Wire Line
 	3100 5450 3200 5350
 Entry Wire Line
@@ -375,7 +375,7 @@ UCOUT1
 Text Label 4300 1300 0    60   ~ 0
 UCOUT0
 Text Label 2300 2700 0    60   ~ 0
-MUXD[0...4]
+MUXD[0..4]
 Entry Wire Line
 	2600 3400 2700 3500
 Entry Wire Line
@@ -507,9 +507,9 @@ F 3 "" H 4500 4200 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Text Label 2300 2500 0    60   ~ 0
-MUXCOM[0...2]
+MUXCOM[0..2]
 Text Label 2200 1050 1    60   ~ 0
-MUXC[0...4]
+MUXC[0..4]
 $Comp
 L DVDD_3V3 #PWR047
 U 1 1 523C1EE9
@@ -655,23 +655,23 @@ Entry Wire Line
 Text Notes 9550 3900 2    60   ~ 0
 Does not need 2wire pullups, \npulldowns needed for default\n on sleep/pselect/fselect (bit 6,7,9)
 Text HLabel 8650 4800 2    60   Input ~ 0
-RANGE_MUX[0...2]
+RANGE_MUX[0..3]
 Text HLabel 8700 5550 2    60   Input ~ 0
-GAIN_BUS[0...4]
+GAIN_BUS[0..4]
 Text HLabel 8650 4150 2    60   Input ~ 0
-DDS_BUS[0...6]
+DDS_BUS[0..6]
 Text HLabel 2300 5550 0    60   Input ~ 0
-IN_MUX[0...3]
+IN_MUX[0..3]
 Text HLabel 2300 5950 0    60   Input ~ 0
-OUT_MUX[0...3]
+OUT_MUX[0..3]
 Text HLabel 2300 6300 0    60   Input ~ 0
-CLOCK_TWI[0...1]
+CLOCK_TWI[0..1]
 Text HLabel 2100 1050 0    60   Input ~ 0
-MUXC[0...4]
+MUXC[0..4]
 Text HLabel 2250 2500 0    60   Input ~ 0
-MUXCOM[0...2]
+MUXCOM[0..2]
 Text HLabel 2200 2700 0    60   Input ~ 0
-MUXD[0...4]
+MUXD[0..4]
 $Comp
 L CONN_20X2 P6
 U 1 1 530D6B88
@@ -763,4 +763,12 @@ Text Label 9450 2400 0    60   ~ 0
 UCOUT38
 Text Label 9450 2500 0    60   ~ 0
 UCOUT39
+Entry Wire Line
+	7650 4500 7750 4600
+Wire Wire Line
+	7650 4500 6900 4500
+Text Label 6900 4500 2    60   ~ 0
+UCOUT35
+Text Label 7650 4500 2    60   ~ 0
+RANGE_MUX3
 $EndSCHEMATC

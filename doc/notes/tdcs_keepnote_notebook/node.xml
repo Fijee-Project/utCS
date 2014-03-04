@@ -14,9 +14,12 @@
     </dict>
   </array>
   <key>expanded</key><true/>
-  <key>title</key><string>tdcs_keepnote_notebook</string>
   <key>nodeid</key><string>a87ab540-9f63-4f14-89b6-078e22cd0bd0</string>
   <key>modified_time</key><integer>1393543714</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1393543714</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>title</key><string>tdcs_keepnote_notebook</string>
   <key>column_widths</key><dict>
     <key>created_time</key><integer>150</integer>
     <key>modified_time</key><integer>870</integer>
@@ -115,9 +118,6 @@
     </dict>
   </array>
   <key>version</key><integer>6</integer>
-  <key>content_type</key><string>application/x-notebook-dir</string>
-  <key>created_time</key><integer>1393543714</integer>
-  <key>info_sort_dir</key><integer>1</integer>
   <key>order</key><integer>0</integer>
   <key>info_sort</key><string>order</string>
 </dict>
