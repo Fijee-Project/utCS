@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>31151fa.pdf</string>
+  <key>nodeid</key><string>c5621a94-99c1-41e2-98f8-eb72172fc808</string>
+  <key>modified_time</key><integer>1393976421</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>31151fa.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1393976421</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>16</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
