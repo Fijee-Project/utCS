@@ -7,10 +7,10 @@
 <br/>
 <br/>
 What we've got to connect :)<br/>
+<b>1. </b>16 signal in/out lines (DB style output so we can split off pair for every input/output module)<br/>
 <br/>
+<b>2. </b>6 power lines (decided on PCI-e style 6 pin molex)<br/>
 41 microcontroller signal lines (oh boy) (decide single connector/multiple)<br/>
-6 power lines (decided on PCI-e style 6 pin molex)<br/>
-16 signal in/out lines (DB style output so we can split off pair for every input/output module)<br/>
 <br/>
 <br/>
 16 Mux control lines (fixed header position, may require redesign due to bottleneck?)<br/>
@@ -21,13 +21,32 @@ Decision most likely delays until after initial layout. <br/>
 <br/>
 <br/>
 <br/>
+<b>1.</b>&nbsp;Signal in/out lines will be split into 8 two conductor connectors from molex (<a href="nbk:///6d3b3b80-0d2c-4c0a-864c-66358d51472c">datasheet</a>) &nbsp;(2,54mm pitch SL wire to board header, 2 circuits, smd , molex part # 15-91-2025)<br/>
 <br/>
-Signal in/out lines will be split into 8 two conductor connectors from molex (<a href="nbk:///6d3b3b80-0d2c-4c0a-864c-66358d51472c">datasheet</a>) <br/>
+<br/>
 <br/>
 <img src="screenshot from 2014-03-11 171706.png" /><br/>
 <br/>
 <br/>
 <img src="screenshot from 2014-03-11 171818.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<b>2.<br/>
+<br/>
+</b>Decided on PCI-e style 6 pin molex power connector, "Mega-fit" Right-angle header (<a href="nbk:///831292da-311e-4f54-ad45-f196fc3905d9">datasheet</a>) (<a href="nbk:///9775178e-0efb-42be-8672-cb4929db6425">footprint</a>) molex part#172064-0006<br/>
+<br/>
+<img src="screenshot from 2014-03-14 152904.png" /><br/>
+<br/>
+<img src="screenshot from 2014-03-14 152926.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 </body></html>

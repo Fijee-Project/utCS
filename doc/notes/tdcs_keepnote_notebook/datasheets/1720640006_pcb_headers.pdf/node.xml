@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>1720640006_PCB_HEADERS.pdf</string>
+  <key>nodeid</key><string>831292da-311e-4f54-ad45-f196fc3905d9</string>
+  <key>modified_time</key><integer>1394835928</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>1720640006_pcb_headers.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1394835928</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>18</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

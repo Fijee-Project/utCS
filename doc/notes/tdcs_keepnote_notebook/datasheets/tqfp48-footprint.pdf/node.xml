@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>tqfp48-footprint.PDF</string>
+  <key>nodeid</key><string>6812d100-eeb3-4d96-8699-7e4b15b814da</string>
+  <key>modified_time</key><integer>1394858252</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>tqfp48-footprint.PDF</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1394858252</integer>
+  <key>order</key><integer>26</integer>
+</dict>
+</node>
