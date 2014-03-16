@@ -1,778 +1,704 @@
-# EESchema Netlist Version 1.1 created  Sun 16 Jun 2013 03:46:57 AM PDT
-(
- ( /51BD80F1 $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 VDD )
-  (    2 VSS )
- )
- ( /51BD80AF $noname  P3 CONN_4 {Lib=CONN_4}
-  (    1 /CS )
-  (    2 /WR )
-  (    3 GND )
-  (    4 /EN )
- )
- ( /51BD4EC4 $noname  C8 CP2 {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /51BD4EB8 $noname  C7 CP2 {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /51BD4E0A $noname  P2 CONN_5 {Lib=CONN_5}
-  (    1 /B0 )
-  (    2 /B1 )
-  (    3 /B2 )
-  (    4 /B3 )
-  (    5 /B4 )
- )
- ( /51BD4E06 $noname  P1 CONN_5 {Lib=CONN_5}
-  (    1 /A0 )
-  (    2 /A1 )
-  (    3 /A2 )
-  (    4 /A3 )
-  (    5 /A4 )
- )
- ( /51BD4D9D $noname  SCREW4 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /51BD4D99 $noname  SCREW3 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /51BD4D95 $noname  SCREW2 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /51BD4D75 $noname  SCREW1 CONN_1 {Lib=CONN_1}
-  (    1 ? )
- )
- ( /51BD4BBE $noname  J2 DB37 {Lib=DB37}
-  (    1 /OUTB1 )
-  (    2 /OUTB3 )
-  (    3 /OUTB5 )
-  (    4 /OUTB7 )
-  (    5 /OUTB9 )
-  (    6 /OUTB11 )
-  (    7 /OUTB13 )
-  (    8 /OUTB15 )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 /OUTB31 )
-  (   13 /OUTB29 )
-  (   14 /OUTB27 )
-  (   15 /OUTB25 )
-  (   16 /OUTB23 )
-  (   17 /OUTB21 )
-  (   18 /OUTB19 )
-  (   19 /OUTB17 )
-  (   20 /OUTB2 )
-  (   21 /OUTB4 )
-  (   22 /OUTB6 )
-  (   23 /OUTB8 )
-  (   24 /OUTB10 )
-  (   25 /OUTB12 )
-  (   26 /OUTB14 )
-  (   27 /OUTB16 )
-  (   28 /IN2' )
-  (   29 /IN2 )
-  (   30 /OUTB32 )
-  (   31 /OUTB30 )
-  (   32 /OUTB28 )
-  (   33 /OUTB26 )
-  (   34 /OUTB24 )
-  (   35 /OUTB22 )
-  (   36 /OUTB20 )
-  (   37 /OUTB18 )
- )
- ( /51BD4A4A $noname  J1 DB37 {Lib=DB37}
-  (    1 /OUTA17 )
-  (    2 /OUTA19 )
-  (    3 /OUTA21 )
-  (    4 /OUTA23 )
-  (    5 /OUTA25 )
-  (    6 /OUTA27 )
-  (    7 /OUTA29 )
-  (    8 /OUTA31 )
-  (    9 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 /OUTA15 )
-  (   13 /OUTA13 )
-  (   14 /OUTA11 )
-  (   15 /OUTA9 )
-  (   16 /OUTA7 )
-  (   17 /OUTA5 )
-  (   18 /OUTA3 )
-  (   19 /OUTA1 )
-  (   20 /OUTA18 )
-  (   21 /OUTA20 )
-  (   22 /OUTA22 )
-  (   23 /OUTA24 )
-  (   24 /OUTA26 )
-  (   25 /OUTA28 )
-  (   26 /OUTA30 )
-  (   27 /OUTA32 )
-  (   28 /IN1 )
-  (   29 /IN1' )
-  (   30 /OUTA16 )
-  (   31 /OUTA14 )
-  (   32 /OUTA12 )
-  (   33 /OUTA10 )
-  (   34 /OUTA8 )
-  (   35 /OUTA6 )
-  (   36 /OUTA4 )
-  (   37 /OUTA2 )
- )
- ( /51BD48FE $noname  C3 CP1 {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /51BD48ED $noname  C4 CP1 {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /51BD48D4 $noname  C5 CP1 {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /51BD489B $noname  C6 CP1 {Lib=CP1}
-  (    1 GND )
-  (    2 VSS )
- )
- ( /51BD47C2 $noname  C1 CP1 {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /51BD47A8 $noname  C2 CP1 {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /51BD4793 $noname  C10 CP1 {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /51BD4738 $noname  C9 CP1 {Lib=CP1}
-  (    1 VDD )
-  (    2 GND )
- )
- ( /51BD4630 $noname  MUX3 ADG732 {Lib=ADG732}
-  (    1 /OUTB28 )
-  (    2 /OUTB27 )
-  (    3 /OUTB26 )
-  (    4 /OUTB25 )
-  (    5 /OUTB24 )
-  (    6 /OUTB23 )
-  (    7 /OUTB22 )
-  (    8 /OUTB21 )
-  (    9 /OUTB20 )
-  (   10 /OUTB19 )
-  (   11 /OUTB18 )
-  (   12 /OUTB17 )
-  (   13 VDD )
-  (   14 VDD )
-  (   15 /B0 )
-  (   16 /B1 )
-  (   17 /B2 )
-  (   18 /B3 )
-  (   19 /B4 )
-  (   20 /CS )
-  (   21 /WR )
-  (   22 /EN )
-  (   23 GND )
-  (   24 VSS )
-  (   25 /OUTB1 )
-  (   26 /OUTB2 )
-  (   27 /OUTB3 )
-  (   28 /OUTB4 )
-  (   29 /OUTB5 )
-  (   30 /OUTB6 )
-  (   31 /OUTB7 )
-  (   32 /OUTB8 )
-  (   33 /OUTB9 )
-  (   34 /OUTB10 )
-  (   35 /OUTB11 )
-  (   36 /OUTB12 )
-  (   37 /OUTB13 )
-  (   38 /OUTB14 )
-  (   39 /OUTB15 )
-  (   40 /OUTB16 )
-  (   41 ? )
-  (   42 ? )
-  (   43 /IN2' )
-  (   44 ? )
-  (   45 /OUTB32 )
-  (   46 /OUTB31 )
-  (   47 /OUTB30 )
-  (   48 /OUTB29 )
- )
- ( /51BD462F $noname  MUX1 ADG732 {Lib=ADG732}
-  (    1 /OUTB12 )
-  (    2 /OUTB11 )
-  (    3 /OUTB10 )
-  (    4 /OUTB9 )
-  (    5 /OUTB8 )
-  (    6 /OUTB7 )
-  (    7 /OUTB6 )
-  (    8 /OUTB5 )
-  (    9 /OUTB4 )
-  (   10 /OUTB3 )
-  (   11 /OUTB2 )
-  (   12 /OUTB1 )
-  (   13 VDD )
-  (   14 VDD )
-  (   15 /A0 )
-  (   16 /A1 )
-  (   17 /A2 )
-  (   18 /A3 )
-  (   19 /A4 )
-  (   20 /CS )
-  (   21 /WR )
-  (   22 /EN )
-  (   23 GND )
-  (   24 VSS )
-  (   25 /OUTB17 )
-  (   26 /OUTB18 )
-  (   27 /OUTB19 )
-  (   28 /OUTB20 )
-  (   29 /OUTB21 )
-  (   30 /OUTB22 )
-  (   31 /OUTB23 )
-  (   32 /OUTB24 )
-  (   33 /OUTB25 )
-  (   34 /OUTB26 )
-  (   35 /OUTB27 )
-  (   36 /OUTB28 )
-  (   37 /OUTB29 )
-  (   38 /OUTB30 )
-  (   39 /OUTB31 )
-  (   40 /OUTB32 )
-  (   41 ? )
-  (   42 ? )
-  (   43 /IN2 )
-  (   44 ? )
-  (   45 /OUTB16 )
-  (   46 /OUTB15 )
-  (   47 /OUTB14 )
-  (   48 /OUTB13 )
- )
- ( /51BD4612 $noname  MUX2 ADG732 {Lib=ADG732}
-  (    1 /OUTA12 )
-  (    2 /OUTA11 )
-  (    3 /OUTA10 )
-  (    4 /OUTA9 )
-  (    5 /OUTA8 )
-  (    6 /OUTA7 )
-  (    7 /OUTA6 )
-  (    8 /OUTA5 )
-  (    9 /OUTA4 )
-  (   10 /OUTA3 )
-  (   11 /OUTA2 )
-  (   12 /OUTA1 )
-  (   13 VDD )
-  (   14 VDD )
-  (   15 /A0 )
-  (   16 /A1 )
-  (   17 /A2 )
-  (   18 /A3 )
-  (   19 /A4 )
-  (   20 /CS )
-  (   21 /WR )
-  (   22 /EN )
-  (   23 GND )
-  (   24 VSS )
-  (   25 /OUTA17 )
-  (   26 /OUTA18 )
-  (   27 /OUTA19 )
-  (   28 /OUTA20 )
-  (   29 /OUTA21 )
-  (   30 /OUTA22 )
-  (   31 /OUTA23 )
-  (   32 /OUTA24 )
-  (   33 /OUTA25 )
-  (   34 /OUTA26 )
-  (   35 /OUTA27 )
-  (   36 /OUTA28 )
-  (   37 /OUTA29 )
-  (   38 /OUTA30 )
-  (   39 /OUTA31 )
-  (   40 /OUTA32 )
-  (   41 ? )
-  (   42 ? )
-  (   43 /IN1 )
-  (   44 ? )
-  (   45 /OUTA16 )
-  (   46 /OUTA15 )
-  (   47 /OUTA14 )
-  (   48 /OUTA13 )
- )
- ( /51BD458B $noname  MUX4 ADG732 {Lib=ADG732}
-  (    1 /OUTA28 )
-  (    2 /OUTA27 )
-  (    3 /OUTA26 )
-  (    4 /OUTA25 )
-  (    5 /OUTA24 )
-  (    6 /OUTA23 )
-  (    7 /OUTA22 )
-  (    8 /OUTA21 )
-  (    9 /OUTA20 )
-  (   10 /OUTA19 )
-  (   11 /OUTA18 )
-  (   12 /OUTA17 )
-  (   13 VDD )
-  (   14 VDD )
-  (   15 /B0 )
-  (   16 /B1 )
-  (   17 /B2 )
-  (   18 /B3 )
-  (   19 /B4 )
-  (   20 /CS )
-  (   21 /WR )
-  (   22 /EN )
-  (   23 GND )
-  (   24 VSS )
-  (   25 /OUTA1 )
-  (   26 /OUTA2 )
-  (   27 /OUTA3 )
-  (   28 /OUTA4 )
-  (   29 /OUTA5 )
-  (   30 /OUTA6 )
-  (   31 /OUTA7 )
-  (   32 /OUTA8 )
-  (   33 /OUTA9 )
-  (   34 /OUTA10 )
-  (   35 /OUTA11 )
-  (   36 /OUTA12 )
-  (   37 /OUTA13 )
-  (   38 /OUTA14 )
-  (   39 /OUTA15 )
-  (   40 /OUTA16 )
-  (   41 ? )
-  (   42 ? )
-  (   43 /IN1' )
-  (   44 ? )
-  (   45 /OUTA32 )
-  (   46 /OUTA31 )
-  (   47 /OUTA30 )
-  (   48 /OUTA29 )
- )
-)
-*
-{ Allowed footprints by component:
-$component C8
- CP*
- SM*
-$endlist
-$component C7
- CP*
- SM*
-$endlist
-$component J2
- DB37*
-$endlist
-$component J1
- DB37*
-$endlist
-$component C3
- CP*
- SM*
-$endlist
-$component C4
- CP*
- SM*
-$endlist
-$component C5
- CP*
- SM*
-$endlist
-$component C6
- CP*
- SM*
-$endlist
-$component C1
- CP*
- SM*
-$endlist
-$component C2
- CP*
- SM*
-$endlist
-$component C10
- CP*
- SM*
-$endlist
-$component C9
- CP*
- SM*
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "/IN2'" "IN2'"
- J2 28
- MUX3 43
-Net 3 "/B0" "B0"
- MUX3 15
- MUX4 15
- P2 1
-Net 5 "/B1" "B1"
- MUX4 16
- MUX3 16
- P2 2
-Net 6 "/B2" "B2"
- MUX3 17
- P2 3
- MUX4 17
-Net 8 "GND" "GND"
- MUX3 23
- MUX2 23
- MUX4 23
- C7 2
- C2 2
- C3 1
- C1 2
- MUX1 23
- P3 3
- C10 2
- C8 1
- C4 1
- C6 1
- C5 1
- C9 2
-Net 9 "VDD" "VDD"
- MUX2 13
- C1 1
- C2 1
- MUX2 14
- C9 1
- C10 1
- MUX4 13
- MUX3 13
- MUX3 14
- C7 1
- P4 1
- MUX4 14
- MUX1 13
- MUX1 14
-Net 10 "/OUTA29" "OUTA29"
- MUX4 48
- MUX2 37
- J1 7
-Net 11 "/OUTA14" "OUTA14"
- MUX2 47
- MUX4 38
- J1 31
-Net 12 "/A3" "A3"
- P1 4
- MUX1 18
- MUX2 18
-Net 13 "/OUTA20" "OUTA20"
- MUX2 28
- MUX4 9
- J1 21
-Net 14 "/OUTA30" "OUTA30"
- MUX2 38
- MUX4 47
- J1 26
-Net 15 "/OUTA13" "OUTA13"
- MUX2 48
- J1 13
- MUX4 37
-Net 16 "/OUTA21" "OUTA21"
- J1 3
- MUX2 29
- MUX4 8
-Net 17 "/OUTA31" "OUTA31"
- MUX4 46
- J1 8
- MUX2 39
-Net 18 "/OUTA19" "OUTA19"
- MUX4 10
- MUX2 27
- J1 2
-Net 19 "/A0" "A0"
- MUX1 15
- P1 1
- MUX2 15
-Net 21 "/OUTA25" "OUTA25"
- MUX4 4
- MUX2 33
- J1 5
-Net 22 "/IN1" "IN1"
- J1 28
- MUX2 43
-Net 23 "/OUTA26" "OUTA26"
- MUX4 3
- J1 24
- MUX2 34
-Net 25 "/OUTA17" "OUTA17"
- MUX2 25
- J1 1
- MUX4 12
-Net 26 "/OUTA27" "OUTA27"
- MUX2 35
- J1 6
- MUX4 2
-Net 27 "/OUTA16" "OUTA16"
- J1 30
- MUX4 40
- MUX2 45
-Net 28 "/A1" "A1"
- MUX2 16
- MUX1 16
- P1 2
-Net 29 "/OUTA18" "OUTA18"
- MUX4 11
- J1 20
- MUX2 26
-Net 30 "/OUTA28" "OUTA28"
- J1 25
- MUX4 1
- MUX2 36
-Net 31 "/OUTA15" "OUTA15"
- MUX4 39
- MUX2 46
- J1 12
-Net 32 "/A2" "A2"
- P1 3
- MUX1 17
- MUX2 17
-Net 35 "/OUTA24" "OUTA24"
- MUX2 32
- J1 23
- MUX4 5
-Net 36 "/IN1'" "IN1'"
- J1 29
- MUX4 43
-Net 39 "/OUTB22" "OUTB22"
- MUX3 7
- J2 35
- MUX1 30
-Net 40 "/OUTB32" "OUTB32"
- MUX3 45
- MUX1 40
- J2 30
-Net 41 "/OUTB2" "OUTB2"
- MUX3 26
- MUX1 11
- J2 20
-Net 42 "/OUTB23" "OUTB23"
- J2 16
- MUX3 6
- MUX1 31
-Net 44 "/OUTB1" "OUTB1"
- MUX3 25
- J2 1
- MUX1 12
-Net 45 "/OUTB24" "OUTB24"
- J2 34
- MUX3 5
- MUX1 32
-Net 46 "/OUTB25" "OUTB25"
- MUX1 33
- MUX3 4
- J2 15
-Net 47 "/IN2" "IN2"
- MUX1 43
- J2 29
-Net 48 "/OUTB26" "OUTB26"
- J2 33
- MUX1 34
- MUX3 3
-Net 50 "/OUTB11" "OUTB11"
- MUX3 35
- J2 6
- MUX1 2
-Net 51 "/B3" "B3"
- MUX3 18
- P2 4
- MUX4 18
-Net 52 "/B4" "B4"
- MUX3 19
- MUX4 19
- P2 5
-Net 53 "/OUTB12" "OUTB12"
- MUX1 1
- MUX3 36
- J2 25
-Net 54 "/OUTB10" "OUTB10"
- J2 24
- MUX3 34
- MUX1 3
-Net 55 "/OUTB9" "OUTB9"
- MUX3 33
- J2 5
- MUX1 4
-Net 56 "/OUTB8" "OUTB8"
- MUX3 32
- J2 23
- MUX1 5
-Net 57 "/OUTB7" "OUTB7"
- MUX3 31
- MUX1 6
- J2 4
-Net 58 "/OUTB6" "OUTB6"
- J2 22
- MUX1 7
- MUX3 30
-Net 59 "/OUTB5" "OUTB5"
- MUX3 29
- MUX1 8
- J2 3
-Net 60 "/OUTB4" "OUTB4"
- MUX3 28
- MUX1 9
- J2 21
-Net 61 "/OUTB3" "OUTB3"
- J2 2
- MUX3 27
- MUX1 10
-Net 62 "/CS" "CS"
- MUX1 20
- MUX3 20
- MUX4 20
- P3 1
- MUX2 20
-Net 63 "/OUTA11" "OUTA11"
- MUX4 35
- J1 14
- MUX2 2
-Net 64 "/OUTA10" "OUTA10"
- MUX4 34
- MUX2 3
- J1 33
-Net 65 "/OUTA9" "OUTA9"
- J1 15
- MUX2 4
- MUX4 33
-Net 66 "/OUTA8" "OUTA8"
- J1 34
- MUX2 5
- MUX4 32
-Net 67 "/OUTA7" "OUTA7"
- MUX2 6
- MUX4 31
- J1 16
-Net 68 "/OUTA6" "OUTA6"
- MUX4 30
- MUX2 7
- J1 35
-Net 69 "/OUTA5" "OUTA5"
- MUX2 8
- MUX4 29
- J1 17
-Net 70 "/OUTA4" "OUTA4"
- J1 36
- MUX4 28
- MUX2 9
-Net 71 "/OUTA3" "OUTA3"
- J1 18
- MUX2 10
- MUX4 27
-Net 72 "/OUTA12" "OUTA12"
- MUX4 36
- J1 32
- MUX2 1
-Net 73 "/OUTA22" "OUTA22"
- J1 22
- MUX2 30
- MUX4 7
-Net 74 "/OUTA32" "OUTA32"
- MUX2 40
- MUX4 45
- J1 27
-Net 75 "/OUTA2" "OUTA2"
- MUX2 11
- MUX4 26
- J1 37
-Net 76 "/WR" "WR"
- MUX1 21
- P3 2
- MUX3 21
- MUX2 21
- MUX4 21
-Net 77 "/OUTA23" "OUTA23"
- MUX4 6
- MUX2 31
- J1 4
-Net 79 "/OUTA1" "OUTA1"
- MUX4 25
- MUX2 12
- J1 19
-Net 80 "/OUTB29" "OUTB29"
- MUX3 48
- MUX1 37
- J2 13
-Net 81 "/OUTB17" "OUTB17"
- MUX3 12
- MUX1 25
- J2 19
-Net 82 "/OUTB27" "OUTB27"
- MUX3 2
- MUX1 35
- J2 14
-Net 83 "/OUTB16" "OUTB16"
- J2 27
- MUX1 45
- MUX3 40
-Net 84 "/OUTB18" "OUTB18"
- J2 37
- MUX1 26
- MUX3 11
-Net 85 "/OUTB28" "OUTB28"
- MUX1 36
- J2 32
- MUX3 1
-Net 86 "/OUTB15" "OUTB15"
- MUX3 39
- J2 8
- MUX1 46
-Net 87 "/OUTB19" "OUTB19"
- MUX3 10
- MUX1 27
- J2 18
-Net 88 "/OUTB14" "OUTB14"
- MUX1 47
- MUX3 38
- J2 26
-Net 89 "/OUTB20" "OUTB20"
- MUX3 9
- J2 36
- MUX1 28
-Net 90 "/OUTB30" "OUTB30"
- MUX3 47
- J2 31
- MUX1 38
-Net 91 "/OUTB13" "OUTB13"
- J2 7
- MUX3 37
- MUX1 48
-Net 92 "/A4" "A4"
- MUX1 19
- MUX2 19
- P1 5
-Net 93 "/OUTB21" "OUTB21"
- J2 17
- MUX3 8
- MUX1 29
-Net 94 "/OUTB31" "OUTB31"
- MUX3 46
- MUX1 39
- J2 12
-Net 95 "VSS" "VSS"
- MUX3 24
- MUX4 24
- C3 2
- P4 2
- C8 2
- MUX1 24
- C4 2
- C5 2
- C6 2
- MUX2 24
-Net 102 "/EN" "EN"
- MUX2 22
- MUX4 22
- MUX3 22
- MUX1 22
- P3 4
-}
-#End
+(export (version D)
+  (design
+    (source /home/crasic/GIT/tdcs/hw/demux_daughterboard/kicad_proj/demux-panel.sch)
+    (date "Sat 15 Mar 2014 07:50:56 PM PDT")
+    (tool "eeschema (2013-mar-13)-testing"))
+  (components
+    (comp (ref C6)
+      (value 10u)
+      (libsource (lib demuxcomplib) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D33))
+    (comp (ref C5)
+      (value 10u)
+      (libsource (lib demuxcomplib) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D39))
+    (comp (ref SCREW4)
+      (value CONN_1)
+      (libsource (lib demuxcomplib) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D72))
+    (comp (ref SCREW3)
+      (value CONN_1)
+      (libsource (lib demuxcomplib) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D78))
+    (comp (ref SCREW2)
+      (value CONN_1)
+      (libsource (lib demuxcomplib) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D7E))
+    (comp (ref SCREW1)
+      (value CONN_1)
+      (libsource (lib demuxcomplib) (part CONN_1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239D84))
+    (comp (ref MUX3)
+      (value ADG732)
+      (libsource (lib demuxcomplib) (part ADG732))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239EC2))
+    (comp (ref MUX1)
+      (value ADG732)
+      (libsource (lib demuxcomplib) (part ADG732))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239EC8))
+    (comp (ref MUX2)
+      (value ADG732)
+      (libsource (lib demuxcomplib) (part ADG732))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239ECE))
+    (comp (ref P4)
+      (value CONN_3X2)
+      (libsource (lib demuxcomplib) (part CONN_3X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239FB0))
+    (comp (ref P7)
+      (value CONN_2)
+      (libsource (lib demuxcomplib) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239FDE))
+    (comp (ref P3)
+      (value CONN_8X2)
+      (libsource (lib demuxcomplib) (part CONN_8X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C0BE))
+    (comp (ref P2)
+      (value CONN_8X2)
+      (libsource (lib demuxcomplib) (part CONN_8X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C1C5))
+    (comp (ref P1)
+      (value CONN_2)
+      (libsource (lib demuxcomplib) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C58F))
+    (comp (ref P9)
+      (value CONN_8X2)
+      (libsource (lib demuxcomplib) (part CONN_8X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C6F0))
+    (comp (ref P8)
+      (value CONN_8X2)
+      (libsource (lib demuxcomplib) (part CONN_8X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C6F6))
+    (comp (ref P10)
+      (value CONN_2)
+      (libsource (lib demuxcomplib) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323C787))
+    (comp (ref MUX4)
+      (value ADG732)
+      (libsource (lib demuxcomplib) (part ADG732))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53239EBC))
+    (comp (ref C1)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D5A7))
+    (comp (ref C2)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D5D2))
+    (comp (ref C4)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D5D8))
+    (comp (ref C3)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D5E8))
+    (comp (ref C9)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D5F8))
+    (comp (ref C7)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D608))
+    (comp (ref C8)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D615))
+    (comp (ref C10)
+      (value 0.1u)
+      (libsource (lib demuxcomplib) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5323D61B))
+    (comp (ref P6)
+      (value CONN_5X2)
+      (libsource (lib demuxcomplib) (part CONN_5X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53250D68))
+    (comp (ref P5)
+      (value CONN_5X2)
+      (libsource (lib demuxcomplib) (part CONN_5X2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53250D98)))
+  (libparts
+    (libpart (lib demuxcomplib) (part ADG732)
+      (fields
+        (field (name Reference) MUX)
+        (field (name Value) ADG732))
+      (pins
+        (pin (num 1) (name S12) (type input))
+        (pin (num 2) (name S11) (type input))
+        (pin (num 3) (name S10) (type input))
+        (pin (num 4) (name S9) (type input))
+        (pin (num 5) (name S8) (type input))
+        (pin (num 6) (name S7) (type input))
+        (pin (num 7) (name S6) (type input))
+        (pin (num 8) (name S5) (type input))
+        (pin (num 9) (name S4) (type input))
+        (pin (num 10) (name S3) (type input))
+        (pin (num 11) (name S2) (type input))
+        (pin (num 12) (name S1) (type input))
+        (pin (num 13) (name VDD) (type input))
+        (pin (num 14) (name VDD) (type input))
+        (pin (num 15) (name A0) (type input))
+        (pin (num 16) (name A1) (type input))
+        (pin (num 17) (name A2) (type input))
+        (pin (num 18) (name A3) (type input))
+        (pin (num 19) (name A4) (type input))
+        (pin (num 20) (name CS) (type input))
+        (pin (num 21) (name WR) (type input))
+        (pin (num 22) (name EN) (type input))
+        (pin (num 23) (name GND) (type input))
+        (pin (num 24) (name VSS) (type input))
+        (pin (num 25) (name S17) (type input))
+        (pin (num 26) (name S18) (type input))
+        (pin (num 27) (name S19) (type input))
+        (pin (num 28) (name S20) (type input))
+        (pin (num 29) (name S21) (type input))
+        (pin (num 30) (name S22) (type input))
+        (pin (num 31) (name S23) (type input))
+        (pin (num 32) (name S24) (type input))
+        (pin (num 33) (name S25) (type input))
+        (pin (num 34) (name S26) (type input))
+        (pin (num 35) (name S27) (type input))
+        (pin (num 36) (name S28) (type input))
+        (pin (num 37) (name S29) (type input))
+        (pin (num 38) (name S30) (type input))
+        (pin (num 39) (name S31) (type input))
+        (pin (num 40) (name S32) (type input))
+        (pin (num 41) (name NC) (type NotConnected))
+        (pin (num 42) (name NC) (type NotConnected))
+        (pin (num 43) (name D) (type input))
+        (pin (num 44) (name NC) (type NotConnected))
+        (pin (num 45) (name S16) (type input))
+        (pin (num 46) (name S15) (type input))
+        (pin (num 47) (name S14) (type input))
+        (pin (num 48) (name S13) (type input))))
+    (libpart (lib demuxcomplib) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib demuxcomplib) (part CONN_1)
+      (description "1 pin")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib demuxcomplib) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib demuxcomplib) (part CONN_3X2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_3X2))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib demuxcomplib) (part CONN_8X2)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_8X2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))
+        (pin (num 9) (name ~) (type passive))
+        (pin (num 10) (name ~) (type passive))
+        (pin (num 11) (name ~) (type passive))
+        (pin (num 12) (name ~) (type passive))
+        (pin (num 13) (name ~) (type passive))
+        (pin (num 14) (name ~) (type passive))
+        (pin (num 15) (name ~) (type passive))
+        (pin (num 16) (name ~) (type passive))))
+    (libpart (lib demuxcomplib) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib demuxcomplib) (part CONN_5X2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_5X2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))
+        (pin (num 9) (name ~) (type passive))
+        (pin (num 10) (name ~) (type passive)))))
+  (libraries
+    (library (logical demuxcomplib)
+      (uri demuxcomplib.lib)))
+  (nets
+    (net (code 1) (name /OUTB27)
+      (node (ref MUX3) (pin 30))
+      (node (ref P8) (pin 11))
+      (node (ref MUX4) (pin 7)))
+    (net (code 2) (name /OUTB28)
+      (node (ref P8) (pin 12))
+      (node (ref MUX4) (pin 8))
+      (node (ref MUX3) (pin 29)))
+    (net (code 3) (name /OUTB29)
+      (node (ref MUX3) (pin 28))
+      (node (ref P8) (pin 13))
+      (node (ref MUX4) (pin 9)))
+    (net (code 4) (name /OUTB30)
+      (node (ref MUX3) (pin 27))
+      (node (ref MUX4) (pin 10))
+      (node (ref P8) (pin 14)))
+    (net (code 5) (name /OUTB31)
+      (node (ref MUX3) (pin 26))
+      (node (ref MUX4) (pin 11))
+      (node (ref P8) (pin 15)))
+    (net (code 6) (name /OUTB32)
+      (node (ref MUX4) (pin 12))
+      (node (ref P8) (pin 16))
+      (node (ref MUX3) (pin 25)))
+    (net (code 7) (name /OUTB26)
+      (node (ref P8) (pin 10))
+      (node (ref MUX3) (pin 31))
+      (node (ref MUX4) (pin 6)))
+    (net (code 8) (name /OUTB16)
+      (node (ref P9) (pin 16))
+      (node (ref MUX4) (pin 40))
+      (node (ref MUX3) (pin 45)))
+    (net (code 9) (name /OUTB7)
+      (node (ref MUX4) (pin 31))
+      (node (ref MUX3) (pin 6))
+      (node (ref P9) (pin 7)))
+    (net (code 10) (name /OUTB8)
+      (node (ref P9) (pin 8))
+      (node (ref MUX3) (pin 5))
+      (node (ref MUX4) (pin 32)))
+    (net (code 11) (name /OUTB9)
+      (node (ref P9) (pin 9))
+      (node (ref MUX3) (pin 4))
+      (node (ref MUX4) (pin 33)))
+    (net (code 12) (name /OUTB10)
+      (node (ref MUX4) (pin 34))
+      (node (ref MUX3) (pin 3))
+      (node (ref P9) (pin 10)))
+    (net (code 13) (name /OUTB11)
+      (node (ref MUX3) (pin 2))
+      (node (ref MUX4) (pin 35))
+      (node (ref P9) (pin 11)))
+    (net (code 14) (name /OUTB12)
+      (node (ref P9) (pin 12))
+      (node (ref MUX3) (pin 1))
+      (node (ref MUX4) (pin 36)))
+    (net (code 15) (name /OUTB13)
+      (node (ref MUX4) (pin 37))
+      (node (ref MUX3) (pin 48))
+      (node (ref P9) (pin 13)))
+    (net (code 16) (name /OUTB14)
+      (node (ref MUX4) (pin 38))
+      (node (ref MUX3) (pin 47))
+      (node (ref P9) (pin 14)))
+    (net (code 17) (name /OUTB15)
+      (node (ref MUX4) (pin 39))
+      (node (ref P9) (pin 15))
+      (node (ref MUX3) (pin 46)))
+    (net (code 18) (name /OUTB6)
+      (node (ref P9) (pin 6))
+      (node (ref MUX3) (pin 7))
+      (node (ref MUX4) (pin 30)))
+    (net (code 19) (name /OUTB17)
+      (node (ref P8) (pin 1))
+      (node (ref MUX3) (pin 40))
+      (node (ref MUX4) (pin 45)))
+    (net (code 20) (name /OUTB18)
+      (node (ref MUX4) (pin 46))
+      (node (ref MUX3) (pin 39))
+      (node (ref P8) (pin 2)))
+    (net (code 21) (name /OUTB19)
+      (node (ref MUX3) (pin 38))
+      (node (ref MUX4) (pin 47))
+      (node (ref P8) (pin 3)))
+    (net (code 22) (name /OUTB20)
+      (node (ref MUX3) (pin 37))
+      (node (ref P8) (pin 4))
+      (node (ref MUX4) (pin 48)))
+    (net (code 23) (name /OUTB21)
+      (node (ref MUX4) (pin 1))
+      (node (ref MUX3) (pin 36))
+      (node (ref P8) (pin 5)))
+    (net (code 24) (name /OUTB22)
+      (node (ref MUX3) (pin 35))
+      (node (ref P8) (pin 6))
+      (node (ref MUX4) (pin 2)))
+    (net (code 25) (name /OUTB23)
+      (node (ref MUX3) (pin 34))
+      (node (ref MUX4) (pin 3))
+      (node (ref P8) (pin 7)))
+    (net (code 26) (name /OUTB24)
+      (node (ref MUX3) (pin 33))
+      (node (ref P8) (pin 8))
+      (node (ref MUX4) (pin 4)))
+    (net (code 27) (name /OUTB25)
+      (node (ref MUX3) (pin 32))
+      (node (ref P8) (pin 9))
+      (node (ref MUX4) (pin 5)))
+    (net (code 28) (name /IN1)
+      (node (ref P1) (pin 1))
+      (node (ref MUX1) (pin 43)))
+    (net (code 29) (name /IN1')
+      (node (ref MUX2) (pin 43))
+      (node (ref P1) (pin 2)))
+    (net (code 30) (name /OUTB3)
+      (node (ref MUX3) (pin 10))
+      (node (ref MUX4) (pin 27))
+      (node (ref P9) (pin 3)))
+    (net (code 31) (name /OUTB4)
+      (node (ref MUX4) (pin 28))
+      (node (ref MUX3) (pin 9))
+      (node (ref P9) (pin 4)))
+    (net (code 32) (name /OUTB5)
+      (node (ref P9) (pin 5))
+      (node (ref MUX4) (pin 29))
+      (node (ref MUX3) (pin 8)))
+    (net (code 33) (name VDD)
+      (node (ref C10) (pin 2))
+      (node (ref MUX2) (pin 14))
+      (node (ref MUX2) (pin 13))
+      (node (ref MUX4) (pin 13))
+      (node (ref P7) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref MUX3) (pin 14))
+      (node (ref MUX4) (pin 14))
+      (node (ref MUX3) (pin 13))
+      (node (ref MUX1) (pin 13))
+      (node (ref C5) (pin 1))
+      (node (ref MUX1) (pin 14))
+      (node (ref C9) (pin 1)))
+    (net (code 34) (name GND)
+      (node (ref MUX3) (pin 23))
+      (node (ref C2) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref C9) (pin 2))
+      (node (ref C5) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref C7) (pin 2))
+      (node (ref C6) (pin 1))
+      (node (ref C8) (pin 2))
+      (node (ref C10) (pin 1))
+      (node (ref MUX4) (pin 23))
+      (node (ref MUX1) (pin 23))
+      (node (ref MUX2) (pin 23)))
+    (net (code 35) (name "")
+      (node (ref MUX4) (pin 44)))
+    (net (code 36) (name /B0)
+      (node (ref P5) (pin 2))
+      (node (ref MUX2) (pin 15))
+      (node (ref MUX4) (pin 15))
+      (node (ref P6) (pin 2)))
+    (net (code 37) (name /A0)
+      (node (ref P5) (pin 1))
+      (node (ref MUX3) (pin 15))
+      (node (ref P6) (pin 1))
+      (node (ref MUX1) (pin 15)))
+    (net (code 38) (name /A1)
+      (node (ref P6) (pin 3))
+      (node (ref MUX1) (pin 16))
+      (node (ref MUX3) (pin 16))
+      (node (ref P5) (pin 3)))
+    (net (code 39) (name /B1)
+      (node (ref MUX2) (pin 16))
+      (node (ref MUX4) (pin 16))
+      (node (ref P6) (pin 4))
+      (node (ref P5) (pin 4)))
+    (net (code 40) (name /A2)
+      (node (ref P6) (pin 5))
+      (node (ref P5) (pin 5))
+      (node (ref MUX1) (pin 17))
+      (node (ref MUX3) (pin 17)))
+    (net (code 41) (name /B2)
+      (node (ref P5) (pin 6))
+      (node (ref P6) (pin 6))
+      (node (ref MUX2) (pin 17))
+      (node (ref MUX4) (pin 17)))
+    (net (code 42) (name /A3)
+      (node (ref P5) (pin 7))
+      (node (ref P6) (pin 7))
+      (node (ref MUX3) (pin 18))
+      (node (ref MUX1) (pin 18)))
+    (net (code 43) (name /B3)
+      (node (ref P5) (pin 8))
+      (node (ref MUX2) (pin 18))
+      (node (ref MUX4) (pin 18))
+      (node (ref P6) (pin 8)))
+    (net (code 44) (name /A4)
+      (node (ref MUX1) (pin 19))
+      (node (ref P6) (pin 9))
+      (node (ref P5) (pin 9))
+      (node (ref MUX3) (pin 19)))
+    (net (code 45) (name /B4)
+      (node (ref MUX2) (pin 19))
+      (node (ref MUX4) (pin 19))
+      (node (ref P6) (pin 10))
+      (node (ref P5) (pin 10)))
+    (net (code 46) (name /IN2)
+      (node (ref MUX3) (pin 43))
+      (node (ref P10) (pin 1)))
+    (net (code 47) (name /IN2')
+      (node (ref MUX4) (pin 43))
+      (node (ref P10) (pin 2)))
+    (net (code 48) (name "")
+      (node (ref SCREW1) (pin 1)))
+    (net (code 49) (name "")
+      (node (ref SCREW2) (pin 1)))
+    (net (code 50) (name "")
+      (node (ref SCREW3) (pin 1)))
+    (net (code 51) (name "")
+      (node (ref SCREW4) (pin 1)))
+    (net (code 52) (name "")
+      (node (ref MUX4) (pin 41)))
+    (net (code 53) (name "")
+      (node (ref MUX4) (pin 42)))
+    (net (code 54) (name /OUTB1)
+      (node (ref MUX3) (pin 12))
+      (node (ref MUX4) (pin 25))
+      (node (ref P9) (pin 1)))
+    (net (code 55) (name /OUTB2)
+      (node (ref MUX4) (pin 26))
+      (node (ref MUX3) (pin 11))
+      (node (ref P9) (pin 2)))
+    (net (code 56) (name "")
+      (node (ref MUX3) (pin 41)))
+    (net (code 57) (name "")
+      (node (ref MUX3) (pin 42)))
+    (net (code 58) (name /OUTA27)
+      (node (ref P3) (pin 11))
+      (node (ref MUX1) (pin 30))
+      (node (ref MUX2) (pin 7)))
+    (net (code 59) (name /OUTA26)
+      (node (ref MUX2) (pin 6))
+      (node (ref MUX1) (pin 31))
+      (node (ref P3) (pin 10)))
+    (net (code 60) (name "")
+      (node (ref MUX1) (pin 41)))
+    (net (code 61) (name /OUTA25)
+      (node (ref MUX1) (pin 32))
+      (node (ref MUX2) (pin 5))
+      (node (ref P3) (pin 9)))
+    (net (code 62) (name "")
+      (node (ref MUX3) (pin 44)))
+    (net (code 63) (name VSS)
+      (node (ref C2) (pin 1))
+      (node (ref C7) (pin 1))
+      (node (ref MUX4) (pin 24))
+      (node (ref C1) (pin 1))
+      (node (ref C6) (pin 2))
+      (node (ref MUX1) (pin 24))
+      (node (ref MUX2) (pin 24))
+      (node (ref MUX3) (pin 24))
+      (node (ref P7) (pin 2))
+      (node (ref C8) (pin 1)))
+    (net (code 64) (name "")
+      (node (ref MUX1) (pin 42)))
+    (net (code 65) (name /OUTA29)
+      (node (ref MUX2) (pin 9))
+      (node (ref MUX1) (pin 28))
+      (node (ref P3) (pin 13)))
+    (net (code 66) (name /OUTA28)
+      (node (ref MUX2) (pin 8))
+      (node (ref P3) (pin 12))
+      (node (ref MUX1) (pin 29)))
+    (net (code 67) (name /OUTA21)
+      (node (ref MUX1) (pin 36))
+      (node (ref P3) (pin 5))
+      (node (ref MUX2) (pin 1)))
+    (net (code 68) (name /OUTA6)
+      (node (ref P2) (pin 6))
+      (node (ref MUX1) (pin 7))
+      (node (ref MUX2) (pin 30)))
+    (net (code 69) (name /OUTA16)
+      (node (ref MUX2) (pin 40))
+      (node (ref P2) (pin 16))
+      (node (ref MUX1) (pin 45)))
+    (net (code 70) (name /OUTA32)
+      (node (ref P3) (pin 16))
+      (node (ref MUX1) (pin 25))
+      (node (ref MUX2) (pin 12)))
+    (net (code 71) (name /OUTA24)
+      (node (ref P3) (pin 8))
+      (node (ref MUX2) (pin 4))
+      (node (ref MUX1) (pin 33)))
+    (net (code 72) (name /OUTA23)
+      (node (ref P3) (pin 7))
+      (node (ref MUX1) (pin 34))
+      (node (ref MUX2) (pin 3)))
+    (net (code 73) (name "")
+      (node (ref MUX1) (pin 44)))
+    (net (code 74) (name /OUTA22)
+      (node (ref MUX1) (pin 35))
+      (node (ref P3) (pin 6))
+      (node (ref MUX2) (pin 2)))
+    (net (code 75) (name /OUTA31)
+      (node (ref P3) (pin 15))
+      (node (ref MUX2) (pin 11))
+      (node (ref MUX1) (pin 26)))
+    (net (code 76) (name /OUTA30)
+      (node (ref MUX1) (pin 27))
+      (node (ref P3) (pin 14))
+      (node (ref MUX2) (pin 10)))
+    (net (code 77) (name /OUTA14)
+      (node (ref MUX1) (pin 47))
+      (node (ref P2) (pin 14))
+      (node (ref MUX2) (pin 38)))
+    (net (code 78) (name /OUTA2)
+      (node (ref P2) (pin 2))
+      (node (ref MUX1) (pin 11))
+      (node (ref MUX2) (pin 26)))
+    (net (code 79) (name /OUTA12)
+      (node (ref MUX2) (pin 36))
+      (node (ref MUX1) (pin 1))
+      (node (ref P2) (pin 12)))
+    (net (code 80) (name /OUTA18)
+      (node (ref MUX1) (pin 39))
+      (node (ref P3) (pin 2))
+      (node (ref MUX2) (pin 46)))
+    (net (code 81) (name /OUTA3)
+      (node (ref P2) (pin 3))
+      (node (ref MUX1) (pin 10))
+      (node (ref MUX2) (pin 27)))
+    (net (code 82) (name /OUTA13)
+      (node (ref MUX2) (pin 37))
+      (node (ref MUX1) (pin 48))
+      (node (ref P2) (pin 13)))
+    (net (code 83) (name /OUTA19)
+      (node (ref MUX1) (pin 38))
+      (node (ref MUX2) (pin 47))
+      (node (ref P3) (pin 3)))
+    (net (code 84) (name /OUTA4)
+      (node (ref MUX2) (pin 28))
+      (node (ref MUX1) (pin 9))
+      (node (ref P2) (pin 4)))
+    (net (code 85) (name /OUTA20)
+      (node (ref MUX2) (pin 48))
+      (node (ref MUX1) (pin 37))
+      (node (ref P3) (pin 4)))
+    (net (code 86) (name /OUTA5)
+      (node (ref MUX1) (pin 8))
+      (node (ref MUX2) (pin 29))
+      (node (ref P2) (pin 5)))
+    (net (code 87) (name /OUTA15)
+      (node (ref MUX2) (pin 39))
+      (node (ref MUX1) (pin 46))
+      (node (ref P2) (pin 15)))
+    (net (code 88) (name /CS)
+      (node (ref MUX2) (pin 20))
+      (node (ref MUX4) (pin 20))
+      (node (ref MUX3) (pin 20))
+      (node (ref MUX1) (pin 20))
+      (node (ref P4) (pin 1))
+      (node (ref P4) (pin 6)))
+    (net (code 89) (name /WR)
+      (node (ref MUX3) (pin 21))
+      (node (ref MUX2) (pin 21))
+      (node (ref MUX1) (pin 21))
+      (node (ref MUX4) (pin 21))
+      (node (ref P4) (pin 4))
+      (node (ref P4) (pin 3)))
+    (net (code 90) (name /EN)
+      (node (ref P4) (pin 5))
+      (node (ref P4) (pin 2))
+      (node (ref MUX2) (pin 22))
+      (node (ref MUX3) (pin 22))
+      (node (ref MUX1) (pin 22))
+      (node (ref MUX4) (pin 22)))
+    (net (code 91) (name /OUTA9)
+      (node (ref MUX2) (pin 33))
+      (node (ref P2) (pin 9))
+      (node (ref MUX1) (pin 4)))
+    (net (code 92) (name /OUTA7)
+      (node (ref P2) (pin 7))
+      (node (ref MUX2) (pin 31))
+      (node (ref MUX1) (pin 6)))
+    (net (code 93) (name "")
+      (node (ref MUX2) (pin 41)))
+    (net (code 94) (name /OUTA8)
+      (node (ref MUX2) (pin 32))
+      (node (ref P2) (pin 8))
+      (node (ref MUX1) (pin 5)))
+    (net (code 95) (name "")
+      (node (ref MUX2) (pin 42)))
+    (net (code 96) (name /OUTA10)
+      (node (ref MUX1) (pin 3))
+      (node (ref P2) (pin 10))
+      (node (ref MUX2) (pin 34)))
+    (net (code 97) (name "")
+      (node (ref MUX2) (pin 44)))
+    (net (code 98) (name /OUTA1)
+      (node (ref P2) (pin 1))
+      (node (ref MUX1) (pin 12))
+      (node (ref MUX2) (pin 25)))
+    (net (code 99) (name /OUTA11)
+      (node (ref MUX1) (pin 2))
+      (node (ref MUX2) (pin 35))
+      (node (ref P2) (pin 11)))
+    (net (code 100) (name /OUTA17)
+      (node (ref MUX2) (pin 45))
+      (node (ref MUX1) (pin 40))
+      (node (ref P3) (pin 1)))))

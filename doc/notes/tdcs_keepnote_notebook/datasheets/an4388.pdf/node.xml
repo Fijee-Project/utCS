@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>AN4388.pdf</string>
+  <key>nodeid</key><string>17f6b56d-158e-4c16-b503-6b3393016707</string>
+  <key>modified_time</key><integer>1394919212</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>an4388.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1394919212</integer>
+  <key>order</key><integer>27</integer>
+</dict>
+</node>

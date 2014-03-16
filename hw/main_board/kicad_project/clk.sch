@@ -1,37 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ddslib
-LIBS:demuxcomplib
-LIBS:tdsc-kicad-convert
 LIBS:tDCS_driver-cache
 EELAYER 24 0
 EELAYER END
@@ -48,10 +16,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DVDD_3V3 #PWR027
+L DVDD_3V3 #PWR033
 U 1 1 5316C694
 P 5950 3300
-F 0 "#PWR027" H 5950 3400 30  0001 C CNN
+F 0 "#PWR033" H 5950 3400 30  0001 C CNN
 F 1 "DVDD_3V3" H 5950 3410 30  0000 C CNN
 F 2 "" H 5950 3300 60  0001 C CNN
 F 3 "" H 5950 3300 60  0001 C CNN
@@ -81,10 +49,10 @@ F 3 "" H 5750 3600 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L AGND #PWR028
+L AGND #PWR034
 U 1 1 5316C6A6
 P 5450 3700
-F 0 "#PWR028" H 5450 3700 40  0001 C CNN
+F 0 "#PWR034" H 5450 3700 40  0001 C CNN
 F 1 "AGND" H 5450 3630 50  0000 C CNN
 F 2 "" H 5450 3700 60  0001 C CNN
 F 3 "" H 5450 3700 60  0001 C CNN
@@ -100,10 +68,10 @@ Entry Wire Line
 Entry Wire Line
 	5300 4800 5400 4700
 $Comp
-L AGND #PWR029
+L AGND #PWR035
 U 1 1 5316C6B0
 P 6150 5350
-F 0 "#PWR029" H 6150 5350 40  0001 C CNN
+F 0 "#PWR035" H 6150 5350 40  0001 C CNN
 F 1 "AGND" H 6150 5280 50  0000 C CNN
 F 2 "" H 6150 5350 60  0001 C CNN
 F 3 "" H 6150 5350 60  0001 C CNN

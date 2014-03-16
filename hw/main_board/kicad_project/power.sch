@@ -1,37 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ddslib
-LIBS:demuxcomplib
-LIBS:tdsc-kicad-convert
 LIBS:tDCS_driver-cache
 EELAYER 24 0
 EELAYER END
@@ -100,4 +68,74 @@ Wire Wire Line
 	4450 2800 4900 2800
 Wire Wire Line
 	4900 2800 4900 2700
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 531D1B0E
+P 5700 2500
+F 0 "#FLG08" H 5700 2595 30  0001 C CNN
+F 1 "PWR_FLAG" H 5700 2680 30  0000 C CNN
+F 2 "" H 5700 2500 60  0000 C CNN
+F 3 "" H 5700 2500 60  0000 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 531D1B1B
+P 6450 2650
+F 0 "#FLG09" H 6450 2745 30  0001 C CNN
+F 1 "PWR_FLAG" H 6450 2830 30  0000 C CNN
+F 2 "" H 6450 2650 60  0000 C CNN
+F 3 "" H 6450 2650 60  0000 C CNN
+	1    6450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG010
+U 1 1 531D1B21
+P 6400 2800
+F 0 "#FLG010" H 6400 2895 30  0001 C CNN
+F 1 "PWR_FLAG" H 6400 2980 30  0000 C CNN
+F 2 "" H 6400 2800 60  0000 C CNN
+F 3 "" H 6400 2800 60  0000 C CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 531D1B27
+P 4900 2500
+F 0 "#FLG011" H 4900 2595 30  0001 C CNN
+F 1 "PWR_FLAG" H 4900 2680 30  0000 C CNN
+F 2 "" H 4900 2500 60  0000 C CNN
+F 3 "" H 4900 2500 60  0000 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 531D1B2D
+P 3950 2600
+F 0 "#FLG012" H 3950 2695 30  0001 C CNN
+F 1 "PWR_FLAG" H 3950 2780 30  0000 C CNN
+F 2 "" H 3950 2600 60  0000 C CNN
+F 3 "" H 3950 2600 60  0000 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 531D1B33
+P 4850 2800
+F 0 "#FLG013" H 4850 2895 30  0001 C CNN
+F 1 "PWR_FLAG" H 4850 2980 30  0000 C CNN
+F 2 "" H 4850 2800 60  0000 C CNN
+F 3 "" H 4850 2800 60  0000 C CNN
+	1    4850 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 2650
+Connection ~ 6400 2800
+Connection ~ 4850 2800
+Connection ~ 3950 2600
 $EndSCHEMATC

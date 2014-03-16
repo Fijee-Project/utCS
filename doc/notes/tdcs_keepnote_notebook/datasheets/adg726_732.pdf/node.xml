@@ -3,12 +3,14 @@
 <version>6</version>
 <dict>
   <key>title</key><string>ADG726_732.pdf</string>
+  <key>payload_filename</key><string>adg726_732.pdf</string>
   <key>nodeid</key><string>2ccdcdb0-b3cb-4904-81ed-82ef59cc0084</string>
   <key>modified_time</key><integer>1394843932</integer>
+  <key>order</key><integer>20</integer>
   <key>version</key><integer>6</integer>
-  <key>payload_filename</key><string>adg726_732.pdf</string>
   <key>content_type</key><string>application/pdf</string>
   <key>created_time</key><integer>1394843932</integer>
-  <key>order</key><integer>20</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
 </dict>
 </node>

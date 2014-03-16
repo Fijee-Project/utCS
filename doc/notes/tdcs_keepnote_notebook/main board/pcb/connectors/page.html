@@ -13,7 +13,7 @@ What we've got to connect :)<br/>
 41 microcontroller signal lines (oh boy) (decide single connector/multiple)<br/>
 <br/>
 <br/>
-16 Mux control lines (fixed header position, may require redesign due to bottleneck?)<br/>
+<b>3. </b>16 Mux control lines (fixed header position, may require redesign due to bottleneck?)<br/>
 <br/>
 <br/>
 <br/>
@@ -21,18 +21,21 @@ Decision most likely delays until after initial layout. <br/>
 <br/>
 <br/>
 <br/>
-<b>1.</b>&nbsp;Signal in/out lines will be split into 8 two conductor connectors from molex (<a href="nbk:///6d3b3b80-0d2c-4c0a-864c-66358d51472c">datasheet</a>) &nbsp;(2,54mm pitch SL wire to board header, 2 circuits, smd , molex part # 15-91-2025)<br/>
+<br/>
+<b>1.</b>&nbsp;Signal in/out lines will be split into 8 two conductor connectors from molex (<a href="nbk:///8e1f4dfa-aff0-42e5-8d6a-9f2c3a1a17ed">datasheet</a>) &nbsp;(2,54mm pitch SL wire to board header, 2 circuits, throughhole , molex part # 70551-0001)<br/>
 <br/>
 <br/>
+<img src="screenshot from 2014-03-15 175400.png" /><br/>
 <br/>
-<img src="screenshot from 2014-03-11 171706.png" /><br/>
+<img src="screenshot from 2014-03-15 175408.png" /><br/>
+<br/>
+<img src="screenshot from 2014-03-15 175426.png" /><br/>
+<br/>
+<img src="screenshot from 2014-03-15 180117.png" /><br/>
 <br/>
 <br/>
-<img src="screenshot from 2014-03-11 171818.png" /><br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<span style="background-color: #ffff00"><br/>
+</span><br/>
 <br/>
 <b>2.<br/>
 <br/>
@@ -42,6 +45,60 @@ Decision most likely delays until after initial layout. <br/>
 <br/>
 <img src="screenshot from 2014-03-14 152926.png" /><br/>
 <br/>
+<br/>
+<b>3.<br/>
+<br/>
+</b>Goal is to use "arduino style" stacking headers, which are .1" spaced sockets with long leads so they can stack on top of each other. <br/>
+<br/>
+Turns out this is made by samtec, (<a href="nbk:///b0864e84-b44d-451b-8624-400c10ca0003">product sheet</a>) <br/>
+<br/>
+we don't require stacking moitherboard side so we use short lead versions, otherwise lead length must be set for a stacking height of at least 15 mm (as of 3/14 per <a href="nbk:///139846bf-0d37-40a6-8527-b7e6a866a239">this</a>&nbsp;note)<br/>
+<br/>
+we have 2 5-pin headers, 1 2x3 header, and 1 2 pin header,<br/>
+<br/>
+longest header is 14.5mm lead length, with a 1-2mm board this give us ~14 mm of clearance (14.5mm lead minus 1-2mm board thickness + 2-5mm stacking offset), which should be enough to clear the molex 16 min connectors and electrolytics<br/>
+<br/>
+<span style="background-color: #ff0000">(Won't affect layout, but check if 10mm header gives adequate clearance!)</span><br/>
+<br/>
+<br/>
+SSQ-103-04-T-D &nbsp;(2x3 15 mm leads Matte-tin) stackable<br/>
+SSW-103-01-T-D (2x3 1.5mm leads Matte-tin) solder<br/>
+<br/>
+<br/>
+SSQ-105-04-T-S (1x5 15 mm leads matte-tin) stackable<br/>
+SSW-105-01-T-D &nbsp;"" &nbsp; &nbsp;1.5m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "" &nbsp;"" ) solder<br/>
+<br/>
+SSQ-102-04-T-S (1x2 15mm leads matte-tin) stackable<br/>
+SSW-102-01-T-D ( "" &nbsp; &nbsp;1.5mm &nbsp;"" &nbsp; &nbsp;"" &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;) solder<br/>
+<br/>
+<br/>
+<br/>
+These are through hole on .1" grid so layout is simple, SSQ is 0.64 mm square, SSW is 0.4x0.79 mm, 1mm <br/>
+<br/>
+This gives us a nominal lead diameter of 0.82 for SSQ and nominal lead diameter of 0.79 for SSW, <br/>
+<br/>
+according to the IPC calculator, we need a 1-1.05 mm hole and 1.65mm land (.3 mm on each side = 12 mils)<br/>
+<br/>
+<img src="screenshot from 2014-03-15 164406.png" /><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+OLD<br/>
+<span style="background-color: #ffff00"><b>1.</b>&nbsp;Signal in/out lines will be split into 8 two conductor connectors from molex (<a href="nbk:///6d3b3b80-0d2c-4c0a-864c-66358d51472c">datasheet</a>) &nbsp;(2,54mm pitch SL wire to board header, 2 circuits, smd , molex part # 15-91-2025)<br/>
+<br/>
+<br/>
+<br/>
+<img src="screenshot from 2014-03-11 171706.png" /><br/>
+<br/>
+<br/>
+<img src="screenshot from 2014-03-11 171818.png" /><br/>
+<br/>
+<br/>
+</span><br/>
 <br/>
 <br/>
 <br/>
