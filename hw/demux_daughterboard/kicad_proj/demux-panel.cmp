@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 15 Mar 2014 07:33:59 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 16 Mar 2014 03:00:36 PM PDT
 
 BeginCmp
 TimeStamp = /5323D5A7;
@@ -141,10 +141,10 @@ IdModule  = HEADER-2x5-SAMTEC;
 EndCmp
 
 BeginCmp
-TimeStamp = /53239FDE;
+TimeStamp = /5326173E;
 Reference = P7;
-ValeurCmp = CONN_2;
-IdModule  = HEADER-1x2-SAMTEC;
+ValeurCmp = CONN_2X2;
+IdModule  = HEADER-2x2-SAMTEC;
 EndCmp
 
 BeginCmp
@@ -166,6 +166,13 @@ TimeStamp = /5323C787;
 Reference = P10;
 ValeurCmp = CONN_2;
 IdModule  = CONN_1X2_MOLEX_SL_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5326174D;
+Reference = P11;
+ValeurCmp = CONN_2X2;
+IdModule  = HEADER-2x2-SAMTEC;
 EndCmp
 
 BeginCmp
