@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 14 Mar 2014 04:04:39 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 18 Mar 2014 04:04:17 PM PDT
 
 BeginCmp
 TimeStamp = /531670E3/53166354;
@@ -407,6 +407,41 @@ IdModule  = MOLEX_SL_2_PCB;
 EndCmp
 
 BeginCmp
+TimeStamp = /5327C217;
+Reference = P14;
+ValeurCmp = CONN_5X2;
+IdModule  = HEADER-2x5-SAMTEC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5327C208;
+Reference = P15;
+ValeurCmp = CONN_5X2;
+IdModule  = HEADER-2x5-SAMTEC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5327C3AC;
+Reference = P16;
+ValeurCmp = CONN_3X2;
+IdModule  = HEADER-2x3-SAMTEC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5327C2E9;
+Reference = P17;
+ValeurCmp = CONN_2X2;
+IdModule  = HEADER-2x2-SAMTEC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5327C2DA;
+Reference = P18;
+ValeurCmp = CONN_2X2;
+IdModule  = HEADER-2x2-SAMTEC;
+EndCmp
+
+BeginCmp
 TimeStamp = /531670E3/531663A9;
 Reference = R1;
 ValeurCmp = 20K;
@@ -558,6 +593,34 @@ TimeStamp = /531699F6/53169244;
 Reference = RV10;
 ValeurCmp = 2K;
 IdModule  = 3224X;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328DC39;
+Reference = SCREW1;
+ValeurCmp = CONN_1;
+IdModule  = SCREW_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328DEC1;
+Reference = SCREW2;
+ValeurCmp = CONN_1;
+IdModule  = SCREW_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328DEC7;
+Reference = SCREW3;
+ValeurCmp = CONN_1;
+IdModule  = SCREW_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5328DECD;
+Reference = SCREW4;
+ValeurCmp = CONN_1;
+IdModule  = SCREW_3mm;
 EndCmp
 
 BeginCmp
