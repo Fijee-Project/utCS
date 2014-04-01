@@ -1,0 +1,69 @@
+\documentclass[twoside,english]{tufte-handout}
+
+
+
+\input{./headers/fancyhdr_head} %loads fancyhdr and some header environments for me to use
+%\usepackage{calc} 
+\usepackage[toc,page]{appendix} %lettered apendix
+\usepackage{amsmath}
+\usepackage{graphicx} %generic graphics
+
+
+\usepackage{hyperref} %hyperlinks
+
+\setcounter{secnumdepth}{2} %overide tufte-default and number sections/subsections
+
+
+\title{TDCS BRD$\mathit{1}$ Engineering Summary}
+\author{Andrey Shmakov}
+\date{}
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+\begin{document}
+
+\maketitle
+
+%logo
+\begin{marginfigure}
+\framebox{\begin{minipage}[t]{1\columnwidth}
+\includegraphics[width=2cm]{../assets/images/logo/placeholder}
+\end{minipage}}
+\end{marginfigure}
+\thispagestyle{reporttitle} %
+
+
+
+
+
+%abstract
+\begin{abstract}
+\input{sections/abstract/abstract.tex}
+\end{abstract}%
+
+
+
+
+\tableofcontents
+
+
+
+
+\input{sections/overview/overview.tex}
+\input{sections/circuitdesign/circuitdesign.tex}
+\input{sections/components/components.tex}
+\input{sections/pcb/pcb.tex}
+
+\begin{appendices}
+\input{sections/appendices/appendixA.tex}
+\end{appendices}
+
+
+
+
+
+
+
+
+\end{document}
+

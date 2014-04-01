@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:ddslib
 LIBS:demuxcomplib
+LIBS:conn
 LIBS:tDCS_driver-cache
 EELAYER 24 0
 EELAYER END
@@ -438,4 +439,8 @@ NoConn ~ 1700 4050
 NoConn ~ 1700 4150
 Wire Wire Line
 	4300 6350 4300 6300
+Text Label 4550 6350 1    60   ~ 0
+MUXVDD
+Text Label 4800 6500 2    60   ~ 0
+MUXVSS
 $EndSCHEMATC

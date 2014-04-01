@@ -1,21 +1,10 @@
-update=Mon 17 Mar 2014 07:30:12 PM PDT
-last_client=pcbnew
+update=Thu 20 Mar 2014 02:25:29 PM PDT
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=../lib
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=ddslib
-LibName2=/home/crasic/GIT/tdcs/hw/demux_daughterboard/kicad_proj/demuxcomplib
 [pcbnew]
 version=1
 LastNetListRead=
@@ -38,3 +27,15 @@ ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=../lib
 LibName1=tdcs_mainboard_modules
+[eeschema]
+version=1
+LibDir=../lib
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=ddslib
+LibName2=/home/crasic/GIT/tdcs/hw/demux_daughterboard/kicad_proj/demuxcomplib
+LibName3=conn

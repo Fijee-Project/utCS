@@ -1,6 +1,6 @@
-update=Sat 15 Mar 2014 07:30:36 PM PDT
+update=Mon 17 Mar 2014 07:13:47 PM PDT
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -11,8 +11,6 @@ LibDir=
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -47,3 +45,5 @@ LabSize=60
 LibName1=demuxcomplib
 LibName2=device
 LibName3=conn
+[general]
+version=1

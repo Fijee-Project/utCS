@@ -1,0 +1,12 @@
+version=0.6.0
+typesetter=pdflatex
+steps=texpdf
+root=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/main.tex
+
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/headers/fancyhdr_head.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/abstract/abstract.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/appendices/appendixA.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/components/components.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/circuitdesign/circuitdesign.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/overview/overview.tex
+file=/home/crasic/GIT/tdcs/doc/design_docs/BRD1ENG_SUM/text/sections/pcb/pcb.tex

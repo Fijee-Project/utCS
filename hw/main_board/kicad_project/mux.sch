@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:ddslib
 LIBS:demuxcomplib
+LIBS:conn
 LIBS:tDCS_driver-cache
 EELAYER 24 0
 EELAYER END
