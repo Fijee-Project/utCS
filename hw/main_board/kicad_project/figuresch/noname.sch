@@ -1,0 +1,363 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:currentstage-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX338 U?
+U 2 1 533B197A
+P 5500 4000
+F 0 "U?" H 5500 3950 60  0000 C CNN
+F 1 "MAX338" H 5500 3850 60  0000 C CNN
+F 2 "" H 5500 4000 60  0001 C CNN
+F 3 "" H 5500 4000 60  0001 C CNN
+	2    5500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B1980
+P 6150 3100
+F 0 "R?" V 6230 3100 50  0000 C CNN
+F 1 "2K" V 6150 3100 50  0000 C CNN
+F 2 "" H 6150 3100 60  0001 C CNN
+F 3 "" H 6150 3100 60  0001 C CNN
+	1    6150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B1986
+P 6150 3400
+F 0 "R?" V 6230 3400 50  0000 C CNN
+F 1 "5K" V 6150 3400 50  0000 C CNN
+F 2 "" H 6150 3400 60  0001 C CNN
+F 3 "" H 6150 3400 60  0001 C CNN
+	1    6150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B198C
+P 6150 3700
+F 0 "R?" V 6230 3700 50  0000 C CNN
+F 1 "10K" V 6150 3700 50  0000 C CNN
+F 2 "" H 6150 3700 60  0001 C CNN
+F 3 "" H 6150 3700 60  0001 C CNN
+	1    6150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B1992
+P 6150 4000
+F 0 "R?" V 6230 4000 50  0000 C CNN
+F 1 "22K" V 6150 4000 50  0000 C CNN
+F 2 "" H 6150 4000 60  0001 C CNN
+F 3 "" H 6150 4000 60  0001 C CNN
+	1    6150 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B1998
+P 6700 3100
+F 0 "RV?" H 6700 3000 50  0000 C CNN
+F 1 "2K" H 6700 3100 50  0000 C CNN
+F 2 "" H 6700 3100 60  0001 C CNN
+F 3 "" H 6700 3100 60  0001 C CNN
+	1    6700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B199E
+P 6700 3400
+F 0 "RV?" H 6700 3300 50  0000 C CNN
+F 1 "2K" H 6700 3400 50  0000 C CNN
+F 2 "" H 6700 3400 60  0001 C CNN
+F 3 "" H 6700 3400 60  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19A4
+P 6700 3700
+F 0 "RV?" H 6700 3600 50  0000 C CNN
+F 1 "5K" H 6700 3700 50  0000 C CNN
+F 2 "" H 6700 3700 60  0001 C CNN
+F 3 "" H 6700 3700 60  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19AA
+P 6700 4000
+F 0 "RV?" H 6700 3900 50  0000 C CNN
+F 1 "5K" H 6700 4000 50  0000 C CNN
+F 2 "" H 6700 4000 60  0001 C CNN
+F 3 "" H 6700 4000 60  0001 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 533B19B0
+P 6150 4300
+F 0 "R?" V 6230 4300 50  0000 C CNN
+F 1 "45K" V 6150 4300 50  0000 C CNN
+F 2 "" H 6150 4300 60  0001 C CNN
+F 3 "" H 6150 4300 60  0001 C CNN
+	1    6150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B19B6
+P 6150 4600
+F 0 "R?" V 6230 4600 50  0000 C CNN
+F 1 "91K" V 6150 4600 50  0000 C CNN
+F 2 "" H 6150 4600 60  0001 C CNN
+F 3 "" H 6150 4600 60  0001 C CNN
+	1    6150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B19BC
+P 6150 4900
+F 0 "R?" V 6230 4900 50  0000 C CNN
+F 1 "182K" V 6150 4900 50  0000 C CNN
+F 2 "" H 6150 4900 60  0001 C CNN
+F 3 "" H 6150 4900 60  0001 C CNN
+	1    6150 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 533B19C2
+P 6150 5200
+F 0 "R?" V 6230 5200 50  0000 C CNN
+F 1 "374K" V 6150 5200 50  0000 C CNN
+F 2 "" H 6150 5200 60  0001 C CNN
+F 3 "" H 6150 5200 60  0001 C CNN
+	1    6150 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19C8
+P 6700 4300
+F 0 "RV?" H 6700 4200 50  0000 C CNN
+F 1 "5K" H 6700 4300 50  0000 C CNN
+F 2 "" H 6700 4300 60  0001 C CNN
+F 3 "" H 6700 4300 60  0001 C CNN
+	1    6700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19CE
+P 6700 4600
+F 0 "RV?" H 6700 4500 50  0000 C CNN
+F 1 "10K" H 6700 4600 50  0000 C CNN
+F 2 "" H 6700 4600 60  0001 C CNN
+F 3 "" H 6700 4600 60  0001 C CNN
+	1    6700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19D4
+P 6700 4900
+F 0 "RV?" H 6700 4800 50  0000 C CNN
+F 1 "20K" H 6700 4900 50  0000 C CNN
+F 2 "" H 6700 4900 60  0001 C CNN
+F 3 "" H 6700 4900 60  0001 C CNN
+	1    6700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 533B19DA
+P 6700 5200
+F 0 "RV?" H 6700 5100 50  0000 C CNN
+F 1 "20K" H 6700 5200 50  0000 C CNN
+F 2 "" H 6700 5200 60  0001 C CNN
+F 3 "" H 6700 5200 60  0001 C CNN
+	1    6700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3100 6450 2950
+Wire Wire Line
+	6450 2950 6700 2950
+Wire Wire Line
+	6450 3100 6400 3100
+Wire Wire Line
+	6450 3400 6450 3250
+Wire Wire Line
+	6450 3250 6700 3250
+Wire Wire Line
+	6450 3400 6400 3400
+Wire Wire Line
+	6400 3700 6450 3700
+Wire Wire Line
+	6450 3700 6450 3550
+Wire Wire Line
+	6450 3550 6700 3550
+Wire Wire Line
+	6700 3850 6450 3850
+Wire Wire Line
+	6450 3850 6450 4000
+Wire Wire Line
+	6450 4000 6400 4000
+Wire Wire Line
+	6450 5200 6400 5200
+Wire Wire Line
+	6450 5200 6450 5050
+Wire Wire Line
+	6450 5050 6700 5050
+Wire Wire Line
+	6700 4750 6450 4750
+Wire Wire Line
+	6450 4750 6450 4900
+Wire Wire Line
+	6450 4900 6400 4900
+Wire Wire Line
+	6400 4600 6450 4600
+Wire Wire Line
+	6450 4600 6450 4450
+Wire Wire Line
+	6450 4450 6700 4450
+Wire Wire Line
+	6450 4300 6400 4300
+Wire Wire Line
+	6450 4300 6450 4150
+Wire Wire Line
+	6450 4150 6700 4150
+Wire Wire Line
+	5350 3400 5350 3100
+Wire Wire Line
+	5350 3100 5900 3100
+Wire Wire Line
+	5450 3400 5450 3150
+Wire Wire Line
+	5450 3150 5900 3150
+Wire Wire Line
+	5900 3150 5900 3400
+Wire Wire Line
+	5550 3400 5550 3200
+Wire Wire Line
+	5550 3200 5850 3200
+Wire Wire Line
+	5850 3200 5850 3700
+Wire Wire Line
+	5850 3700 5900 3700
+Wire Wire Line
+	5650 3400 5650 3250
+Wire Wire Line
+	5650 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 4000
+Wire Wire Line
+	5800 4000 5900 4000
+Wire Wire Line
+	5350 5200 5350 4600
+Wire Wire Line
+	5350 5200 5900 5200
+Wire Wire Line
+	5450 4600 5450 4900
+Wire Wire Line
+	5450 4900 5900 4900
+Wire Wire Line
+	5550 4600 5550 4800
+Wire Wire Line
+	5550 4800 5900 4800
+Wire Wire Line
+	5900 4800 5900 4600
+Wire Wire Line
+	5650 4600 5800 4600
+Wire Wire Line
+	5800 4600 5800 4300
+Wire Wire Line
+	5800 4300 5900 4300
+Wire Wire Line
+	6950 5200 6950 3100
+Connection ~ 6950 4200
+Wire Wire Line
+	7450 4200 6950 4200
+Wire Notes Line
+	5050 2950 5050 5400
+Wire Notes Line
+	5050 5400 7050 5400
+Wire Notes Line
+	7050 5400 7050 2850
+Wire Notes Line
+	7050 2850 5050 2850
+Wire Notes Line
+	5050 2850 5050 3000
+Text Notes 5100 2800 0    60   ~ 0
+Output Range Selector
+Wire Wire Line
+	5000 4000 5100 4000
+Text Notes 6000 4700 0    39   ~ 0
+2uA-4uA
+Text Notes 6000 5000 0    39   ~ 0
+1uA-2uA
+Text Notes 6000 5300 0    39   ~ 0
+0.5uA-1uA
+Text Notes 6000 4400 0    39   ~ 0
+4uA-8uA
+Text Notes 6000 4100 0    39   ~ 0
+8uA-16uA
+Text Notes 6000 3800 0    39   ~ 0
+16uA-32uA
+Text Notes 6000 3500 0    39   ~ 0
+32uA-64uA
+Text Notes 6000 3200 0    39   ~ 0
+64uA-100uA
+$EndSCHEMATC
