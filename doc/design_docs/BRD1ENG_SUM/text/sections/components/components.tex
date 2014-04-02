@@ -1,4 +1,33 @@
 \section{Components}
 
-\subsection{AD9838}
+\subsection{AD9838 - DDS}
 \label{sec:components_subs:AD9838}
+
+The AD9838 is a DDS device that can produce sinusoidal and triangular output signals. The AD9838 has a 28 bit wide phase accumulator and a 10 bit integrated DAC. The AD9838 has 5 programmable registers. Two 28-bit frequency registers, two 12 bit phase offset register, and a 16 bit control register. 
+
+Interfacing the AD9838 is accomplished with a serial 3wire interface. The three pins {\bf~FSYNC}, {\bf~SCLK}, and {\bf~SDATA} comprise the interface. Information transfer begins by bringing FSYNC low, at which point the AD9838 will listen on SCLK, on every falling edge the device will read SDATA and store the bit in the register. After 16 cycles of SCLK, FSYNC can be driven high again to terminate the data transfer. SCLK can be kept low or high between transfers. 
+
+
+
+
+\subsection{Bourne Trimpots}
+\label{sec:components_subs:trimpot}
+
+\subsection{SI5351A - Clock Generator}
+\label{sec:components_subs:si5351a}
+
+\subsection{AD8221 - Instrumentation Amplifier}
+\label{sec:components_subs:ad8221}
+
+\subsection{MAX338 - Analog Multiplexer}
+\label{sec:components_subs:max338}
+
+\subsection{AD5292 - Digital Potentiometer}
+\label{sec:components_subs:ad5292}
+
+\subsection{MAX3002 - Logic Translator}
+\label{sec:components_subs:max3002}
+
+\subsection{Output Connectors}
+\label{sec:components_subs:max3002}
+
