@@ -13,7 +13,7 @@
       </array>
     </dict>
   </array>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>nodeid</key><string>a87ab540-9f63-4f14-89b6-078e22cd0bd0</string>
   <key>modified_time</key><integer>1393543714</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
@@ -22,7 +22,7 @@
   <key>title</key><string>tdcs_keepnote_notebook</string>
   <key>column_widths</key><dict>
     <key>created_time</key><integer>150</integer>
-    <key>modified_time</key><integer>870</integer>
+    <key>modified_time</key><integer>1128</integer>
     <key>title</key><integer>150</integer>
   </dict>
   <key>attr_defs</key><array>
